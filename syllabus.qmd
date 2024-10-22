@@ -1,0 +1,11 @@
+---
+lang: de-CH
+date: 2024-10-22
+modified: last-modified
+---
+
+<!-- TODO -->
+
+# Syllabus
+
+TBA

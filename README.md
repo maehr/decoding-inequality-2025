@@ -21,7 +21,7 @@ The structure of this repository follows the [Advanced Structure for Data Analys
 - `project-management/`: project management documents (e.g., meeting notes, project plans, etc.)
 - `src/`: source code for the data (e.g., scripts used to collect or process the data)
 - `test/`: tests for the data and source code
-- `syllabus.md`: a report describing the analysis of the data
+- `syllabus.qmd`: a report describing the analysis of the data
 
 ## Data Description
 
