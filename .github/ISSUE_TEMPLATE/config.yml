@@ -1,8 +1,8 @@
 contact_links:
-  - name: Are you looking for documentation on REPO_NAME?
-    url: https://USERNAME.github.io/REPO_NAME
-    about: Please see the documentation for REPO_NAME on its GitHub Pages page.
-  - name: Do want to discuss REPO_NAME with the community?
-    url: https://github.com/USERNAME/REPO_NAME/discussions
-    about: Please see the discussions page for REPO_NAME.
+  - name: Are you looking for documentation on decoding-inequality-2025?
+    url: https://DHBern.github.io/decoding-inequality-2025
+    about: Please see the documentation for decoding-inequality-2025 on its GitHub Pages page.
+  - name: Do want to discuss decoding-inequality-2025 with the community?
+    url: https://github.com/DHBern/decoding-inequality-2025/discussions
+    about: Please see the discussions page for decoding-inequality-2025.
 blank_issues_enabled: true
