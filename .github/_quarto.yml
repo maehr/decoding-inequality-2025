@@ -27,7 +27,7 @@ website:
       - text: Readme
         href: index.qmd
       - text: Report
-        href: report.md
+        href: syllabus.qmd
 
   sidebar:
     contents:
@@ -41,12 +41,12 @@ website:
           - text: Contributing
             href: CONTRIBUTING.md
           - text: License (Data)
-            href: LICENSE-CCBY.md
+            href: LICENSE-CCBYNCSA.md
           - text: License (Code)
             href: LICENSE-AGPL.md
           - text: Security
             href: SECURITY.md
-      - href: report.md
+      - href: syllabus.qmd
         contents: project-management/*
 
 format:

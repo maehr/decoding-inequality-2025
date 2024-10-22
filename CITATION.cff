@@ -1,0 +1,120 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Decoding Inequality: Kritische Perspektiven auf Machine
+  Learning und gesellschaftliche Ungleichheit
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Rachel
+    family-names: Huber
+    email: rachel.huber@faculty.unibe.ch
+    affiliation: University of Bern
+    orcid: 'https://orcid.org/0000-0001-5875-0208'
+  - given-names: Moritz
+    family-names: Mähr
+    email: moritz.maehr@faculty.unibe.ch
+    orcid: 'https://orcid.org/0000-0002-1367-1618'
+    affiliation: University of Bern
+repository-code: 'https://github.com/DHBern/decoding-inequality-2025/'
+url: 'https://dhbern.github.io/decoding-inequality-2025'
+abstract: >-
+  Die kritische Auseinandersetzung mit
+  Machine-Learning-Systemen und ihren gesellschaftlichen
+  Auswirkungen ist in der heutigen Zeit von höchster
+  Relevanz. Während KI-Technologien zunehmend Einzug in alle
+  Bereiche unseres Lebens halten - von der
+  Gesundheitsversorgung über die Strafverfolgung bis hin zu
+  Finanzdienstleistungen und sozialen Medien - wächst auch
+  ihr Potenzial, bestehende soziale Ungleichheiten zu
+  verstärken oder sogar neue zu schaffen. Die Fähigkeit,
+  diese Systeme zu verstehen, ihre Auswirkungen auf bereits
+  minorisierte Gesellschaftsgruppen kritisch zu hinterfragen
+  und Lösungen für eine gerechtere Gestaltung zu entwickeln,
+  ist entscheidend für eine ethisch verantwortungsvolle und
+  sozial gerechte technologische Zukunft. Dieses Kolloquium
+  befähigt Studierende, aktiv an dieser wichtigen
+  gesellschaftlichen Debatte teilzunehmen und trägt zur
+  Entwicklung von KI-Systemen bei, die das Gemeinwohl
+  fördern und nicht untergraben.
+
+
+  In diesem Kolloquium untersuchen die Studierenden den
+  gesamten Lebenszyklus von Machine-Learning-Systemen und
+  dessen Auswirkungen auf gesellschaftliche Ungleichheit.
+  Der Kurs beleuchtet, wie bewusste und unbewusste
+  menschliche Verzerrungen und Vorurteile in jeder Phase des
+  ML-Lebenszyklus eingebettet werden können und wie diese zu
+  Diskriminierung in verschiedenen gesellschaftlichen
+  Kontexten führen.
+
+
+  Aufbauend auf den theoretischen Grundlagen der Critical
+  Algorithm Studies lernen die Studierenden, die ethischen,
+  politischen, ökologischen und ökonomischen Implikationen
+  von ML-Technologien zu analysieren. Der Kurs ist entlang
+  des ML-Lebenszyklus strukturiert:
+
+
+  1. Architekturauswahl: Diskussion verschiedener
+  ML-Architekturen und ihrer Auswirkungen auf
+  Modellkapazitäten und \-grenzen. Kritische Betrachtung,
+  wie architektonische Entscheidungen bestimmte
+  Voreingenommenheiten einbetten können.  
+
+  2. Datensammlung: Untersuchung von Datenquellen,
+  Kuratierungs- und Filterprozessen. Kritische Perspektiven
+  auf Repräsentationsprobleme, Copyright-Fragen und
+  Umweltkosten der Datenspeicherung.  
+
+  3. Training: Technische Aspekte des Trainingsprozesses und
+  Auswahl von Hyperparametern. Kritische Betrachtung der
+  Umweltauswirkungen, Arbeitsbedingungen in der KI-Industrie
+  und Machtkonzentration bei ressourcenstarken
+  Unternehmen.  
+
+  4. Anwendung: Analyse verschiedener Anwendungsfälle von
+  ML-Systemen, Feinabstimmung für spezifische Aufgaben und
+  Bereitstellungsstrategien. Kritische Diskussion ethischer
+  Überlegungen, potenzieller Missbrauchsszenarien und Fragen
+  der Transparenz und Erklärbarkeit.  
+
+  5. Evaluation und Überwachung: Methoden zur Bewertung von
+  Modellleistung und Verzerrungen. Kritische Perspektiven
+  auf die Grenzen aktueller Evaluierungsmetriken.  
+
+  6. Governance und Regulierung: Diskussion aktueller und
+  vorgeschlagener Regulierungsrahmen, ethischer Richtlinien
+  und Herausforderungen bei der Steuerung sich schnell
+  entwickelnder KI-Technologien.
+
+
+  Durchgehend wird betont, dass die Entwicklung und der
+  Einsatz von ML-Systemen auch als Geschäftsmodell zu
+  verstehen sind. Die Studierenden lernen, die kommerziellen
+  Interessen und wirtschaftlichen Auswirkungen zu
+  analysieren, die die Gestaltung und den Einsatz dieser
+  Technologien beeinflussen.
+
+
+  Der Kurs kombiniert theoretische Reflexion mit praktischen
+  Übungen. Die Studierenden werden sowohl mit den
+  theoretischen (nicht-mathematischen) Grundlagen des
+  maschinellen Lernens vertraut gemacht als auch in die Lage
+  versetzt, kritische Analysen auf Basis aktueller
+  Forschungsergebnisse durchzuführen und die implikationen
+  für minorisierte Bevölkerungsgruppen von KI in der
+  Gesellschaft zu verstehen. Praktische Beispiele,
+  Fallstudien und Diskussionen aktueller Forschungsarbeiten
+  werden regelmässig in die Lehrveranstaltung integriert, um
+  die Verbindung zwischen technologischen Entwicklungen und
+  ihren gesellschaftlichen Auswirkungen zu verdeutlichen.
+keywords:
+  - Critical Algorithm Studies
+  - Machine Learning
+  - Digital Humanities
+license: CC-BY-NC-SA-4.0

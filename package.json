@@ -1,23 +1,34 @@
 {
-	"name": "REPO_NAME",
-	"description": "SHORT_DESCRIPTION",
-	"author": "FULLNAME <[INSERT CONTACT METHOD]>",
-	"url": "https://github.com/USERNAME/REPO_NAME/issues",
+	"name": "decoding-inequality-2025",
+	"description": "Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit",
+	"author": {
+		"name": "Moritz Mähr",
+		"email": "moritz.maehr@faculty.unibe.ch",
+		"url": "https://github.com/maehr"
+	},
+	"contributors": [
+		{
+			"name": "Rachel Huber",
+			"email": "rachel.huber@faculty.unibe.ch",
+			"url": "https://github.com/HistoRaHub"
+		}
+	],
+	"url": "https://github.com/DHBern/decoding-inequality-2025/issues",
 	"license": "AGPL-3.0",
 	"scripts": {
-		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBY.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
+		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYNCSA.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
 		"commit": "cz",
-		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBY.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
+		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYNCSA.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
 		"prepare": "husky",
 		"changelog": "npm exec git-cliff -- --config cliff.toml"
 	},
 	"devDependencies": {
-		"commitizen": "^4.3.0",
+		"commitizen": "^4.3.1",
 		"cz": "^1.8.2",
 		"cz-conventional-changelog": "^3.3.0",
-		"git-cliff": "^2.2.1",
-		"husky": "^9.0.11",
-		"prettier": "^3.2.5"
+		"git-cliff": "^2.6.1",
+		"husky": "^9.1.6",
+		"prettier": "^3.3.3"
 	},
 	"type": "module",
 	"config": {
