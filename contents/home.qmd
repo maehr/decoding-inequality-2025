@@ -1,0 +1,65 @@
+---
+lang: de-CH
+date: 2024-10-22
+date-modified: last-modified
+authors:
+  - name: Rachel Huber
+    orcid: 0000-0002-6022-5354
+    email: rachel.huber@faculty.unibe.ch
+    affiliations:
+      - University of Bern
+      - Koordinationsstelle Teilhabe (Kanton Zürich)
+    role: author
+  - name: Moritz Mähr
+    orcid: 0000-0002-1367-1618
+    email: moritz.maehr@faculty.unibe.ch
+    affiliations:
+      - University of Bern
+      - University of Basel
+    role: author
+copyright: 
+  holder: Rachel Huber und Moritz Mähr
+  year: 2024
+license:
+  text: > 
+     Diese Lizenz erlaubt es Dritten, ein Werk zu verbreiten, zu remixen, zu verbessern und darauf aufzubauen, auch kommerziell, solange der Urheber des Originals genannt wird und die auf seinem Werk basierenden neuen Werke unter denselben Bedingungen veröffentlicht werden.
+  type: open-access
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+---
+
+# Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit
+
+Die kritische Auseinandersetzung mit Machine-Learning-Systemen und ihren gesellschaftlichen Auswirkungen ist in der heutigen Zeit von höchster Relevanz. Während KI-Technologien zunehmend Einzug in alle Bereiche unseres Lebens halten - von der Gesundheitsversorgung über die Strafverfolgung bis hin zu Finanzdienstleistungen und sozialen Medien - wächst auch ihr Potenzial, bestehende soziale Ungleichheiten zu verstärken oder sogar neue zu schaffen. Die Fähigkeit, diese Systeme zu verstehen, ihre Auswirkungen auf bereits minorisierte Gesellschaftsgruppen kritisch zu hinterfragen und Lösungen für eine gerechtere Gestaltung zu entwickeln, ist entscheidend für eine ethisch verantwortungsvolle und sozial gerechte technologische Zukunft. Dieses Kolloquium befähigt Studierende, aktiv an dieser wichtigen gesellschaftlichen Debatte teilzunehmen und trägt zur Entwicklung von KI-Systemen bei, die das Gemeinwohl fördern und nicht untergraben.
+
+In diesem Kolloquium untersuchen die Studierenden den gesamten Lebenszyklus von Machine-Learning-Systemen und dessen Auswirkungen auf gesellschaftliche Ungleichheit. Der Kurs beleuchtet, wie bewusste und unbewusste menschliche Verzerrungen und Vorurteile in jeder Phase des ML-Lebenszyklus eingebettet werden können und wie diese zu Diskriminierung in verschiedenen gesellschaftlichen Kontexten führen.
+
+Aufbauend auf den theoretischen Grundlagen der Critical Algorithm Studies lernen die Studierenden, die ethischen, politischen, ökologischen und ökonomischen Implikationen von ML-Technologien zu analysieren. Der Kurs ist entlang des ML-Lebenszyklus strukturiert:
+
+1.  Architekturauswahl: Diskussion verschiedener ML-Architekturen und ihrer Auswirkungen auf Modellkapazitäten und -grenzen. Kritische Betrachtung, wie architektonische Entscheidungen bestimmte Voreingenommenheiten einbetten können.\
+2.  Datensammlung: Untersuchung von Datenquellen, Kuratierungs- und Filterprozessen. Kritische Perspektiven auf Repräsentationsprobleme, Copyright-Fragen und Umweltkosten der Datenspeicherung.\
+3.  Training: Technische Aspekte des Trainingsprozesses und Auswahl von Hyperparametern. Kritische Betrachtung der Umweltauswirkungen, Arbeitsbedingungen in der KI-Industrie und Machtkonzentration bei ressourcenstarken Unternehmen.\
+4.  Anwendung: Analyse verschiedener Anwendungsfälle von ML-Systemen, Feinabstimmung für spezifische Aufgaben und Bereitstellungsstrategien. Kritische Diskussion ethischer Überlegungen, potenzieller Missbrauchsszenarien und Fragen der Transparenz und Erklärbarkeit.\
+5.  Evaluation und Überwachung: Methoden zur Bewertung von Modellleistung und Verzerrungen. Kritische Perspektiven auf die Grenzen aktueller Evaluierungsmetriken.\
+6.  Governance und Regulierung: Diskussion aktueller und vorgeschlagener Regulierungsrahmen, ethischer Richtlinien und Herausforderungen bei der Steuerung sich schnell entwickelnder KI-Technologien.
+
+Durchgehend wird betont, dass die Entwicklung und der Einsatz von ML-Systemen auch als Geschäftsmodell zu verstehen sind. Die Studierenden lernen, die kommerziellen Interessen und wirtschaftlichen Auswirkungen zu analysieren, die die Gestaltung und den Einsatz dieser Technologien beeinflussen.
+
+Der Kurs kombiniert theoretische Reflexion mit praktischen Übungen. Die Studierenden werden sowohl mit den theoretischen (nicht-mathematischen) Grundlagen des maschinellen Lernens vertraut gemacht als auch in die Lage versetzt, kritische Analysen auf Basis aktueller Forschungsergebnisse durchzuführen und die implikationen für minorisierte Bevölkerungsgruppen von KI in der Gesellschaft zu verstehen. Praktische Beispiele, Fallstudien und Diskussionen aktueller Forschungsarbeiten werden regelmässig in die Lehrveranstaltung integriert, um die Verbindung zwischen technologischen Entwicklungen und ihren gesellschaftlichen Auswirkungen zu verdeutlichen.
+
+Nach Abschluss des Kurses sind die Studierenden in der Lage:
+
+-   Den gesamten Lebenszyklus von Machine-Learning-Systemen zu verstehen und kritisch zu reflektieren\
+-   Die Auswirkungen von Entscheidungen in jeder Phase des ML-Lebenszyklus auf potenzielle Verzerrungen und Diskriminierungen zu analysieren\
+-   Formen der algorithmischen Diskriminierung in verschiedenen Anwendungskontexten zu identifizieren und zu analysieren\
+-   Die ethischen, gesellschaftlichen und wirtschaftlichen Implikationen von ML-Anwendungen zu bewerten\
+-   Die Rolle kommerzieller Interessen und Geschäftsmodelle in der Entwicklung und dem Einsatz von ML-Systemen zu verstehen\
+-   Lösungsstrategien für eine gerechtere und ethischere Gestaltung algorithmischer Systeme zu entwickeln\
+-   Eine produktiv-kritische Haltung im Umgang mit KI und ML einzunehmen, die technische, ethische und ökonomische Aspekte berücksichtigt\
+-   Aktuelle Regulierungsansätze und Governance-Herausforderungen im Bereich KI und ML zu diskutieren und zu bewerten
+
+## Impressum
+
+Universität Bern\
+Walter Benjamin Kolleg / Digital Humanities\
+Muesmattstrasse 45\
+3012 Bern

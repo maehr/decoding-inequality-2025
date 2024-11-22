@@ -16,9 +16,9 @@
 	"url": "https://github.com/DHBern/decoding-inequality-2025/issues",
 	"license": "AGPL-3.0",
 	"scripts": {
-		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYNCSA.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
+		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYSA.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
 		"commit": "cz",
-		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYNCSA.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
+		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYSA.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
 		"prepare": "husky",
 		"changelog": "npm exec git-cliff -- --config cliff.toml"
 	},
@@ -26,8 +26,8 @@
 		"commitizen": "^4.3.1",
 		"cz": "^1.8.2",
 		"cz-conventional-changelog": "^3.3.0",
-		"git-cliff": "^2.6.1",
-		"husky": "^9.1.6",
+		"git-cliff": "^2.7.0",
+		"husky": "^9.1.7",
 		"prettier": "^3.3.3"
 	},
 	"type": "module",
