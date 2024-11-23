@@ -3,64 +3,60 @@ lang: de-CH
 date: 2024-10-22
 date-modified: last-modified
 ---
-
+<!-- 
 <https://claude.ai/chat/de2c7da6-e96f-43b0-92cb-abd99853f10d> <https://claude.ai/chat/cd093710-3583-4c6a-a590-3a93e91eba79> <https://claude.ai/chat/27744b90-8d1c-4f98-876c-7a948a2f0444> <https://www.dh.unibe.ch/unibe/portal/fak_historisch/fsuf/d_dh/content/e330299/e904571/e1421406/files1538351/KVV_EPDH_HS24_ger.pdf> <!-- TODO -->
 
-<https://sociologica.unibo.it/article/view/20378> <https://sociologica.unibo.it/article/view/19488>
+<https://sociologica.unibo.it/article/view/20378> <https://sociologica.unibo.it/article/view/19488> -->
 
 # Syllabus
 
 ## Sessions
 
-**Session 1** Formen der Diskriminierung RH: Workshop, Hands-on Session  
-Leseauftrag für Session 2 erteilen  
-Weiterführende Literatur: Data-Feminism [https://data-feminism.mitpress.mit.edu/](https://data-feminism.mitpress.mit.edu/)  
+**Session 1** Formen der Diskriminierung RH: Workshop, Hands-on Session\
+Leseauftrag für Session 2 erteilen\
+Weiterführende Literatur: Data-Feminism <https://data-feminism.mitpress.mit.edu/>
 
-**Session 2** Architecture MM: Gegenüberstellung von wie Computer Scientist über Architekturentscheide sprechen vs. Humanities Scholars  
-Leseauftrag: [https://en.wikipedia.org/wiki/Attention\_Is\_All\_You\_Need](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need) [https://en.wikipedia.org/wiki/Algorithms\_of\_Oppression](https://en.wikipedia.org/wiki/Algorithms_of_Oppression)
-Weiterführende Literatur:
-Duri Long and Brian Magerko. What is ai literacy? competencies and design considerations. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, CHI '20, 1–16. New York, NY, USA, 2020\. Association for Computing Machinery. doi:10.1145/3313831.3376727.
+**Session 2** Architecture MM: Gegenüberstellung von wie Computer Scientist über Architekturentscheide sprechen vs. Humanities Scholars\
+Leseauftrag: <https://en.wikipedia.org/wiki/Attention_Is_All_You_Need> <https://en.wikipedia.org/wiki/Algorithms_of_Oppression> Weiterführende Literatur: Duri Long and Brian Magerko. What is ai literacy? competencies and design considerations. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, CHI '20, 1–16. New York, NY, USA, 2020. Association for Computing Machinery. doi:10.1145/3313831.3376727.
 
-**Session 3** Collecting Data RH: All Data is local (Digital Public Library of America) <https://mitpress.mit.edu/9780262545174/all-data-are-local/>  
+**Session 3** Collecting Data RH: All Data is local (Digital Public Library of America) <https://mitpress.mit.edu/9780262545174/all-data-are-local/>
 
-**Session 4** Training MM: Environmental impact of training AI  
-Leseauftrag: Quantifying the carbon emissions of machine learning, Sasha Luccioni  
+**Session 4** Training MM: Environmental impact of training AI\
+Leseauftrag: Quantifying the carbon emissions of machine learning, Sasha Luccioni
 
-**Session 5** Application (ChatGPT) MM  
-Leseauftrag: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. On the dangers of stochastic parrots: can language models be too big? 🦜. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, FAccT '21, 610–623. New York, NY, USA, 2021\. Association for Computing Machinery. doi:10.1145/3442188.3445922.  
-Weiterführende Literatur: <https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web>  
+**Session 5** Application (ChatGPT) MM\
+Leseauftrag: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. On the dangers of stochastic parrots: can language models be too big? 🦜. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, FAccT '21, 610–623. New York, NY, USA, 2021. Association for Computing Machinery. doi:10.1145/3442188.3445922.\
+Weiterführende Literatur: <https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web>
 
-**Session 6** Application (CCTV/Facial Recognition) RH: [https://en.wikipedia.org/wiki/Surveillance\_capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism), Joy Buolamwini  
+**Session 6** Application (CCTV/Facial Recognition) RH: <https://en.wikipedia.org/wiki/Surveillance_capitalism>, Joy Buolamwini
 
-**Session 7** Application (Predictive Policing/Migrationsalgo CH …) RH:
-ProPublica, “Machine Bias” [https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)  
-Beispiel für Schweizer Kontext?  
-[https://www.srf.ch/news/schweiz/jobs-fuer-fluechtlinge-algorithmus-verteilt-neu-asylbewerber-auf-kantone](https://www.srf.ch/news/schweiz/jobs-fuer-fluechtlinge-algorithmus-verteilt-neu-asylbewerber-auf-kantone)  
-[https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2018/01/algorithmus-verbessert-erwerbschancen-von-fluechtlingen.html](https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2018/01/algorithmus-verbessert-erwerbschancen-von-fluechtlingen.html)
+**Session 7** Application (Predictive Policing/Migrationsalgo CH …) RH: ProPublica, “Machine Bias” <https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing>\
+Beispiel für Schweizer Kontext?\
+<https://www.srf.ch/news/schweiz/jobs-fuer-fluechtlinge-algorithmus-verteilt-neu-asylbewerber-auf-kantone>\
+<https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2018/01/algorithmus-verbessert-erwerbschancen-von-fluechtlingen.html>
 
-**Session 8** Application (Recruiting) MM  
-Leseauftrag:  
-Zhisheng Chen, Ethics and Discrimination in Artificial Intelligence-Enabled Recruitment Practices <https://www.nature.com/articles/s41599-023-02079-x>  
+**Session 8** Application (Recruiting) MM\
+Leseauftrag:\
+Zhisheng Chen, Ethics and Discrimination in Artificial Intelligence-Enabled Recruitment Practices <https://www.nature.com/articles/s41599-023-02079-x>
 
-**Session 9** Evaluation and Monitoring MM: State-of-the-art Technical Benchmarks versus how many false positives (people dying, sent to prison etc.)
-Leseauftrag?  
-Stable bias: Evaluating societal representations in diffusion models, Sasha Luccioni  
-Ninareh Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, and Aram Galstyan. A survey on bias and fairness in machine learning. ACM Comput. Surv., jul 2021\. doi:10.1145/3457607.  
+**Session 9** Evaluation and Monitoring MM: State-of-the-art Technical Benchmarks versus how many false positives (people dying, sent to prison etc.) Leseauftrag?\
+Stable bias: Evaluating societal representations in diffusion models, Sasha Luccioni\
+Ninareh Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, and Aram Galstyan. A survey on bias and fairness in machine learning. ACM Comput. Surv., jul 2021. doi:10.1145/3457607.
 
-**Session 10** Governance and Regulation RH: EU AI Act [https://artificialintelligenceact.eu/](https://artificialintelligenceact.eu/) , Algorithm Watch [https://algorithmwatch.org/de/](https://algorithmwatch.org/de/)
+**Session 10** Governance and Regulation RH: EU AI Act <https://artificialintelligenceact.eu/> , Algorithm Watch <https://algorithmwatch.org/de/>
 
-**Session 11** Poster/Blog/Presentations  
-Leseauftrag: Cathay O’Neil, Weapons of Math Destruction  
+**Session 11** Poster/Blog/Presentations\
+Leseauftrag: Cathay O’Neil, Weapons of Math Destruction
 
 **Session 12** Poster/Blog/Presentations oder Glüehfisch mit Wichtel\*in
 
-Literaturliste provisorisch  
-<https://dataplusfeminism.mit.edu/>  
-<https://www.unibe.ch/studies/programs/future\_competencies/module/fairer\_algorithms/index\_eng.html>  
-<https://socialmediacollective.org/reading-lists/critical-algorithm-studies/>  
-<https://algorithmicstudies.uchri.org/references/>  
-Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models, Yejin Choi et al.  
-[https://www.tandfonline.com/doi/full/10.1080/14742837.2024.2331550\#abstract](https://www.tandfonline.com/doi/full/10.1080/14742837.2024.2331550#abstract)  
-Zhisheng Chen, Ethics and Discrimination in Artificial Intelligence-Enabled Recruitment Practices <https://www.nature.com/articles/s41599-023-02079-x>  
-[https://mircoschoenfeld.de/seminar-critical-data-studies-summer-2024.html](https://mircoschoenfeld.de/seminar-critical-data-studies-summer-2024.html)  
-[https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf](https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf)  
+<!-- Literaturliste provisorisch\
+<https://dataplusfeminism.mit.edu/>\
+[https://www.unibe.ch/studies/programs/future\\\_competencies/module/fairer\\\_algorithms/index\\\_eng.html](https://www.unibe.ch/studies/programs/future\_competencies/module/fairer\_algorithms/index\_eng.html){.uri}\
+<https://socialmediacollective.org/reading-lists/critical-algorithm-studies/>\
+<https://algorithmicstudies.uchri.org/references/>\
+Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models, Yejin Choi et al.\
+<https://www.tandfonline.com/doi/full/10.1080/14742837.2024.2331550#abstract>\
+Zhisheng Chen, Ethics and Discrimination in Artificial Intelligence-Enabled Recruitment Practices <https://www.nature.com/articles/s41599-023-02079-x>\
+<https://mircoschoenfeld.de/seminar-critical-data-studies-summer-2024.html>\
+<https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf> -->
