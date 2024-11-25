@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -164,11 +184,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../contents/blog.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/posts/blog-post-1.html" class="sidebar-item-text sidebar-link">
@@ -195,7 +215,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#syllabus" id="toc-syllabus" class="nav-link active" data-scroll-target="#syllabus">Syllabus</a>
   <ul class="collapse">
-  <li><a href="#sessions" id="toc-sessions" class="nav-link" data-scroll-target="#sessions">Sessions</a></li>
+  <li><a href="#sessions" id="toc-sessions" class="nav-link" data-scroll-target="#sessions">Sessions</a>
+  <ul class="collapse">
+  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur">Literatur</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/syllabus.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
@@ -222,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Geändert</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">23. November 2024</p>
+      <p class="date-modified">25. November 2024</p>
     </div>
   </div>
     
@@ -233,10 +256,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- 
-<https://claude.ai/chat/de2c7da6-e96f-43b0-92cb-abd99853f10d> <https://claude.ai/chat/cd093710-3583-4c6a-a590-3a93e91eba79> <https://claude.ai/chat/27744b90-8d1c-4f98-876c-7a948a2f0444> <https://www.dh.unibe.ch/unibe/portal/fak_historisch/fsuf/d_dh/content/e330299/e904571/e1421406/files1538351/KVV_EPDH_HS24_ger.pdf>
-
-<https://sociologica.unibo.it/article/view/20378> <https://sociologica.unibo.it/article/view/19488> -->
 <section id="syllabus" class="level1">
 <h1>Syllabus</h1>
 <section id="sessions" class="level2">
@@ -267,18 +286,50 @@ Ninareh Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, and Aram Gal
 <p><strong>Session 11</strong> Poster/Blog/Presentations<br>
 Leseauftrag: Cathay O’Neil, Weapons of Math Destruction</p>
 <p><strong>Session 12</strong> Poster/Blog/Presentations oder Glüehfisch mit Wichtel*in</p>
-<!-- Literaturliste provisorisch\
-<https://dataplusfeminism.mit.edu/>\
-[https://www.unibe.ch/studies/programs/future\\\_competencies/module/fairer\\\_algorithms/index\\\_eng.html](https://www.unibe.ch/studies/programs/future\_competencies/module/fairer\_algorithms/index\_eng.html){.uri}\
-<https://socialmediacollective.org/reading-lists/critical-algorithm-studies/>\
-<https://algorithmicstudies.uchri.org/references/>\
-Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models, Yejin Choi et al.\
-<https://www.tandfonline.com/doi/full/10.1080/14742837.2024.2331550#abstract>\
-Zhisheng Chen, Ethics and Discrimination in Artificial Intelligence-Enabled Recruitment Practices <https://www.nature.com/articles/s41599-023-02079-x>\
-<https://mircoschoenfeld.de/seminar-critical-data-studies-summer-2024.html>\
-<https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf> -->
+<section id="literatur" class="level3">
+<h3 class="anchored" data-anchor-id="literatur">Literatur</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis: Urheberrecht
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Wir bemühen uns, frei zugängliche Literatur zu verwenden. Sollte dies nicht möglich sein, bitten wir Sie, die Literatur über die Bibliotheksplattform <a href="https://ubbern.swisscovery.slsp.ch/discovery/search?vid=41SLSP_UBE:UBE">swisscovery</a> zu beziehen. Von der Verwendung von Plattformen wie <a href="https://de.wikipedia.org/wiki/Library_Genesis">Library Genesis</a> raten wir trotz stichhaltiger Argumente ab <span class="citation" data-cites="karaganis2018">(siehe <a href="#ref-karaganis2018" role="doc-biblioref">Karaganis 2018</a>)</span>.</p>
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-2022j" class="csl-entry" role="listitem">
+<span>«<em>Algorithms of</em> <span><em>Oppression</em></span>»</span>. 2022. In <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Algorithms_of_Oppression&amp;oldid=1095369660">https://en.wikipedia.org/w/index.php?title=Algorithms_of_Oppression&amp;oldid=1095369660</a>.
+</div>
+<div id="ref-2024d" class="csl-entry" role="listitem">
+<span>«Attention <span>Is All You Need</span>»</span>. 2024. In <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Attention_Is_All_You_Need&amp;oldid=1258803471">https://en.wikipedia.org/w/index.php?title=Attention_Is_All_You_Need&amp;oldid=1258803471</a>.
+</div>
+<div id="ref-dignazio2023" class="csl-entry" role="listitem">
+D’Ignazio, Catherine, und Lauren F. Klein. 2023. <em>Data Feminism</em>. First MIT Press paperback edition. Cambridge, Massachusetts: The MIT Press. <a href="https://data-feminism.mitpress.mit.edu/">https://data-feminism.mitpress.mit.edu/</a>.
+</div>
+<div id="ref-karaganis2018" class="csl-entry" role="listitem">
+Karaganis, Joe, Hrsg. 2018. <em>Shadow <span>Libraries</span>: <span>Access</span> to <span>Knowledge</span> in <span>Global Higher Education</span></em>. International <span>Development Research Centre</span>. Cambridge: The MIT Press. <a href="https://doi.org/10.7551/mitpress/11339.001.0001">https://doi.org/10.7551/mitpress/11339.001.0001</a>.
+</div>
+<div id="ref-noble2018" class="csl-entry" role="listitem">
+Noble, Safiya Umoja. 2018. <em>Algorithms of Oppression: How Search Engines Reinforce Racism</em>. New York: New York university press.
+</div>
+<div id="ref-2024c" class="csl-entry" role="listitem">
+<span>«Surveillance Capitalism»</span>. 2024. In <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Surveillance_capitalism&amp;oldid=1239902991">https://en.wikipedia.org/w/index.php?title=Surveillance_capitalism&amp;oldid=1239902991</a>.
+</div>
+<div id="ref-vaswani2023" class="csl-entry" role="listitem">
+Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, und Illia Polosukhin. 2023. <span>«Attention <span>Is All You Need</span>»</span>. 2. August 2023. <a href="https://doi.org/10.48550/arXiv.1706.03762">https://doi.org/10.48550/arXiv.1706.03762</a>.
+</div>
+<div id="ref-2017c" class="csl-entry" role="listitem">
+Zuboff, Shoshana. 2017. <em>The <span>Age</span> of <span>Surveillance Capitalism</span>: <span>The Fight</span> for a <span>Human Future</span> at the <span>New Frontier</span> of <span>Power</span></em>. First trade paperback edition. New York, NY: PublicAffairs. <a href="https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/?lens=publicaffairs">https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/?lens=publicaffairs</a>.
+</div>
+</div>
 
 
+</section>
 </section>
 </section>
 
@@ -389,6 +440,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
