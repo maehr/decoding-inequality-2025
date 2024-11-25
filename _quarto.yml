@@ -49,10 +49,13 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     toc: true
+    citations-hover: true
+    crossrefs-hover: true
     theme: cosmo
     code-copy: true
     code-overflow: wrap
     css: styles.css
+    page-layout: full
 
 freeze: true
 
