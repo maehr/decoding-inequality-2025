@@ -33,6 +33,7 @@ website:
       - href: contents/about.qmd
 
   sidebar:
+    collapse-level: 1
     contents:
       - href: contents/home.qmd
         text: Kursbeschreibung
@@ -45,6 +46,8 @@ website:
 
 format:
   html:
+    link-external-icon: true
+    link-external-newwindow: true
     toc: true
     theme: cosmo
     code-copy: true

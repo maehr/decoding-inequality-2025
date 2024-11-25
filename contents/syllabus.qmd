@@ -2,61 +2,121 @@
 lang: de-CH
 date: 2024-10-22
 date-modified: last-modified
+nocite: |
+  @*
+bibliography: bibliography.bib
+csl: chicago-fullnote-syllabus.csl
 ---
-<!-- 
-<https://claude.ai/chat/de2c7da6-e96f-43b0-92cb-abd99853f10d> <https://claude.ai/chat/cd093710-3583-4c6a-a590-3a93e91eba79> <https://claude.ai/chat/27744b90-8d1c-4f98-876c-7a948a2f0444> <https://www.dh.unibe.ch/unibe/portal/fak_historisch/fsuf/d_dh/content/e330299/e904571/e1421406/files1538351/KVV_EPDH_HS24_ger.pdf> <!-- TODO -->
-
-<https://sociologica.unibo.it/article/view/20378> <https://sociologica.unibo.it/article/view/19488> -->
 
 # Syllabus
 
 ## Sessions
 
-**Session 1** Formen der Diskriminierung RH: Workshop, Hands-on Session\
-Leseauftrag für Session 2 erteilen\
-Weiterführende Literatur: Data-Feminism <https://data-feminism.mitpress.mit.edu/>
+### **Session 1 (21. Feb 2025)** Formen der Diskriminierung (Rachel Huber): Workshop, Hands-on Session
 
-**Session 2** Architecture MM: Gegenüberstellung von wie Computer Scientist über Architekturentscheide sprechen vs. Humanities Scholars\
-Leseauftrag: <https://en.wikipedia.org/wiki/Attention_Is_All_You_Need> <https://en.wikipedia.org/wiki/Algorithms_of_Oppression> Weiterführende Literatur: Duri Long and Brian Magerko. What is ai literacy? competencies and design considerations. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, CHI '20, 1–16. New York, NY, USA, 2020. Association for Computing Machinery. doi:10.1145/3313831.3376727.
+Leseauftrag:
 
-**Session 3** Collecting Data RH: All Data is local (Digital Public Library of America) <https://mitpress.mit.edu/9780262545174/all-data-are-local/>
+-   Kein Leseauftrag, da Workshop.
 
-**Session 4** Training MM: Environmental impact of training AI\
-Leseauftrag: Quantifying the carbon emissions of machine learning, Sasha Luccioni
+Weiterführende Literatur:
 
-**Session 5** Application (ChatGPT) MM\
-Leseauftrag: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. On the dangers of stochastic parrots: can language models be too big? 🦜. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, FAccT '21, 610–623. New York, NY, USA, 2021. Association for Computing Machinery. doi:10.1145/3442188.3445922.\
-Weiterführende Literatur: <https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web>
+-   [@dignazio2023]
 
-**Session 6** Application (CCTV/Facial Recognition) RH: <https://en.wikipedia.org/wiki/Surveillance_capitalism>, Joy Buolamwini
+### **Session 2 (28. Feb 2025)** Architecture (Moritz Mähr): Gegenüberstellung von wie Computer Scientist über Architekturentscheide sprechen vs. Humanities Scholars 
 
-**Session 7** Application (Predictive Policing/Migrationsalgo CH …) RH: ProPublica, “Machine Bias” <https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing>\
-Beispiel für Schweizer Kontext?\
-<https://www.srf.ch/news/schweiz/jobs-fuer-fluechtlinge-algorithmus-verteilt-neu-asylbewerber-auf-kantone>\
-<https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2018/01/algorithmus-verbessert-erwerbschancen-von-fluechtlingen.html>
+Leseauftrag:
 
-**Session 8** Application (Recruiting) MM\
-Leseauftrag:\
-Zhisheng Chen, Ethics and Discrimination in Artificial Intelligence-Enabled Recruitment Practices <https://www.nature.com/articles/s41599-023-02079-x>
+-   [@2024d]
 
-**Session 9** Evaluation and Monitoring MM: State-of-the-art Technical Benchmarks versus how many false positives (people dying, sent to prison etc.) Leseauftrag?\
-Stable bias: Evaluating societal representations in diffusion models, Sasha Luccioni\
-Ninareh Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, and Aram Galstyan. A survey on bias and fairness in machine learning. ACM Comput. Surv., jul 2021. doi:10.1145/3457607.
+Weiterführende Literatur:
 
-**Session 10** Governance and Regulation RH: EU AI Act <https://artificialintelligenceact.eu/> , Algorithm Watch <https://algorithmwatch.org/de/>
+-   [@long2020]
 
-**Session 11** Poster/Blog/Presentations\
-Leseauftrag: Cathay O’Neil, Weapons of Math Destruction
+### **Session 3 (7. Mär 2025)** Collecting Data (Rachel Huber)
 
-**Session 12** Poster/Blog/Presentations oder Glüehfisch mit Wichtel\*in
+Leseauftrag:
 
-<!-- Literaturliste provisorisch\
-<https://dataplusfeminism.mit.edu/>\
-[https://www.unibe.ch/studies/programs/future\\\_competencies/module/fairer\\\_algorithms/index\\\_eng.html](https://www.unibe.ch/studies/programs/future\_competencies/module/fairer\_algorithms/index\_eng.html){.uri}\
-<https://socialmediacollective.org/reading-lists/critical-algorithm-studies/>\
-<https://algorithmicstudies.uchri.org/references/>\
-Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models, Yejin Choi et al.\
-<https://www.tandfonline.com/doi/full/10.1080/14742837.2024.2331550#abstract>\
-Zhisheng Chen, Ethics and Discrimination in Artificial Intelligence-Enabled Recruitment Practices <https://www.nature.com/articles/s41599-023-02079-x>\
-<https://mircoschoenfeld.de/seminar-critical-data-studies-summer-2024.html>\
-<https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf> -->
+-   [@loukissas2019]
+
+### **Session 4 (14. Mär 2025)** Training (Moritz Mähr): Environmental impact of training AI
+
+Leseauftrag:
+
+-   [@lacoste2019]
+
+### **Session 5 (21. Mär 2025)** Application (ChatGPT) (Moritz Mähr)
+
+Leseauftrag:
+
+-   [@bender2021]
+
+Weiterführende Literatur:
+
+-   [@chiang2023a]
+
+### **Session 6 (28. Mär 2025)** Application (CCTV/Facial Recognition) (Rachel Huber):
+
+Leseauftrag:
+
+-   [@buolamwini2018]
+
+Weiterführende Literatur:
+
+-   [@2017c]
+
+### **Session 7 (4. Apr 2025)** Application (Predictive Policing/Migrationsalgo CH …) (Rachel Huber)
+
+Leseauftrag:
+
+-   [@mattu]
+-   [@2018e]
+-   [@2018f]
+
+Weiterführende Literatur:
+
+-   [@bansak2018]
+
+### **Session 8 (11. Apr 2025)** Application (Recruiting) (Moritz Mähr)
+
+Leseauftrag:
+
+-   [@chen2023]
+
+### **Session 9 (2. Mai 2025)** Evaluation and Monitoring (Moritz Mähr)
+
+<!-- State-of-the-art Technical Benchmarks versus how many false positives (people dying, sent to prison etc.) -->
+
+Leseauftrag:
+
+-   [@luccioni2023]
+-   [@mehrabi2021]
+
+### **Session 10 (9. Mai 2025)** Governance and Regulation (Rachel Huber):
+
+Leseauftrag:
+
+-   [@zotero-22193]
+-   [@zotero-22194]
+
+### **Session 11 (16. Mai 2025)** Poster/Blog/Presentations
+
+Leseauftrag:
+
+-   [@oneil2016]
+
+### **Session 12 (23. Mai 2025)** Poster/Blog/Presentations oder Glüehfisch mit Wichtel\*in
+
+Leseauftrag:
+
+-   Kein Leseauftrag
+
+## Literatur
+
+::: callout-tip
+## Hinweis: U(Rachel Huber)eberrecht
+
+Wir bemühen uns, frei zugängliche Literatur zu verwenden. Sollte dies nicht möglich sein, bitten wir Sie, die Literatur über die Bibliotheksplattform [swisscovery](https://ubbern.swisscovery.slsp.ch/discovery/search?vid=41SLSP_UBE:UBE) zu beziehen. Von der Verwendung von Plattformen wie [Library Genesis](https://de.wikipedia.org/wiki/Library_Genesis) raten wir trotz stichhaltiger Argumente ab [siehe @karaganis2018].
+:::
+
+::: {#refs}
+:::
