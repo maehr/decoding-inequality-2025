@@ -46,8 +46,6 @@ website:
 
 format:
   html:
-    link-external-icon: true
-    link-external-newwindow: true
     toc: true
     theme: cosmo
     code-copy: true
