@@ -19,40 +19,35 @@ website:
   navbar:
     logo: android-chrome-512x512.png
     logo-alt: ''
+    logo-href: ''
     title: Decoding Inequality 2025
     tools:
       - icon: github
         url: https://github.com/DHBern/decoding-inequality-2025/
     left:
-      - text: Kursbeschreibung
-        href: index.qmd
-      - text: Syllabus
-        href: syllabus.qmd
+      - href: contents/home.qmd
+        text: Kursbeschreibung
+      - href: contents/syllabus.qmd
+      - href: contents/interesting-stuff.qmd
+      - href: contents/blog.qmd
+      - href: contents/about.qmd
 
   sidebar:
+    collapse-level: 1
     contents:
-      # - section: decoding-inequality-2025
-      #   href: index.qmd
-      #   contents:
-      #     - text: Changelog
-      #       href: CHANGELOG.md
-      #     - text: Code of Conduct
-      #       href: CODE_OF_CONDUCT.md
-      #     - text: Contributing
-      #       href: CONTRIBUTING.md
-      #     - text: License (Data)
-      #       href: LICENSE-CCBYNCSA.md
-      #     - text: License (Code)
-      #       href: LICENSE-AGPL.md
-      #     - text: Security
-      #       href: SECURITY.md
-      - href: index.qmd
+      - href: contents/home.qmd
         text: Kursbeschreibung
-      - href: syllabus.qmd
-        # contents: project-management/*
+      - href: contents/syllabus.qmd
+      - href: contents/interesting-stuff.qmd
+      - section: Blog
+        href: contents/blog.qmd
+        contents: contents/posts/*
+      - href: contents/about.qmd
 
 format:
   html:
+    link-external-icon: true
+    link-external-newwindow: true
     toc: true
     theme: cosmo
     code-copy: true

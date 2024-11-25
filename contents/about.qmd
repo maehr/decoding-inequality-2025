@@ -1,0 +1,58 @@
+---
+date: 2024-11-21
+date-modified: last-modified
+lang: de-CH
+links:
+  - name: Rachel Huber
+    url: https://rachelhuber.ch/
+  - name: Moritz Mähr
+    url: https://moritzmaehr.ch/
+---
+
+# Über uns
+
+## Dr. Rachel Huber, [Assoziierte Forschende](https://www.dh.unibe.ch/ueber_uns/personen/dr_huber_rachel/index_ger.html)
+
+![](/assets/images/huber.jpg){width="200px"}
+
+[Rachel Huber](https://rachelhuber.ch/) studierte Kulturmanagement in Zürich, Kulturwissenschaften in Luzern und Globalgeschichte an der Excellenzuni Hamburg. Sie arbeitete als wissenschaftliche Mitarbeiterin und promovierte mit Schwerpunkt Digital History, Erinnerungskulturen und Diskriminierungsgeschichte in den USA von 2016-2021 an der Universität Luzern am Lehrstuhl von Prof. Dr. Aram Mattioli. Von 2022-2023 arbeitete sie, ebenfalls am Historischen Seminar der Universität Luzern, als Posdoc und Projektleiterin. Beim OA  Journal «Public History Weekly» war sie von 2018-2020 als Redaktionsmitglied tätig und von 2022 bis 2023 leitete sie das Drittmittelprojekt «Auslegeordnung Erinnerungskultur Zürich». Die Auftragsforschung wurde vom Präsidialdepartement Zürich vergeben.
+
+::: {.callout-tip title="Neustes Buch: Die Frauen der Red-Power-Bewegung" collapse="true"}
+<iframe src="/assets/files/huber-2023-die-frauen-der-red-power-bewegung.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Die Frauen der Red-Power-Bewegung">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/huber-2023-die-frauen-der-red-power-bewegung.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+### Forschungsinteressen
+
+-   Erinnerungskulturen
+-   Digital Memory
+-   Digital History
+-   (Digital) Public History
+-   Globalgeschichte
+-   Minderheitengeschichte
+-   Schweizer und US-Geschichte
+
+## Dr. sc. Moritz Mähr, [Assoziierter Forschender](https://www.dh.unibe.ch/ueber_uns/personen/dr_sc_maehr_moritz/index_ger.html)
+
+![](/assets/images/maehr.webp){width="200px"}
+
+[Moritz Mähr](https://moritzmaehr.ch/) ist assoziierter Forscher in Digital Humanities an der Universität Bern und digitaler Projektleiter von [Stadt.Geschichte.Basel](https://www.stadtgeschichtebasel.ch/) an der Universität Basel. Er studierte Geschichte und Philosophie des Wissens, Informatik sowie Bank- und Finanzwesen in Zürich und Berlin. Von 2018 bis 2022 war er wissenschaftlicher Mitarbeiter an der Professur für Technikgeschichte der ETH Zürich. Er schrieb eine Dissertation über die [Digitalisierung der Migrationsbehörden in der Schweiz in den 1960er Jahren](https://doi.org/10.30965/9783657796823). Die Studie war Teil des vom SNF geförderten Projekts [Trading Zones](https://data.snf.ch/grants/grant/188795). Seine Forschungsinteressen liegen im Bereich der Science and Technology Studies, der Digital Humanities und der Computergeschichte. Er ist ein Verfechter von Open Science, Open Access und Open Source.
+
+::: {.callout-tip title="Neustes Buch: Wie der Verwaltungscomputer die Arbeitsmigration programmierte" collapse="true"}
+<iframe src="/assets/files/9783657796823-71011.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Wie der Verwaltungscomputer die Arbeitsmigration programmierte">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/9783657796823-71011.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+### Forschungsinteressen
+
+-   Science and Technology Studies (STS)
+-   Digital Humanities (DH)
+-   Computergeschichte (History of Computing)
+-   Social network analysis und Graphen
+-   Natural Language Processing

@@ -1,0 +1,40 @@
+---
+date: 2024-11-21
+date-modified: last-modified
+lang: de-CH
+listing:
+  id: interesting-stuff
+  contents:
+    -   title: "Seminar: Critical Data Studies (Summer 2024)"
+        path: https://mircoschoenfeld.de/seminar-critical-data-studies-summer-2024.html
+        description: "This is the main course website for the seminar Critical Data Studies in summer term 2024 at University of Bayreuth. The umbrella topic for this iteration of the seminar is called Recognising and preventing bias in AI."
+        author: "[Moritz Mähr](https://github.com/maehr)"
+        date: 2024-11-21
+        categories: [course]
+    -   title: "The Good Robot"
+        path: https://www.thegoodrobot.co.uk/listennow
+        description: "Join Dr Eleanor Drage and Dr Kerry McInerney as they ask the experts: what is good technology? Is ‘good’ technology even possible? And how can feminism help us work towards it? Each week, they invite scholars, industry practitioners, activists, and more to provide their unique perspective on what feminism can bring to the tech industry and the way that we think about technology. With each conversation, The Good Robot asks how feminism can provide new perspectives on technology’s biggest problems."
+        author: "[Moritz Mähr](https://github.com/maehr)"
+        date: 2024-11-21
+        categories: [podcast]
+    -   title: "Mystery AI Hype Theater 3000"
+        path: https://www.dair-institute.org/maiht3k/
+        description: "Artificial Intelligence has too much hype. In this stream, linguist Prof. Emily M. Bender and sociologist Dr. Alex Hanna break down the AI hype, separate fact from fiction, and science from bloviation. They're joined by special guests and talk about everything, from machine consciousness to science fiction, to political economy to art made by machines."
+        author: "[Moritz Mähr](https://github.com/maehr)"
+        date: 2024-11-21
+        categories: [podcast]
+  sort: "date desc"
+  sort-ui: [title, author, date, categories]
+  filter-ui: [description]
+  type: grid
+  page-size: 36
+---
+
+# Interessante Links
+
+Wir haben hier einige interessante Dinge für Sie zusammengestellt. Schauen Sie sich die Liste unten an und klicken Sie auf die Links, um mehr zu erfahren.
+
+::: {#interesting-stuff}
+:::
+
+Wenn Sie interessante Links oder Ressourcen haben, die Sie teilen möchten, öffnen Sie einfach ein [Issue](https://github.com/DHBern/decoding-inequality-2025/issues/new?assignees=&labels=feature+request&projects=&template=interesting_stuff.yml). Wir freuen uns auf Ihre Beiträge!

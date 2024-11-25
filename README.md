@@ -6,7 +6,7 @@ This repository contains the materials for the course "Decoding Inequality: Krit
 [![GitHub forks](https://img.shields.io/github/forks/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/network)
 [![GitHub stars](https://img.shields.io/github/stars/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/stargazers)
 [![Code license](https://img.shields.io/github/license/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/blob/main/LICENSE-AGPL.md)
-[![Data license](https://img.shields.io/github/license/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/blob/main/LICENSE-CCBYNCSA.md)
+[![Data license](https://img.shields.io/github/license/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/blob/main/LICENSE-CCBYSA.md)
 [![DOI](https://zenodo.org/badge/ZENODO_RECORD.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD)
 
 <!-- ## Repository Structure
@@ -105,8 +105,7 @@ This project is maintained by [@DHBern](https://github.com/DHBern). Please under
 
 ## Roadmap
 
-- [ ] Syllabus with reading list
-- [ ] Assignments
+- [x] Syllabus with reading list
 - [ ] Slides for lectures
 - [ ] Additional resources (e.g., links to papers, blog posts, etc.)
 - [ ] Blog posts, posters, or other materials produced by students
@@ -122,11 +121,13 @@ We use [SemVer](http://semver.org/) for versioning. The available versions are l
 ## Authors and acknowledgment
 
 - **Digital Humanities University of Bern** - _Initial work_ - [DHBern](https://github.com/DHBern)
+- **Rachel Huber** - _Instructor_ - [HistoRaHub](https://github.com/HistoRaHub)
+- **Moritz Mähr** - _Instructor_ - [maehr](https://github.com/maehr)
 
 See also the list of [contributors](https://github.com/DHBern/decoding-inequality-2025/graphs/contributors) who contributed to this project.
 
 ## License
 
-The data in this repository is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) License - see the [LICENSE-CCBYNCSA](LICENSE-CCBYNCSA.md) file for details. By using this data, you agree to give appropriate credit to the original author(s) and to indicate if any modifications have been made.
+The data in this repository is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) License - see the [LICENSE-CCBYSA](LICENSE-CCBYSA.md) file for details. By using this data, you agree to give appropriate credit to the original author(s) and to indicate if any modifications have been made.
 
 The code in this repository is released under the GNU Affero General Public License v3.0 - see the [LICENSE-AGPL](LICENSE-AGPL.md) file for details. By using this code, you agree to make any modifications available under the same license.
