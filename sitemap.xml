@@ -1,55 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/SECURITY.html</loc>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/SECURITY.html</loc>
     <lastmod>2024-10-22T07:51:31.456Z</lastmod>
   </url>
   <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/CONTRIBUTING.html</loc>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/CONTRIBUTING.html</loc>
     <lastmod>2024-10-22T07:47:54.027Z</lastmod>
   </url>
   <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/LICENSE-CCBYSA.html</loc>
-    <lastmod>2024-11-21T09:53:27.635Z</lastmod>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/Untitled-1.html</loc>
+    <lastmod>2024-12-21T09:28:08.207Z</lastmod>
   </url>
   <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/contents/blog.html</loc>
-    <lastmod>2024-11-21T09:06:07.687Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/contents/interesting-stuff.html</loc>
-    <lastmod>2024-11-25T09:16:01.349Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/contents/home.html</loc>
-    <lastmod>2024-11-21T09:15:17.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/CODE_OF_CONDUCT.html</loc>
-    <lastmod>2024-10-22T07:51:31.453Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/contents/posts/blog-post-1.html</loc>
-    <lastmod>2024-11-21T09:40:03.326Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/contents/about.html</loc>
-    <lastmod>2024-11-21T09:55:33.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/contents/syllabus.html</loc>
-    <lastmod>2024-11-25T09:10:30.889Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/CHANGELOG.html</loc>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/CHANGELOG.html</loc>
     <lastmod>2024-10-22T07:51:31.451Z</lastmod>
   </url>
   <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/index.html</loc>
-    <lastmod>2024-11-21T08:50:13.280Z</lastmod>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/contents/syllabus.html</loc>
+    <lastmod>2024-12-21T09:27:03.278Z</lastmod>
   </url>
   <url>
-    <loc>https://DHBern.github.io/decoding-inequality-2025/LICENSE-AGPL.html</loc>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/contents/about.html</loc>
+    <lastmod>2024-11-25T09:24:26.455Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/contents/posts/blog-post-1.html</loc>
+    <lastmod>2024-11-25T09:24:26.459Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/CODE_OF_CONDUCT.html</loc>
+    <lastmod>2024-10-22T07:51:31.453Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/contents/home.html</loc>
+    <lastmod>2024-11-25T09:24:26.457Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/contents/interesting-stuff.html</loc>
+    <lastmod>2024-11-25T09:24:26.458Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/contents/blog.html</loc>
+    <lastmod>2024-11-25T09:24:26.456Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/LICENSE-CCBYSA.html</loc>
+    <lastmod>2024-11-25T09:24:26.369Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/index.html</loc>
+    <lastmod>2024-11-25T09:24:26.461Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dhbern.github.io/decoding-inequality-2025/LICENSE-AGPL.html</loc>
     <lastmod>2024-10-22T07:47:54.028Z</lastmod>
   </url>
 </urlset>

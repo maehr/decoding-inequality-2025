@@ -1,12 +1,12 @@
 [
   {
+    "listing": "/contents/interesting-stuff.html",
+    "items": []
+  },
+  {
     "listing": "/contents/blog.html",
     "items": [
       "/contents/posts/blog-post-1.html"
     ]
-  },
-  {
-    "listing": "/contents/interesting-stuff.html",
-    "items": []
   }
 ]
