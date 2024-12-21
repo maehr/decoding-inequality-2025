@@ -17,7 +17,7 @@ body:
       label: URL
       description: 'Paste the full link to the resource.'
       placeholder: "E.g., 'https://www.thegoodrobot.co.uk/listennow'"
-    validations:  
+    validations:
       required: true
 
   - type: textarea
