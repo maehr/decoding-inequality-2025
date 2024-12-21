@@ -8,6 +8,7 @@ body:
       label: Title
       description: 'Provide a concise title for the resource.'
       placeholder: "E.g., 'The Good Robot Podcast'"
+    validations:
       required: true
 
   - type: input
@@ -16,6 +17,7 @@ body:
       label: URL
       description: 'Paste the full link to the resource.'
       placeholder: "E.g., 'https://www.thegoodrobot.co.uk/listennow'"
+    validations:
       required: true
 
   - type: textarea
@@ -24,6 +26,7 @@ body:
       label: Description
       description: 'Provide a detailed description of the resource. Mention its purpose, audience, or unique features.'
       placeholder: "E.g., 'A podcast exploring what feminism can bring to the tech industry.'"
+    validations:
       required: true
 
   - type: input
@@ -32,6 +35,7 @@ body:
       label: Author or Contributor
       description: 'Provide your name or the name of the original author.'
       placeholder: "E.g., '[Your Name](https://github.com/yourprofile)'"
+    validations:
       required: true
 
   - type: input
@@ -40,6 +44,7 @@ body:
       label: Date Added
       description: 'Provide the date the resource was added in YYYY-MM-DD format.'
       placeholder: "E.g., '2024-11-21'"
+    validations:
       required: true
 
   - type: dropdown
@@ -56,6 +61,7 @@ body:
         - Video
         - Research
         - Other
+    validations:
       required: true
 
   - type: checkboxes
@@ -65,4 +71,5 @@ body:
       description: "Confirm that you have read and agree to abide by the project's Code of Conduct (Contributor Covenant)."
       options:
         - label: 'I have read and agree to the Code of Conduct.'
-          required: true
+    validations:
+      required: true
