@@ -20,11 +20,11 @@ csl: chicago-fullnote-syllabus.csl
 
 Leseauftrag:
 
--   Kein Leseauftrag, da Workshop.
+- Kein Leseauftrag, da Workshop.
 
 Weiterführende Literatur:
 
--   [@dignazio2023]
+- [@dignazio2023]
 
 ### Session 2 (28. Feb 2025)
 
@@ -32,19 +32,20 @@ Weiterführende Literatur:
 
 Leseauftrag:
 
--   [@2024d]
+- [@2024d]
 
 Weiterführende Literatur:
 
--   [@long2020]
+- [@offert2024]
+- [@long2020]
 
 ### Session 3 (7. Mär 2025)
 
-**Collecting Data (Rachel Huber)**
+**Collecting Data (Moritz Mähr)**
 
 Leseauftrag:
 
--   Kapitel 3 aus [@loukissas2019]
+- Kapitel 3 aus [@loukissas2019]
 
 ### Session 4 (14. Mär 2025)
 
@@ -52,19 +53,15 @@ Leseauftrag:
 
 Leseauftrag:
 
--   [@lacoste2019]
+- [@lacoste2019]
 
 ### Session 5 (21. Mär 2025)
 
-**Application (ChatGPT) (Moritz Mähr)**
+**Application (Recruiting) (Rachel Huber)**
 
 Leseauftrag:
 
--   [@bender2021]
-
-Weiterführende Literatur:
-
--   [@chiang2023a]
+- [@chen2023]
 
 ### Session 6 (28. Mär 2025)
 
@@ -72,11 +69,11 @@ Weiterführende Literatur:
 
 Leseauftrag:
 
--   [@buolamwini2018]
+- [@buolamwini2018]
 
 Weiterführende Literatur:
 
--   [@2017c]
+- [@2017c]
 
 ### Session 7 (4. Apr 2025)
 
@@ -84,21 +81,25 @@ Weiterführende Literatur:
 
 Leseauftrag:
 
--   [@mattu]
--   [@2018e]
--   [@2018f]
+- [@mattu]
+- [@2018e]
+- [@2018f]
 
 Weiterführende Literatur:
 
--   [@bansak2018]
+- [@bansak2018]
 
 ### Session 8 (11. Apr 2025)
 
-**Application (Recruiting) (Moritz Mähr)**
+**Application (ChatGPT) (Moritz Mähr)**
 
 Leseauftrag:
 
--   [@chen2023]
+- [@bender2021]
+
+Weiterführende Literatur:
+
+- [@chiang2023a]
 
 ### Session 9 (2. Mai 2025)
 
@@ -108,8 +109,8 @@ Leseauftrag:
 
 Leseauftrag:
 
--   [@luccioni2023]
--   [@mehrabi2021]
+- [@luccioni2023]
+- [@mehrabi2021]
 
 ### Session 10 (9. Mai 2025)
 
@@ -117,8 +118,8 @@ Leseauftrag:
 
 Leseauftrag:
 
--   [@zotero-22193]
--   [@zotero-22194]
+- [@zotero-22193]
+- [@zotero-22194]
 
 ### Session 11 (16. Mai 2025)
 
@@ -126,7 +127,7 @@ Leseauftrag:
 
 Leseauftrag:
 
--   [@oneil2016]
+- [@oneil2016]
 
 ### Session 12 (23. Mai 2025)
 
@@ -134,11 +135,12 @@ Leseauftrag:
 
 Leseauftrag:
 
--   Kein Leseauftrag
+- Kein Leseauftrag
 
 ## Literatur
 
 ::: callout-tip
+
 ## Hinweis: Urheberrecht
 
 Wir bemühen uns, frei zugängliche Literatur zu verwenden. Sollte dies nicht möglich sein, bitten wir Sie, die Literatur über die Bibliotheksplattform [swisscovery](https://ubbern.swisscovery.slsp.ch/discovery/search?vid=41SLSP_UBE:UBE) zu beziehen. Von der Verwendung von Plattformen wie [Library Genesis](https://de.wikipedia.org/wiki/Library_Genesis) raten wir trotz stichhaltiger Argumente ab.
