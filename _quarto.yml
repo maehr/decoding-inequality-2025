@@ -1,6 +1,8 @@
 project:
   type: website
 
+bibliography: contents/bibliography.bib
+
 website:
   title: Decoding Inequality 2025
   favicon: android-chrome-512x512.png
@@ -13,14 +15,12 @@ website:
   page-navigation: true
   bread-crumbs: true
   back-to-top-navigation: true
-  search:
-    show-item-context: true
-    type: overlay
+
   navbar:
     logo: android-chrome-512x512.png
     logo-alt: ''
     logo-href: ''
-    title: Decoding Inequality 2025
+    search: true
     tools:
       - icon: github
         url: https://github.com/DHBern/decoding-inequality-2025/
@@ -28,9 +28,13 @@ website:
       - href: contents/home.qmd
         text: Kursbeschreibung
       - href: contents/syllabus.qmd
+        text: Syllabus
       - href: contents/interesting-stuff.qmd
+        text: Interesannte Links
       - href: contents/blog.qmd
+        text: Blog
       - href: contents/about.qmd
+        text: Über uns
 
   sidebar:
     collapse-level: 1
@@ -38,6 +42,7 @@ website:
       - href: contents/home.qmd
         text: Kursbeschreibung
       - href: contents/syllabus.qmd
+        contents: contents/sessions/*
       - href: contents/interesting-stuff.qmd
       - section: Blog
         href: contents/blog.qmd
@@ -46,6 +51,7 @@ website:
 
 format:
   html:
+    link-external-icon: true
     link-external-newwindow: true
     toc: true
     citations-hover: true
@@ -55,6 +61,8 @@ format:
     code-overflow: wrap
     css: styles.css
     page-layout: full
+    # csl:
+    bibliography-location: document
 
 freeze: true
 

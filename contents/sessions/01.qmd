@@ -1,0 +1,142 @@
+---
+title: Session 1
+subtitle: Formen der Diskriminierung, Einführungsworkshop
+authors: 
+  - name: Rachel Huber
+    orcid: 0000-0002-6022-5354
+    email: rachel.huber@faculty.unibe.ch
+    affiliations:
+      - University of Bern
+      - Koordinationsstelle Teilhabe (Kanton Zürich)
+date: 2025-02-19
+date-modified: last-modified
+---
+
+### **Lernziele**
+
+1.  **Begriffsverständnis**: Diskriminierung, strukturelle Diskriminierung, unbewusste Diskriminierung (unconscious bias).
+2.  **Sozialer Kontext**: Erkennen, wie Sozialisierung und gesellschaftliche Machtverhältnisse Bias in Daten und Algorithmen einschleusen.
+3.  **Praxisbezug**: Verstehen, wie KI-Systeme Ungleichheiten reproduzieren können.
+4.  **Reflexion**: Eigene Vorannahmen hinterfragen und erste Schritte kennenlernen, um Bias in algorithmischen Systemen zu verringern.
+
+**Workshop**
+
+**Teil 1 (45 Minuten)**
+
+1.  **Begrüßung & Einführung (ca. 5 Minuten)**
+
+-   Vorstellung des Workshop-Ziels: Sensibilisierung für unterschiedliche Formen von Diskriminierung und deren Einfluss auf KI-Systeme.
+-   Kurze Vorstellung der Teilnehmenden (z.B. Blitzlicht: „Welcher Aspekt von KI-Bias interessiert dich am meisten?“).
+
+2.  **Begriffe klären: Diskriminierung, strukturelle Diskriminierung, unbewusste Diskriminierung (ca. 10 Minuten)**
+
+-   **Diskriminierung**: Ungleichbehandlung aufgrund von Gruppenzugehörigkeit (z.B. Geschlecht, Ethnie, Religion).
+-   **Strukturelle Diskriminierung**: Diskriminierung, die in gesellschaftlichen Institutionen und Prozessen verankert ist (z.B. Bildung, Arbeitsmarkt).
+-   **Unbewusste Diskriminierung / Unconscious Bias**: Vorurteile und Annahmen, die Menschen unbemerkt in ihren Handlungen leiten.
+
+*Methode*: Kurzer Input-Vortrag mit Beispielen (z.B. gender pay gap, „racial bias“ in Justizsystemen).
+
+3.  **Gruppenübung: Beispiele für (un)bewusste Diskriminierung sammeln (ca. 15 Minuten)**
+
+-   **Aufgabe**: Kleingruppen (3–4 Personen) überlegen sich Alltagsbeispiele, in denen sie selbst oder Menschen in ihrem Umfeld diskriminiert wurden oder in denen sie unbewusste Vorurteile beobachtet haben.
+-   **Ziel**: Herausarbeiten, dass Diskriminierung häufig subtil und unbemerkt abläuft.
+
+*Methode*: Anschließendes kurzes Plenum (2–3 Minuten pro Gruppe), um die Beispiele vorzustellen.
+
+1.  **Überleitung zu KI: Warum ist das relevant für Algorithmen? (ca. 10 Minuten)**
+
+-   Wie gelangen diese gesellschaftlichen Vorurteile und Machtverhältnisse in Daten?
+-   Kurzer Überblick über Datenerhebung und -auswahl (Stichwort: „biased data“).
+-   Erster Ausblick, wie KI-Systeme daraus Diskriminierung reproduzieren können.
+
+*Methode*: Vortrag mit einfachen Beispielen (z.B. Gesichtserkennung, die bestimmte Hauttöne schlechter erkennt).
+
+2.  **Abschluss Teil 1 & Ausblick (ca. 5 Minuten)**
+
+-   Kurze Zusammenfassung: Was wurde bisher gelernt?
+-   Vorschau auf Teil 2: Vertiefte Auseinandersetzung mit konkreten Beispielen und Lösungsansätzen.
+
+------------------------------------------------------------------------
+
+**Teil 2 (45 Minuten)**
+
+3.  **Kurze Wiederholung (ca. 5 Minuten)**
+
+-   Recap der wichtigsten Punkte aus Teil 1.
+-   Eventuell kurze Rückfragen oder Anmerkungen aus dem Plenum.
+
+4.  **Praxisbeispiele: Bias in KI-Systemen (ca. 15 Minuten)**
+
+-   **Fallbeispiele**:
+
+-   *Recruiting-Tools*: Benachteiligung von Bewerber\*innen durch automatisierte Systeme.
+
+-   *Gesichtserkennung*: Schlechtere Erkennungsraten für People of Color.
+
+-   *Sprachmodelle*: Reproduktion von stereotypen Geschlechterrollen.
+
+-   **Diskussion**: Warum treten diese Verzerrungen auf? Welche Rolle spielt Datenauswahl, Labeling und Training?
+
+*Methode*: Präsentation der Beispiele (kurze Zusammenfassung oder kurze Videoclips) und anschließend Offene Fragen ins Plenum.
+
+5.  **Kleingruppenarbeit: „Wo liegt das Problem?“ (ca. 15 Minuten)**
+
+-   **Aufgabe**:
+
+6.  Wählt eines der vorgestellten Beispiele aus.
+7.  Identifiziert die gesellschaftlichen Strukturen und Vorurteile, die sich darin abbilden.
+8.  Überlegt, wie die Daten erhoben wurden und wo in diesem Prozess Bias entsteht.
+
+-   **Ziel**: Verständnis, dass technische Systeme immer in soziale Kontexte eingebettet sind und diese widerspiegeln (und oft verstärken).
+
+*Methode*: Kleingruppen erarbeiten das Problem, dokumentieren zentrale Punkte auf einem Flipchart oder digital (z.B. Miro, Google Jamboard).
+
+9.  **Plenum & Lösungsansätze (ca. 5 Minuten)**
+
+-   Kurze Präsentation der Ergebnisse aus den Kleingruppen (1–2 Minuten pro Gruppe).
+
+-   Erste Ideen, wie man Bias reduzieren kann:
+
+-   Diversität im Entwicklungsteam,
+
+-   Sensible Datenerhebung,
+
+-   Transparente Dokumentation (z.B. „Datasheets for Datasets“),
+
+-   Externe Audits und Testverfahren.
+
+10. **Abschluss & Reflexion (ca. 5 Minuten)**
+
+-   Kurze Zusammenfassung der wichtigsten Erkenntnisse:
+
+-   Wie beeinflussen Sozialisierung und strukturelle Ungleichheit die Daten?
+
+-   Warum ist es entscheidend, diese Einflüsse zu verstehen, bevor man Algorithmen trainiert?
+
+-   **Reflexionsrunde**: Jede_r Teilnehmer_in teilt in einem Satz, was sie/er aus dem Workshop mitnimmt.
+
+-   **Ausblick**: Hinweis auf weiterführende Literatur/Materialien zu Fairness in Machine Learning und Critical Algorithm Studies.
+
+------------------------------------------------------------------------
+
+**Benötigte Materialien & Methoden**
+
+-   **Beamer/Präsentationsmaterial**: Zum Vorstellen von Definitionen und Beispielen.
+-   **Flipchart/Whiteboard**: Für spontane Notizen und Ergebnisse aus den Kleingruppen.
+-   **Kleingruppenräume** oder genügend Platz im Seminarraum, damit Gruppen parallel arbeiten können.
+-   **Digitale Tools** (optional): Miro, Google Jamboard, Mentimeter für interaktive Umfragen.
+
+------------------------------------------------------------------------
+
+**Weiterführende Ressourcen**
+
+-   Kate Crawford: *Atlas of AI* (Buch)
+-   Ruha Benjamin: *Race After Technology* (Buch)
+-   Joy Buolamwini: *Gender Shades* (Studie zur Gesichtserkennung)
+-   Cathy O’Neil: *Weapons of Math Destruction* (Buch)
+-   Dokumentation: *Coded Bias* (Film)
+
+------------------------------------------------------------------------
+
+**Fazit**\
+Der Workshop vermittelt in zwei kompakten Einheiten die grundlegenden Konzepte von Diskriminierung, struktureller Diskriminierung und unbewusster Diskriminierung. Anhand konkreter Beispiele wird deutlich, wie sich Bias in Datensätzen und algorithmischen Modellen manifestiert und welche Folgen dies für gesellschaftliche Ungleichheit hat. Durch Diskussionen und Gruppenarbeiten werden die Teilnehmenden für die Komplexität und Relevanz dieser Themen sensibilisiert und lernen erste Lösungsansätze kennen.
