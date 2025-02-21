@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2019-08-14">
+<meta name="author" content="Moritz Mähr">
+<meta name="dcterms.date" content="2025-02-19">
 
-<title>blog-post-1 – Decoding Inequality 2025</title>
+<title>Session 2 – Decoding Inequality 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../contents/about.html" rel="next">
-<link href="../../contents/blog.html" rel="prev">
+<link href="../../contents/interesting-stuff.html" rel="next">
+<link href="../../contents/sessions/01.html" rel="prev">
 <link href="../../android-chrome-512x512.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -73,12 +74,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Decoding Inequality 2025">
-<meta property="og:description" content="">
+<meta property="og:title" content="Session 2 – Decoding Inequality 2025">
+<meta property="og:description" content="Architecture">
+<meta property="og:image" content="https://dhbern.github.io/decoding-inequality-2025/contents/sessions/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
 <meta property="og:site_name" content="Decoding Inequality 2025">
-<meta name="twitter:title" content="Decoding Inequality 2025">
-<meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Session 2 – Decoding Inequality 2025">
+<meta name="twitter:description" content="Architecture">
+<meta name="twitter:image" content="https://dhbern.github.io/decoding-inequality-2025/contents/sessions/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -133,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/blog.html">Blog</a></li><li class="breadcrumb-item"><a href="../../contents/posts/blog-post-1.html">Blog Post number 1</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/syllabus.html">Syllabus</a></li><li class="breadcrumb-item"><a href="../../contents/sessions/02.html">Session 2</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -155,11 +158,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../contents/syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../contents/sessions/01.html" class="sidebar-item-text sidebar-link">
@@ -168,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../contents/sessions/02.html" class="sidebar-item-text sidebar-link">
+  <a href="../../contents/sessions/02.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Session 2</span></a>
   </div>
 </li>
@@ -184,14 +187,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../contents/blog.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../contents/posts/blog-post-1.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../contents/posts/blog-post-1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog Post number 1</span></a>
   </div>
 </li>
@@ -213,29 +216,58 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#blog-post-number-1" id="toc-blog-post-number-1" class="nav-link active" data-scroll-target="#blog-post-number-1">Blog Post number 1</a></li>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TLDR</a></li>
+  <li><a href="#recap-session-1" id="toc-recap-session-1" class="nav-link" data-scroll-target="#recap-session-1">Recap Session 1</a></li>
+  <li><a href="#überblick-ml-lebenszyklus" id="toc-überblick-ml-lebenszyklus" class="nav-link" data-scroll-target="#überblick-ml-lebenszyklus">Überblick ML-Lebenszyklus</a></li>
+  <li><a href="#leseauftrag-the-method-of-critical-ai-studies-a-propaedeutic" id="toc-leseauftrag-the-method-of-critical-ai-studies-a-propaedeutic" class="nav-link" data-scroll-target="#leseauftrag-the-method-of-critical-ai-studies-a-propaedeutic">Leseauftrag “The Method of Critical AI Studies, A Propaedeutic”</a></li>
+  <li><a href="#typische-entscheidungen-bei-der-architekturwahl" id="toc-typische-entscheidungen-bei-der-architekturwahl" class="nav-link" data-scroll-target="#typische-entscheidungen-bei-der-architekturwahl">Typische Entscheidungen bei der Architekturwahl</a></li>
+  <li><a href="#quick-reference-table" id="toc-quick-reference-table" class="nav-link" data-scroll-target="#quick-reference-table">Quick Reference Table</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/posts/blog-post-1.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/sessions/02.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/blog.html">Blog</a></li><li class="breadcrumb-item"><a href="../../contents/posts/blog-post-1.html">Blog Post number 1</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/syllabus.html">Syllabus</a></li><li class="breadcrumb-item"><a href="../../contents/sessions/02.html">Session 2</a></li></ol></nav>
 <div class="quarto-title">
+<h1 class="title">Session 2</h1>
+<p class="subtitle lead">Architecture</p>
 </div>
 
 
+<div class="quarto-title-meta-author column-body">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Moritz Mähr <a href="mailto:moritz.maehr@faculty.unibe.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-1367-1618" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            University of Bern
+          </p>
+        <p class="affiliation">
+            University of Basel
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta column-body">
 
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 14, 2019</p>
+      <p class="date">February 19, 2025</p>
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">February 20, 2025</p>
+    </div>
+  </div>
     
   </div>
   
@@ -244,11 +276,180 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="blog-post-number-1" class="level1">
-<h1>Blog Post number 1</h1>
-<p>This is a sample blog post. You can edit this post in <code>content/posts</code>.</p>
+<section id="tldr" class="level3">
+<h3 class="anchored" data-anchor-id="tldr">TLDR</h3>
+<ul>
+<li>Recap Session 1</li>
+<li>Überblick ML-Lebenszyklus</li>
+<li>Leseauftrag gemeinsam anschauen</li>
+<li>Typische Entscheidungen bei der Architekturwahl</li>
+</ul>
+</section>
+<section id="recap-session-1" class="level3">
+<h3 class="anchored" data-anchor-id="recap-session-1">Recap Session 1</h3>
+<p>mündlich</p>
+</section>
+<section id="überblick-ml-lebenszyklus" class="level3">
+<h3 class="anchored" data-anchor-id="überblick-ml-lebenszyklus">Überblick ML-Lebenszyklus</h3>
+<p>Der ML-Lebenszyklus:</p>
+<ol type="1">
+<li>Architekturauswahl: Diskussion verschiedener ML-Architekturen und ihrer Auswirkungen auf Modellkapazitäten und -grenzen. Kritische Betrachtung, wie architektonische Entscheidungen bestimmte Voreingenommenheiten einbetten können.</li>
+<li>Datensammlung: Untersuchung von Datenquellen, Kuratierungs- und Filterprozessen. Kritische Perspektiven auf Repräsentationsprobleme, Copyright-Fragen und Umweltkosten der Datenspeicherung.</li>
+<li>Training: Technische Aspekte des Trainingsprozesses und Auswahl von Hyperparametern. Kritische Betrachtung der Umweltauswirkungen, Arbeitsbedingungen in der KI-Industrie und Machtkonzentration bei ressourcenstarken Unternehmen.</li>
+<li>Anwendung: Analyse verschiedener Anwendungsfälle von ML-Systemen, Feinabstimmung für spezifische Aufgaben und Bereitstellungsstrategien. Kritische Diskussion ethischer Überlegungen, potenzieller Missbrauchsszenarien und Fragen der Transparenz und Erklärbarkeit.</li>
+<li>Evaluation und Überwachung: Methoden zur Bewertung von Modellleistung und Verzerrungen. Kritische Perspektiven auf die Grenzen aktueller Evaluierungsmetriken.</li>
+<li>Governance und Regulierung: Diskussion aktueller und vorgeschlagener Regulierungsrahmen, ethischer Richtlinien und Herausforderungen bei der Steuerung sich schnell entwickelnder KI-Technologien.</li>
+</ol>
+</section>
+<section id="leseauftrag-the-method-of-critical-ai-studies-a-propaedeutic" class="level3">
+<h3 class="anchored" data-anchor-id="leseauftrag-the-method-of-critical-ai-studies-a-propaedeutic">Leseauftrag “The Method of Critical AI Studies, A Propaedeutic”</h3>
+<p>This paper by Fabian Offert and Ranjodh Singh Dhaliwal critiques existing methodological tendencies in Critical AI Studies, arguing that the field lacks a cohesive methodology. The authors identify three primary forms of <em>casuistry</em>—problematic tendencies in critique—that hinder more rigorous analysis:</p>
+<ol type="1">
+<li><p><strong>Benchmark Casuistry</strong>: Overreliance on individual test cases (e.g., “AI got this prompt wrong, therefore AI is flawed”), which leads to shallow critiques that do not account for the probabilistic nature of machine-learning models.</p></li>
+<li><p><strong>Black Box Casuistry</strong>: The assumption that AI models are entirely opaque, reinforcing a misleading notion that they cannot be understood or analyzed meaningfully. The authors argue that AI models are historically and incrementally developed, making them more interpretable than critics often acknowledge.</p></li>
+<li><p><strong>Stack Casuistry</strong>: The outdated assumption that AI systems function as deterministic <em>stacks</em> (a linear sequence of computational steps), when in reality, contemporary models rely on pipelines, A/B testing, and evolving probabilistic structures.</p></li>
+</ol>
+<p>The authors advocate for a shift in methodology: instead of critiquing AI as if it were a static and deterministic system, scholars should engage with the <em>probabilistic</em> and <em>historically layered</em> nature of AI models. They call for an interdisciplinary approach, integrating computational insights with humanities-driven critique.</p>
+</section>
+<section id="typische-entscheidungen-bei-der-architekturwahl" class="level3">
+<h3 class="anchored" data-anchor-id="typische-entscheidungen-bei-der-architekturwahl">Typische Entscheidungen bei der Architekturwahl</h3>
+<p>Below is a <strong>step-by-step “recipe”</strong>—in the form of guiding questions—to help you decide which <strong>machine-learning architecture</strong> might best suit your project. The idea is to systematically walk through <strong>key considerations</strong>: the data, the nature of the task, resource constraints, and more.</p>
+<section id="what-type-of-data-are-you-dealing-with" class="level4">
+<h4 class="anchored" data-anchor-id="what-type-of-data-are-you-dealing-with">1. What <strong>Type of Data</strong> Are You Dealing With?</h4>
+<ul>
+<li><strong>Images or video</strong> → Look at Convolutional Neural Networks (CNNs), possibly Vision Transformers.</li>
+<li><strong>Text, language, or other sequential data</strong> → Consider Recurrent Neural Networks (RNNs, LSTM, GRU) or Transformers.</li>
+<li><strong>Tabular (rows/columns) or numeric</strong> → Often tree-based methods (Random Forest, XGBoost) or simpler neural networks.</li>
+<li><strong>Graph-structured data</strong> → Investigate Graph Neural Networks (GNNs).</li>
+<li><strong>Mixed or multimodal data</strong> (e.g., text + images) → Transformers with multimodal extensions or custom architectures.</li>
+</ul>
+</section>
+<section id="how-much-data-do-you-have-and-is-it-labeled" class="level4">
+<h4 class="anchored" data-anchor-id="how-much-data-do-you-have-and-is-it-labeled">2. How Much <strong>Data</strong> Do You Have (and Is It Labeled)?</h4>
+<ul>
+<li><strong>Plenty of labeled data</strong> → Deep learning is a strong contender; you can train large neural networks.</li>
+<li><strong>Very limited labeled data</strong> →
+<ul>
+<li>Look at simpler models (logistic regression, smaller neural nets, or SVMs).</li>
+<li>Consider <strong>transfer learning</strong> (using a pretrained model as a starting point).</li>
+<li>Try <strong>data augmentation</strong> or <strong>few-shot learning</strong> approaches.</li>
+</ul></li>
+<li><strong>Mixed (some labeled, a lot unlabeled)</strong> → Consider <strong>semi-supervised</strong> or <strong>self-supervised</strong> methods.</li>
+</ul>
+</section>
+<section id="what-task-are-you-trying-to-solve" class="level4">
+<h4 class="anchored" data-anchor-id="what-task-are-you-trying-to-solve">3. What <strong>Task</strong> Are You Trying to Solve?</h4>
+<ul>
+<li><strong>Classification or regression</strong> (predicting categories/numbers) → Common with feedforward networks or ensembles (Random Forest, XGBoost).</li>
+<li><strong>Sequence prediction/analysis</strong> (e.g., forecasting time series, analyzing text) → RNNs, LSTMs/GRUs, or Transformers.</li>
+<li><strong>Generating new content</strong> (images, text, synthetic data) → Generative Adversarial Networks (GANs), Variational Autoencoders, or Transformers for text generation.</li>
+<li><strong>Detecting anomalies</strong> → Autoencoders or one-class SVMs are often used.</li>
+</ul>
+</section>
+<section id="what-is-the-performance-vs.-interpretability-balance" class="level4">
+<h4 class="anchored" data-anchor-id="what-is-the-performance-vs.-interpretability-balance">4. What Is the <strong>Performance vs.&nbsp;Interpretability</strong> Balance?</h4>
+<ul>
+<li><strong>Strong interpretability needed</strong> (healthcare, finance, or regulated sectors) → Simpler models (decision trees, linear models), or advanced methods but with extra interpretability techniques (e.g., SHAP, LIME).</li>
+<li><strong>Accuracy/performance is priority</strong> → Larger neural networks, ensembles. But remember that black-box models can raise ethical or compliance issues.</li>
+</ul>
+</section>
+<section id="what-are-your-resource-constraints" class="level4">
+<h4 class="anchored" data-anchor-id="what-are-your-resource-constraints">5. What Are Your <strong>Resource Constraints</strong>?</h4>
+<ul>
+<li><strong>Hardware availability</strong>: Do you have access to powerful GPUs/TPUs?</li>
+<li><strong>Budget</strong>: Training large models can be expensive in terms of cloud compute and electricity.</li>
+<li><strong>Time</strong>: If you need results quickly, large-scale training might be impractical; you could opt for smaller or pretrained models.</li>
+</ul>
+</section>
+<section id="is-real-time-or-edge-deployment-required" class="level4">
+<h4 class="anchored" data-anchor-id="is-real-time-or-edge-deployment-required">6. Is <strong>Real-Time</strong> or <strong>Edge Deployment</strong> Required?</h4>
+<ul>
+<li><strong>Real-time/low-latency</strong> → You might need optimized or compressed models (pruning, quantization).</li>
+<li><strong>Edge devices</strong> (smartphones, IoT) → Smaller architectures or specialized hardware accelerators.</li>
+<li><strong>Batch processing</strong> (run offline) → Larger, more complex models are fine if you can afford the compute time.</li>
+</ul>
+</section>
+<section id="are-you-concerned-about-ethics-fairness-and-bias" class="level4">
+<h4 class="anchored" data-anchor-id="are-you-concerned-about-ethics-fairness-and-bias">7. Are You Concerned About <strong>Ethics, Fairness, and Bias</strong>?</h4>
+<ul>
+<li><strong>High-stakes decisions</strong> (criminal justice, hiring, healthcare) → Consider simpler or more transparent models, robust fairness checks, or specialized frameworks to reduce bias.</li>
+<li><strong>Large-scale public deployments</strong> → Must address potential bias in data and architecture. Tools exist (e.g., fairness libraries) to test and mitigate discriminatory outcomes.</li>
+</ul>
+</section>
+<section id="how-will-you-maintain-and-update-the-model" class="level4">
+<h4 class="anchored" data-anchor-id="how-will-you-maintain-and-update-the-model">8. How Will You <strong>Maintain and Update</strong> the Model?</h4>
+<ul>
+<li><strong>Frequent new data</strong> → Consider models that can be retrained or fine-tuned incrementally (e.g., Transfer Learning, partial retraining of large models).</li>
+<li><strong>Stable environment</strong> (data or requirements don’t change much) → A one-shot large training might be enough, with occasional updates.</li>
+</ul>
+</section>
+<section id="do-you-need-any-special-techniques" class="level4">
+<h4 class="anchored" data-anchor-id="do-you-need-any-special-techniques">9. Do You Need Any <strong>Special Techniques</strong>?</h4>
+<ul>
+<li><strong>Dimensionality reduction or unsupervised representation</strong> → Autoencoders can learn compact representations, useful for anomaly detection or data visualization.</li>
+<li><strong>Generating synthetic data</strong> → GANs or Diffusion Models can create additional training samples or handle data-privacy constraints.</li>
+</ul>
+</section>
+<section id="prototype-and-compare-dont-just-guess" class="level4">
+<h4 class="anchored" data-anchor-id="prototype-and-compare-dont-just-guess">10. <strong>Prototype and Compare</strong> (Don’t Just Guess)</h4>
+<ul>
+<li><strong>Start with a baseline model</strong> (e.g., a simple logistic regression or small Random Forest) to see if you can meet your basic performance goal.</li>
+<li><strong>Incrementally add complexity</strong>: If you need more accuracy, consider deeper or more specialized networks.</li>
+<li><strong>Evaluate</strong> each approach using consistent metrics (accuracy, F1 score, or mean squared error), plus interpretability, training time, cost, and potential bias.</li>
+</ul>
+</section>
+</section>
+<section id="quick-reference-table" class="level2">
+<h2 class="anchored" data-anchor-id="quick-reference-table">Quick Reference Table</h2>
+<p>Here’s a rough cheat-sheet matching common data/tasks to suggested architectures:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 39%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Data/Task</th>
+<th>Recommended Approach</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Tabular (structured)</strong></td>
+<td>Random Forest, XGBoost, or smaller MLP (feedforward net)</td>
+</tr>
+<tr class="even">
+<td><strong>Images</strong></td>
+<td>CNNs (ResNet, etc.), Vision Transformers</td>
+</tr>
+<tr class="odd">
+<td><strong>Text or Language</strong></td>
+<td>Transformers (BERT, GPT), or older RNNs/LSTMs/GRUs</td>
+</tr>
+<tr class="even">
+<td><strong>Time Series</strong></td>
+<td>RNN/LSTM/GRU or 1D-CNN, Transformers</td>
+</tr>
+<tr class="odd">
+<td><strong>Graph Data</strong></td>
+<td>Graph Neural Networks (GNNs)</td>
+</tr>
+<tr class="even">
+<td><strong>Generating Images/Text</strong></td>
+<td>GANs, Diffusion Models, or Transformer-based generators</td>
+</tr>
+<tr class="odd">
+<td><strong>Anomaly Detection</strong></td>
+<td>Autoencoders, one-class SVM</td>
+</tr>
+</tbody>
+</table>
+<section id="final-tip" class="level4">
+<h4 class="anchored" data-anchor-id="final-tip">Final Tip</h4>
+<p><strong>Answering these 10 questions</strong> should narrow down your options. The best practice is to <strong>prototype</strong> a couple of models, run real tests, and pick the one that strikes the best <strong>balance</strong> between accuracy, interpretability, efficiency, cost, and ethical considerations.</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -678,13 +879,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="../../contents/blog.html" class="pagination-link" aria-label="Blog">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Blog</span>
+      <a href="../../contents/sessions/01.html" class="pagination-link" aria-label="Session 1">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Session 1</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../contents/about.html" class="pagination-link" aria-label="Über uns">
-        <span class="nav-page-text">Über uns</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../contents/interesting-stuff.html" class="pagination-link" aria-label="Interessante Links">
+        <span class="nav-page-text">Interessante Links</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -693,4 +894,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/posts/blog-post-1.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/sessions/02.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

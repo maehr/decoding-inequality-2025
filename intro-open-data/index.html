@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de-CH" xml:lang="de-CH"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-01-19">
 
-<title>home – Decoding Inequality 2025</title>
+<title>7C2-CT-4A Introduction to Open Data – Decoding Inequality 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../contents/syllabus.html" rel="next">
 <link href="../android-chrome-512x512.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -53,31 +53,31 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
+  "show-item-context": true,
   "language": {
-    "search-no-results-text": "Keine Treffer",
-    "search-matching-documents-text": "Treffer",
-    "search-copy-link-title": "Link in die Suche kopieren",
-    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
-    "search-more-match-text": "weitere Treffer in diesem Dokument",
-    "search-more-matches-text": "weitere Treffer in diesem Dokument",
-    "search-clear-button-title": "Zurücksetzen",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Abbrechen",
-    "search-submit-button-title": "Abschicken",
-    "search-label": "Suchen"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Decoding Inequality 2025">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://dhbern.github.io/decoding-inequality-2025/contents/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta property="og:title" content="7C2-CT-4A Introduction to Open Data – Decoding Inequality 2025">
+<meta property="og:description" content="HEG-GE Bachelor Information Science | Spring Semester 2024-2025">
+<meta property="og:image" content="https://dhbern.github.io/decoding-inequality-2025/intro-open-data/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
 <meta property="og:site_name" content="Decoding Inequality 2025">
-<meta name="twitter:title" content="Decoding Inequality 2025">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://dhbern.github.io/decoding-inequality-2025/contents/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta name="twitter:title" content="7C2-CT-4A Introduction to Open Data – Decoding Inequality 2025">
+<meta name="twitter:description" content="HEG-GE Bachelor Information Science | Spring Semester 2024-2025">
+<meta name="twitter:image" content="https://dhbern.github.io/decoding-inequality-2025/intro-open-data/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -95,8 +95,8 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Decoding Inequality 2025</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Suchen"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../contents/interesting-stuff.html"> 
-<span class="menu-text">Interesannte Links</span></a>
+<span class="menu-text">Interessante Links</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../contents/blog.html"> 
@@ -130,11 +130,11 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../contents/home.html">Kursbeschreibung</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">7C2-CT-4A Introduction to Open Data</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -147,33 +147,16 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../contents/home.html" class="sidebar-item-text sidebar-link active">
+  <a href="../contents/home.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Kursbeschreibung</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../contents/syllabus.html" class="sidebar-item-text sidebar-link">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../contents/syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../contents/sessions/01.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Session 1</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../contents/sessions/02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Session 2</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contents/interesting-stuff.html" class="sidebar-item-text sidebar-link">
@@ -184,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../contents/blog.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -210,48 +193,45 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Auf dieser Seite</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#decoding-inequality-kritische-perspektiven-auf-machine-learning-und-gesellschaftliche-ungleichheit" id="toc-decoding-inequality-kritische-perspektiven-auf-machine-learning-und-gesellschaftliche-ungleichheit" class="nav-link active" data-scroll-target="#decoding-inequality-kritische-perspektiven-auf-machine-learning-und-gesellschaftliche-ungleichheit">Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit</a>
+  <li><a href="#introduction-to-open-data" id="toc-introduction-to-open-data" class="nav-link active" data-scroll-target="#introduction-to-open-data">Introduction to Open Data</a>
   <ul class="collapse">
-  <li><a href="#impressum" id="toc-impressum" class="nav-link" data-scroll-target="#impressum">Impressum</a></li>
+  <li><a href="#why-open-data-matters-tldr" id="toc-why-open-data-matters-tldr" class="nav-link" data-scroll-target="#why-open-data-matters-tldr">Why Open Data matters… TL;DR</a>
+  <ul class="collapse">
+  <li><a href="#public-engagement-and-empowerment" id="toc-public-engagement-and-empowerment" class="nav-link" data-scroll-target="#public-engagement-and-empowerment">Public Engagement and Empowerment</a></li>
+  <li><a href="#transparency-and-accountability" id="toc-transparency-and-accountability" class="nav-link" data-scroll-target="#transparency-and-accountability">Transparency and Accountability</a></li>
+  <li><a href="#the-evolution-of-open-data" id="toc-the-evolution-of-open-data" class="nav-link" data-scroll-target="#the-evolution-of-open-data">The Evolution of Open Data</a></li>
+  <li><a href="#ogd-and-ord-for-glam-institutions" id="toc-ogd-and-ord-for-glam-institutions" class="nav-link" data-scroll-target="#ogd-and-ord-for-glam-institutions">OGD and ORD for GLAM institutions</a></li>
+  <li><a href="#ai-and-machine-learning" id="toc-ai-and-machine-learning" class="nav-link" data-scroll-target="#ai-and-machine-learning">AI and Machine Learning</a></li>
+  <li><a href="#collaboration-is-key" id="toc-collaboration-is-key" class="nav-link" data-scroll-target="#collaboration-is-key">Collaboration is Key</a></li>
+  </ul></li>
+  <li><a href="#a-multitude-of-tools" id="toc-a-multitude-of-tools" class="nav-link" data-scroll-target="#a-multitude-of-tools">A multitude of tools</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/home.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/intro-open-data/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
+<h1 class="title">7C2-CT-4A Introduction to Open Data</h1>
+<p class="subtitle lead">HEG-GE Bachelor Information Science | Spring Semester 2024-2025</p>
 </div>
 
 
 <div class="quarto-title-meta-author column-body">
-  <div class="quarto-title-meta-heading">Autor:innen</div>
-  <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Rachel Huber <a href="mailto:rachel.huber@faculty.unibe.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-6022-5354" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    <p class="author">Julien A. Raemy <a href="mailto:julien.raemy@bar.admin.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-4711-5759" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
-            University of Bern
-          </p>
-        <p class="affiliation">
-            Koordinationsstelle Teilhabe (Kanton Zürich)
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">Moritz Mähr <a href="mailto:moritz.maehr@faculty.unibe.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-1367-1618" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            University of Bern
-          </p>
-        <p class="affiliation">
-            University of Basel
+            Swiss Federal Archives
           </p>
       </div>
   </div>
@@ -260,16 +240,16 @@ ul.task-list li input[type="checkbox"] {
 
       
     <div>
-    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+    <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">22. Oktober 2024</p>
+      <p class="date">January 19, 2025</p>
     </div>
   </div>
   
     <div>
-    <div class="quarto-title-meta-heading">Geändert</div>
+    <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">25. November 2024</p>
+      <p class="date-modified">February 19, 2025</p>
     </div>
   </div>
     
@@ -280,57 +260,84 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="decoding-inequality-kritische-perspektiven-auf-machine-learning-und-gesellschaftliche-ungleichheit" class="level1">
-<h1>Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit</h1>
-<p>Die kritische Auseinandersetzung mit Machine-Learning-Systemen und ihren gesellschaftlichen Auswirkungen ist in der heutigen Zeit von höchster Relevanz. Während KI-Technologien zunehmend Einzug in alle Bereiche unseres Lebens halten - von der Gesundheitsversorgung über die Strafverfolgung bis hin zu Finanzdienstleistungen und sozialen Medien - wächst auch ihr Potenzial, bestehende soziale Ungleichheiten zu verstärken oder sogar neue zu schaffen. Die Fähigkeit, diese Systeme zu verstehen, ihre Auswirkungen auf bereits minorisierte Gesellschaftsgruppen kritisch zu hinterfragen und Lösungen für eine gerechtere Gestaltung zu entwickeln, ist entscheidend für eine ethisch verantwortungsvolle und sozial gerechte technologische Zukunft. Dieses Kolloquium befähigt Studierende, aktiv an dieser wichtigen gesellschaftlichen Debatte teilzunehmen und trägt zur Entwicklung von KI-Systemen bei, die das Gemeinwohl fördern und nicht untergraben.</p>
-<p>In diesem Kolloquium untersuchen die Studierenden den gesamten Lebenszyklus von Machine-Learning-Systemen und dessen Auswirkungen auf gesellschaftliche Ungleichheit. Der Kurs beleuchtet, wie bewusste und unbewusste menschliche Verzerrungen und Vorurteile in jeder Phase des ML-Lebenszyklus eingebettet werden können und wie diese zu Diskriminierung in verschiedenen gesellschaftlichen Kontexten führen.</p>
-<p>Aufbauend auf den theoretischen Grundlagen der Critical Algorithm Studies lernen die Studierenden, die ethischen, politischen, ökologischen und ökonomischen Implikationen von ML-Technologien zu analysieren. Der Kurs ist entlang des ML-Lebenszyklus strukturiert:</p>
-<ol type="1">
-<li>Architekturauswahl: Diskussion verschiedener ML-Architekturen und ihrer Auswirkungen auf Modellkapazitäten und -grenzen. Kritische Betrachtung, wie architektonische Entscheidungen bestimmte Voreingenommenheiten einbetten können.<br>
-</li>
-<li>Datensammlung: Untersuchung von Datenquellen, Kuratierungs- und Filterprozessen. Kritische Perspektiven auf Repräsentationsprobleme, Copyright-Fragen und Umweltkosten der Datenspeicherung.<br>
-</li>
-<li>Training: Technische Aspekte des Trainingsprozesses und Auswahl von Hyperparametern. Kritische Betrachtung der Umweltauswirkungen, Arbeitsbedingungen in der KI-Industrie und Machtkonzentration bei ressourcenstarken Unternehmen.<br>
-</li>
-<li>Anwendung: Analyse verschiedener Anwendungsfälle von ML-Systemen, Feinabstimmung für spezifische Aufgaben und Bereitstellungsstrategien. Kritische Diskussion ethischer Überlegungen, potenzieller Missbrauchsszenarien und Fragen der Transparenz und Erklärbarkeit.<br>
-</li>
-<li>Evaluation und Überwachung: Methoden zur Bewertung von Modellleistung und Verzerrungen. Kritische Perspektiven auf die Grenzen aktueller Evaluierungsmetriken.<br>
-</li>
-<li>Governance und Regulierung: Diskussion aktueller und vorgeschlagener Regulierungsrahmen, ethischer Richtlinien und Herausforderungen bei der Steuerung sich schnell entwickelnder KI-Technologien.</li>
-</ol>
-<p>Durchgehend wird betont, dass die Entwicklung und der Einsatz von ML-Systemen auch als Geschäftsmodell zu verstehen sind. Die Studierenden lernen, die kommerziellen Interessen und wirtschaftlichen Auswirkungen zu analysieren, die die Gestaltung und den Einsatz dieser Technologien beeinflussen.</p>
-<p>Der Kurs kombiniert theoretische Reflexion mit praktischen Übungen. Die Studierenden werden sowohl mit den theoretischen (nicht-mathematischen) Grundlagen des maschinellen Lernens vertraut gemacht als auch in die Lage versetzt, kritische Analysen auf Basis aktueller Forschungsergebnisse durchzuführen und die implikationen für minorisierte Bevölkerungsgruppen von KI in der Gesellschaft zu verstehen. Praktische Beispiele, Fallstudien und Diskussionen aktueller Forschungsarbeiten werden regelmässig in die Lehrveranstaltung integriert, um die Verbindung zwischen technologischen Entwicklungen und ihren gesellschaftlichen Auswirkungen zu verdeutlichen.</p>
-<p>Nach Abschluss des Kurses sind die Studierenden in der Lage:</p>
+<section id="introduction-to-open-data" class="level1">
+<h1>Introduction to Open Data</h1>
+<p>The course is designed for undergraduate students in Information Science at the HES-SO University of Applied Sciences and Arts of Western Switzerland, <a href="https://hesge.ch/heg/">Haute école de gestion de Genève (HEG-GE)</a>. It provides a comprehensive introduction to Open Data, covering key aspects such as:</p>
 <ul>
-<li>Den gesamten Lebenszyklus von Machine-Learning-Systemen zu verstehen und kritisch zu reflektieren<br>
-</li>
-<li>Die Auswirkungen von Entscheidungen in jeder Phase des ML-Lebenszyklus auf potenzielle Verzerrungen und Diskriminierungen zu analysieren<br>
-</li>
-<li>Formen der algorithmischen Diskriminierung in verschiedenen Anwendungskontexten zu identifizieren und zu analysieren<br>
-</li>
-<li>Die ethischen, gesellschaftlichen und wirtschaftlichen Implikationen von ML-Anwendungen zu bewerten<br>
-</li>
-<li>Die Rolle kommerzieller Interessen und Geschäftsmodelle in der Entwicklung und dem Einsatz von ML-Systemen zu verstehen<br>
-</li>
-<li>Lösungsstrategien für eine gerechtere und ethischere Gestaltung algorithmischer Systeme zu entwickeln<br>
-</li>
-<li>Eine produktiv-kritische Haltung im Umgang mit KI und ML einzunehmen, die technische, ethische und ökonomische Aspekte berücksichtigt<br>
-</li>
-<li>Aktuelle Regulierungsansätze und Governance-Herausforderungen im Bereich KI und ML zu diskutieren und zu bewerten</li>
+<li><a href="../intro-open-data/sections/characteristics.html">Characteristics of Open Data</a></li>
+<li><a href="../intro-open-data/sections/movements.html">Associated Movements</a></li>
+<li><a href="../intro-open-data/sections/principles.html">Associated Principles</a></li>
+<li><a href="../intro-open-data/sections/platforms.html">Open Data Platforms and Organisations</a></li>
+<li><a href="../intro-open-data/sections/assessment.html">Assessment, Data Quality, and Best Practices</a></li>
+<li><a href="../intro-open-data/sections/techniques.html">Techniques, Software, and Tools</a></li>
+<li><a href="../intro-open-data/sections/showcases.html">Showcases</a></li>
 </ul>
-<section id="impressum" class="level2">
-<h2 class="anchored" data-anchor-id="impressum">Impressum</h2>
-<p>Universität Bern<br>
-Walter Benjamin Kolleg / Digital Humanities<br>
-Muesmattstrasse 45<br>
-3012 Bern</p>
+<section id="why-open-data-matters-tldr" class="level2">
+<h2 class="anchored" data-anchor-id="why-open-data-matters-tldr">Why Open Data matters… TL;DR</h2>
+<section id="public-engagement-and-empowerment" class="level3">
+<h3 class="anchored" data-anchor-id="public-engagement-and-empowerment">Public Engagement and Empowerment</h3>
+<ul>
+<li>Open data empowers the public by providing access to information that was previously inaccessible or difficult to obtain.</li>
+<li>This fosters a more informed citizenry and enables individuals and communities to participate actively in civic and cultural discourses.</li>
+</ul>
+</section>
+<section id="transparency-and-accountability" class="level3">
+<h3 class="anchored" data-anchor-id="transparency-and-accountability">Transparency and Accountability</h3>
+<ul>
+<li>Open data enhances transparency and accountability, particularly in sectors where public trust is paramount.</li>
+<li>By making data freely accessible, open data initiatives allow for greater scrutiny and analysis, leading to more accountable governance and institutional practices.</li>
+</ul>
+</section>
+<section id="the-evolution-of-open-data" class="level3">
+<h3 class="anchored" data-anchor-id="the-evolution-of-open-data">The Evolution of Open Data</h3>
+<ul>
+<li>While open data in itself is a commendable goal, the concept of Linked Open (Usable) Data takes it a step further.</li>
+<li>Linked Open Data enhances the value of open data by ensuring it is not only available but also interconnected, making it more discoverable and useful for a wider range of applications and analyses.</li>
+<li>LOUD is about enhancing usability and semantic interoperability leveraging community-driven standards and practices.</li>
+</ul>
+</section>
+<section id="ogd-and-ord-for-glam-institutions" class="level3">
+<h3 class="anchored" data-anchor-id="ogd-and-ord-for-glam-institutions">OGD and ORD for GLAM institutions</h3>
+<ul>
+<li>Open Research Data (ORD) and Open Government Data (OGD) can be viewed both as a service provided to the public and as a process that requires active management and continuous improvement.</li>
+<li>Institutions in the GLAM (Galleries, Libraries, Archives, Museums) sector need to consider how these open data initiatives fit within their practices, both in terms of contributing data and utilising data for research, curation, and public engagement.</li>
+</ul>
+</section>
+<section id="ai-and-machine-learning" class="level3">
+<h3 class="anchored" data-anchor-id="ai-and-machine-learning">AI and Machine Learning</h3>
+<ul>
+<li>Open (and structured) data is crucial for Artificial Intelligence (AI) and Machine Learning (ML) systems, providing the large datasets necessary for training models.</li>
+<li>The availability of diverse, high-quality open datasets enables more robust and inclusive AI developments.</li>
+<li>Open data promotes transparency and ethical practices in AI by ensuring external validation and — hopefully — reducing biases.</li>
+</ul>
+</section>
+<section id="collaboration-is-key" class="level3">
+<h3 class="anchored" data-anchor-id="collaboration-is-key">Collaboration is Key</h3>
+<ul>
+<li>Collaboration is a fundamental aspect of open data initiatives.
+<ul>
+<li>Discussing best practices grounded in collaboration, such as leveraging the Collections as Data checklist.</li>
+<li>Participating in the International Image Interoperability Framework (IIIF) and Linked Art communities for the cultural heritage field (and beyond, notably for the STEM — Science, Technology, Engineering, and Mathematics — sector).</li>
+<li>OGD meet-ups (Open Data Beer).</li>
+</ul></li>
+<li>Such collaboration is vital for addressing global challenges, encouraging innovation, and ensuring the sustainable development of open data ecosystems.</li>
+</ul>
+</section>
+</section>
+<section id="a-multitude-of-tools" class="level2">
+<h2 class="anchored" data-anchor-id="a-multitude-of-tools">A multitude of tools</h2>
+<blockquote class="blockquote">
+<p>For a better understanding of the past, <br> Our images have to be enhanced, <br> A new dialogue in three dimensions, <br> Must have openness at its heart, <br> For somewhere within the archive <br> Of our aggregated minds <br> Are a multitude of questions <br> And a multitude of answers, <br> Simply awaiting to be found.</p>
+</blockquote>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pOX9CrvAG7I?si=yLI8p4AMm0kCsk0y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+<p><span class="citation" data-cites="mrgeeDayClosingMultitude2023">@mrgeeDayClosingMultitude2023</span>, Data Poet at EuropeanaTech 2023</p>
 
 
 </section>
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Zurück nach oben</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div>Diese Lizenz erlaubt es Dritten, ein Werk zu verbreiten, zu remixen, zu verbessern und darauf aufzubauen, auch kommerziell, solange der Urheber des Originals genannt wird und die auf seinem Werk basierenden neuen Werke unter denselben Bedingungen veröffentlicht werden.
-<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">(Lizenz anzeigen)</a></div></div></section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -374,12 +381,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Kopiert");
+    button.setAttribute("title", "Copied!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Kopiert");
+      button.setAttribute("data-bs-title", "Copied!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -440,8 +447,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
           if (link.getAttribute("rel") === null) {
             link.setAttribute("rel", "noopener");
           }
-          // default icon
-          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -755,18 +760,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation column-body">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../contents/syllabus.html" class="pagination-link" aria-label="Syllabus">
-        <span class="nav-page-text">Syllabus</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/home.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/intro-open-data/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
