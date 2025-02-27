@@ -13,120 +13,120 @@ date: 2025-02-19
 date-modified: last-modified
 ---
 
-### TLDR
+# TLDR
 
-- Recap Session 1
-- Überblick ML-Lebenszyklus
-- Leseauftrag gemeinsam anschauen
-- Typische Entscheidungen bei der Architekturwahl
+-   Recap Session 1
+-   Überblick ML-Lebenszyklus
+-   Leseauftrag gemeinsam anschauen
+-   Typische Entscheidungen bei der Architekturwahl
 
-### Recap Session 1
+## Recap Session 1
 
 mündlich
 
-### Überblick ML-Lebenszyklus
+## Überblick ML-Lebenszyklus
 
 Der ML-Lebenszyklus:
 
-1. Architekturauswahl: Diskussion verschiedener ML-Architekturen und ihrer Auswirkungen auf Modellkapazitäten und -grenzen. Kritische Betrachtung, wie architektonische Entscheidungen bestimmte Voreingenommenheiten einbetten können.
-2. Datensammlung: Untersuchung von Datenquellen, Kuratierungs- und Filterprozessen. Kritische Perspektiven auf Repräsentationsprobleme, Copyright-Fragen und Umweltkosten der Datenspeicherung.
-3. Training: Technische Aspekte des Trainingsprozesses und Auswahl von Hyperparametern. Kritische Betrachtung der Umweltauswirkungen, Arbeitsbedingungen in der KI-Industrie und Machtkonzentration bei ressourcenstarken Unternehmen.
-4. Anwendung: Analyse verschiedener Anwendungsfälle von ML-Systemen, Feinabstimmung für spezifische Aufgaben und Bereitstellungsstrategien. Kritische Diskussion ethischer Überlegungen, potenzieller Missbrauchsszenarien und Fragen der Transparenz und Erklärbarkeit.
-5. Evaluation und Überwachung: Methoden zur Bewertung von Modellleistung und Verzerrungen. Kritische Perspektiven auf die Grenzen aktueller Evaluierungsmetriken.
-6. Governance und Regulierung: Diskussion aktueller und vorgeschlagener Regulierungsrahmen, ethischer Richtlinien und Herausforderungen bei der Steuerung sich schnell entwickelnder KI-Technologien.
+1.  Architekturauswahl: Diskussion verschiedener ML-Architekturen und ihrer Auswirkungen auf Modellkapazitäten und -grenzen. Kritische Betrachtung, wie architektonische Entscheidungen bestimmte Voreingenommenheiten einbetten können.
+2.  Datensammlung: Untersuchung von Datenquellen, Kuratierungs- und Filterprozessen. Kritische Perspektiven auf Repräsentationsprobleme, Copyright-Fragen und Umweltkosten der Datenspeicherung.
+3.  Training: Technische Aspekte des Trainingsprozesses und Auswahl von Hyperparametern. Kritische Betrachtung der Umweltauswirkungen, Arbeitsbedingungen in der KI-Industrie und Machtkonzentration bei ressourcenstarken Unternehmen.
+4.  Anwendung: Analyse verschiedener Anwendungsfälle von ML-Systemen, Feinabstimmung für spezifische Aufgaben und Bereitstellungsstrategien. Kritische Diskussion ethischer Überlegungen, potenzieller Missbrauchsszenarien und Fragen der Transparenz und Erklärbarkeit.
+5.  Evaluation und Überwachung: Methoden zur Bewertung von Modellleistung und Verzerrungen. Kritische Perspektiven auf die Grenzen aktueller Evaluierungsmetriken.
+6.  Governance und Regulierung: Diskussion aktueller und vorgeschlagener Regulierungsrahmen, ethischer Richtlinien und Herausforderungen bei der Steuerung sich schnell entwickelnder KI-Technologien.
 
-### Leseauftrag "The Method of Critical AI Studies, A Propaedeutic"
+## Leseauftrag "The Method of Critical AI Studies, A Propaedeutic"
 
 This paper by Fabian Offert and Ranjodh Singh Dhaliwal critiques existing methodological tendencies in Critical AI Studies, arguing that the field lacks a cohesive methodology. The authors identify three primary forms of *casuistry*—problematic tendencies in critique—that hinder more rigorous analysis:
 
-1. **Benchmark Casuistry**: Overreliance on individual test cases (e.g., "AI got this prompt wrong, therefore AI is flawed"), which leads to shallow critiques that do not account for the probabilistic nature of machine-learning models.
+1.  **Benchmark Casuistry**: Overreliance on individual test cases (e.g., "AI got this prompt wrong, therefore AI is flawed"), which leads to shallow critiques that do not account for the probabilistic nature of machine-learning models.
 
-2. **Black Box Casuistry**: The assumption that AI models are entirely opaque, reinforcing a misleading notion that they cannot be understood or analyzed meaningfully. The authors argue that AI models are historically and incrementally developed, making them more interpretable than critics often acknowledge.
+2.  **Black Box Casuistry**: The assumption that AI models are entirely opaque, reinforcing a misleading notion that they cannot be understood or analyzed meaningfully. The authors argue that AI models are historically and incrementally developed, making them more interpretable than critics often acknowledge.
 
-3. **Stack Casuistry**: The outdated assumption that AI systems function as deterministic *stacks* (a linear sequence of computational steps), when in reality, contemporary models rely on pipelines, A/B testing, and evolving probabilistic structures.
+3.  **Stack Casuistry**: The outdated assumption that AI systems function as deterministic *stacks* (a linear sequence of computational steps), when in reality, contemporary models rely on pipelines, A/B testing, and evolving probabilistic structures.
 
 The authors advocate for a shift in methodology: instead of critiquing AI as if it were a static and deterministic system, scholars should engage with the *probabilistic* and *historically layered* nature of AI models. They call for an interdisciplinary approach, integrating computational insights with humanities-driven critique.
 
-### Typische Entscheidungen bei der Architekturwahl
+## Typische Entscheidungen bei der Architekturwahl
 
 Below is a **step-by-step “recipe”**—in the form of guiding questions—to help you decide which **machine-learning architecture** might best suit your project. The idea is to systematically walk through **key considerations**: the data, the nature of the task, resource constraints, and more.
 
-#### 1. What **Type of Data** Are You Dealing With?
+### 1. What **Type of Data** Are You Dealing With?
 
-- **Images or video** → Look at Convolutional Neural Networks (CNNs), possibly Vision Transformers.
-- **Text, language, or other sequential data** → Consider Recurrent Neural Networks (RNNs, LSTM, GRU) or Transformers.
-- **Tabular (rows/columns) or numeric** → Often tree-based methods (Random Forest, XGBoost) or simpler neural networks.
-- **Graph-structured data** → Investigate Graph Neural Networks (GNNs).
-- **Mixed or multimodal data** (e.g., text + images) → Transformers with multimodal extensions or custom architectures.
+-   **Images or video** → Look at Convolutional Neural Networks (CNNs), possibly Vision Transformers.
+-   **Text, language, or other sequential data** → Consider Recurrent Neural Networks (RNNs, LSTM, GRU) or Transformers.
+-   **Tabular (rows/columns) or numeric** → Often tree-based methods (Random Forest, XGBoost) or simpler neural networks.
+-   **Graph-structured data** → Investigate Graph Neural Networks (GNNs).
+-   **Mixed or multimodal data** (e.g., text + images) → Transformers with multimodal extensions or custom architectures.
 
-#### 2. How Much **Data** Do You Have (and Is It Labeled)?
+### 2. How Much **Data** Do You Have (and Is It Labeled)?
 
-- **Plenty of labeled data** → Deep learning is a strong contender; you can train large neural networks.
-- **Very limited labeled data** →
-  - Look at simpler models (logistic regression, smaller neural nets, or SVMs).
-  - Consider **transfer learning** (using a pretrained model as a starting point).
-  - Try **data augmentation** or **few-shot learning** approaches.
-- **Mixed (some labeled, a lot unlabeled)** → Consider **semi-supervised** or **self-supervised** methods.
+-   **Plenty of labeled data** → Deep learning is a strong contender; you can train large neural networks.
+-   **Very limited labeled data** →
+    -   Look at simpler models (logistic regression, smaller neural nets, or SVMs).
+    -   Consider **transfer learning** (using a pretrained model as a starting point).
+    -   Try **data augmentation** or **few-shot learning** approaches.
+-   **Mixed (some labeled, a lot unlabeled)** → Consider **semi-supervised** or **self-supervised** methods.
 
-#### 3. What **Task** Are You Trying to Solve?
+### 3. What **Task** Are You Trying to Solve?
 
-- **Classification or regression** (predicting categories/numbers) → Common with feedforward networks or ensembles (Random Forest, XGBoost).
-- **Sequence prediction/analysis** (e.g., forecasting time series, analyzing text) → RNNs, LSTMs/GRUs, or Transformers.
-- **Generating new content** (images, text, synthetic data) → Generative Adversarial Networks (GANs), Variational Autoencoders, or Transformers for text generation.
-- **Detecting anomalies** → Autoencoders or one-class SVMs are often used.
+-   **Classification or regression** (predicting categories/numbers) → Common with feedforward networks or ensembles (Random Forest, XGBoost).
+-   **Sequence prediction/analysis** (e.g., forecasting time series, analyzing text) → RNNs, LSTMs/GRUs, or Transformers.
+-   **Generating new content** (images, text, synthetic data) → Generative Adversarial Networks (GANs), Variational Autoencoders, or Transformers for text generation.
+-   **Detecting anomalies** → Autoencoders or one-class SVMs are often used.
 
-#### 4. What Is the **Performance vs. Interpretability** Balance?
+### 4. What Is the **Performance vs. Interpretability** Balance?
 
-- **Strong interpretability needed** (healthcare, finance, or regulated sectors) → Simpler models (decision trees, linear models), or advanced methods but with extra interpretability techniques (e.g., SHAP, LIME).
-- **Accuracy/performance is priority** → Larger neural networks, ensembles. But remember that black-box models can raise ethical or compliance issues.
+-   **Strong interpretability needed** (healthcare, finance, or regulated sectors) → Simpler models (decision trees, linear models), or advanced methods but with extra interpretability techniques (e.g., SHAP, LIME).
+-   **Accuracy/performance is priority** → Larger neural networks, ensembles. But remember that black-box models can raise ethical or compliance issues.
 
-#### 5. What Are Your **Resource Constraints**?
+### 5. What Are Your **Resource Constraints**?
 
-- **Hardware availability**: Do you have access to powerful GPUs/TPUs?
-- **Budget**: Training large models can be expensive in terms of cloud compute and electricity.
-- **Time**: If you need results quickly, large-scale training might be impractical; you could opt for smaller or pretrained models.
+-   **Hardware availability**: Do you have access to powerful GPUs/TPUs?
+-   **Budget**: Training large models can be expensive in terms of cloud compute and electricity.
+-   **Time**: If you need results quickly, large-scale training might be impractical; you could opt for smaller or pretrained models.
 
-#### 6. Is **Real-Time** or **Edge Deployment** Required?
+### 6. Is **Real-Time** or **Edge Deployment** Required?
 
-- **Real-time/low-latency** → You might need optimized or compressed models (pruning, quantization).
-- **Edge devices** (smartphones, IoT) → Smaller architectures or specialized hardware accelerators.
-- **Batch processing** (run offline) → Larger, more complex models are fine if you can afford the compute time.
+-   **Real-time/low-latency** → You might need optimized or compressed models (pruning, quantization).
+-   **Edge devices** (smartphones, IoT) → Smaller architectures or specialized hardware accelerators.
+-   **Batch processing** (run offline) → Larger, more complex models are fine if you can afford the compute time.
 
-#### 7. Are You Concerned About **Ethics, Fairness, and Bias**?
+### 7. Are You Concerned About **Ethics, Fairness, and Bias**?
 
-- **High-stakes decisions** (criminal justice, hiring, healthcare) → Consider simpler or more transparent models, robust fairness checks, or specialized frameworks to reduce bias.
-- **Large-scale public deployments** → Must address potential bias in data and architecture. Tools exist (e.g., fairness libraries) to test and mitigate discriminatory outcomes.
+-   **High-stakes decisions** (criminal justice, hiring, healthcare) → Consider simpler or more transparent models, robust fairness checks, or specialized frameworks to reduce bias.
+-   **Large-scale public deployments** → Must address potential bias in data and architecture. Tools exist (e.g., fairness libraries) to test and mitigate discriminatory outcomes.
 
-#### 8. How Will You **Maintain and Update** the Model?
+### 8. How Will You **Maintain and Update** the Model?
 
-- **Frequent new data** → Consider models that can be retrained or fine-tuned incrementally (e.g., Transfer Learning, partial retraining of large models).
-- **Stable environment** (data or requirements don’t change much) → A one-shot large training might be enough, with occasional updates.
+-   **Frequent new data** → Consider models that can be retrained or fine-tuned incrementally (e.g., Transfer Learning, partial retraining of large models).
+-   **Stable environment** (data or requirements don’t change much) → A one-shot large training might be enough, with occasional updates.
 
-#### 9. Do You Need Any **Special Techniques**?
+### 9. Do You Need Any **Special Techniques**?
 
-- **Dimensionality reduction or unsupervised representation** → Autoencoders can learn compact representations, useful for anomaly detection or data visualization.
-- **Generating synthetic data** → GANs or Diffusion Models can create additional training samples or handle data-privacy constraints.
+-   **Dimensionality reduction or unsupervised representation** → Autoencoders can learn compact representations, useful for anomaly detection or data visualization.
+-   **Generating synthetic data** → GANs or Diffusion Models can create additional training samples or handle data-privacy constraints.
 
-#### 10. **Prototype and Compare** (Don’t Just Guess)
+### 10. **Prototype and Compare** (Don’t Just Guess)
 
-- **Start with a baseline model** (e.g., a simple logistic regression or small Random Forest) to see if you can meet your basic performance goal.
-- **Incrementally add complexity**: If you need more accuracy, consider deeper or more specialized networks.
-- **Evaluate** each approach using consistent metrics (accuracy, F1 score, or mean squared error), plus interpretability, training time, cost, and potential bias.
+-   **Start with a baseline model** (e.g., a simple logistic regression or small Random Forest) to see if you can meet your basic performance goal.
+-   **Incrementally add complexity**: If you need more accuracy, consider deeper or more specialized networks.
+-   **Evaluate** each approach using consistent metrics (accuracy, F1 score, or mean squared error), plus interpretability, training time, cost, and potential bias.
 
-## Quick Reference Table
+### Quick Reference Table
 
 Here’s a rough cheat-sheet matching common data/tasks to suggested architectures:
 
-| Data/Task                        | Recommended Approach                               |
-|----------------------------------|----------------------------------------------------|
-| **Tabular (structured)**         | Random Forest, XGBoost, or smaller MLP (feedforward net)  |
-| **Images**                       | CNNs (ResNet, etc.), Vision Transformers          |
-| **Text or Language**             | Transformers (BERT, GPT), or older RNNs/LSTMs/GRUs|
-| **Time Series**                  | RNN/LSTM/GRU or 1D-CNN, Transformers              |
-| **Graph Data**                   | Graph Neural Networks (GNNs)                      |
-| **Generating Images/Text**       | GANs, Diffusion Models, or Transformer-based generators |
-| **Anomaly Detection**            | Autoencoders, one-class SVM                       |
+| Data/Task | Recommended Approach |
+|-----------------------------|-------------------------------------------|
+| **Tabular (structured)** | Random Forest, XGBoost, or smaller MLP (feedforward net) |
+| **Images** | CNNs (ResNet, etc.), Vision Transformers |
+| **Text or Language** | Transformers (BERT, GPT), or older RNNs/LSTMs/GRUs |
+| **Time Series** | RNN/LSTM/GRU or 1D-CNN, Transformers |
+| **Graph Data** | Graph Neural Networks (GNNs) |
+| **Generating Images/Text** | GANs, Diffusion Models, or Transformer-based generators |
+| **Anomaly Detection** | Autoencoders, one-class SVM |
 
-#### Final Tip
+### Final Tip
 
 **Answering these 10 questions** should narrow down your options. The best practice is to **prototype** a couple of models, run real tests, and pick the one that strikes the best **balance** between accuracy, interpretability, efficiency, cost, and ethical considerations.
