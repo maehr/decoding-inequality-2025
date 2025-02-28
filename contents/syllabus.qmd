@@ -37,7 +37,7 @@ Weiterführende Literatur:
 
 -   [@long2020]
 
-### Session 3 (7. Mär 2025)
+### [Session 3](/contents/sessions/03.qmd) (7. Mär 2025)
 
 **Collecting Data (Moritz Mähr)**
 
@@ -121,7 +121,7 @@ Leseauftrag:
 
 Weiterführende Literatur:
 
-- [@mueller2025]
+-   [@mueller2025]
 
 ### Session 11 (16. Mai 2025)
 
