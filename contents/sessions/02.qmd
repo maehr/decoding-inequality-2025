@@ -15,12 +15,12 @@ date-modified: last-modified
 
 # TLDR
 
--   Recap Session 1
+-   Recap [Session 1](/contents/sessions/01.qmd)
 -   Überblick ML-Lebenszyklus
 -   Leseauftrag gemeinsam anschauen
 -   Typische Entscheidungen bei der Architekturwahl
 
-## Recap Session 1
+## Recap [Session 1](/contents/sessions/01.qmd)
 
 mündlich
 
