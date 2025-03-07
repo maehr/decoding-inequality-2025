@@ -1,0 +1,81 @@
+---
+title: Session 4
+subtitle: Environmental impact
+author: 
+  - name: Moritz Mähr
+    orcid: 0000-0002-1367-1618
+    email: moritz.maehr@faculty.unibe.ch
+    affiliations:
+      - University of Bern
+      - University of Basel
+    role: author
+date: 2025-03-07
+date-modified: last-modified
+---
+
+# TLDR
+
+- Recap [Session 3](/contents/sessions/03.qmd)
+- Leseauftrag gemeinsam anschauen
+- Datenbegriff klären
+
+## Recap [Session 3](/contents/sessions/03.qmd)
+
+mündlich
+
+## Leseauftrag "Quantifying the Carbon Emissions of Machine Learning"
+
+### **Overview**
+
+The paper discusses the environmental impact of training machine learning (ML) models, emphasizing the factors contributing to carbon emissions. It introduces the *Machine Learning Emissions Calculator* to estimate emissions and offers recommendations for mitigating ML-related carbon footprints.
+
+### **Key Factors Affecting Carbon Emissions**
+
+1. **Energy Source & Location**  
+   - The carbon footprint of ML training varies based on the energy grid used by the cloud server.  
+   - Regions reliant on fossil fuels have significantly higher emissions compared to those powered by renewables.  
+   - Example: CO₂ emissions range from 20g CO₂eq/kWh (Quebec) to 736.6g CO₂eq/kWh (Iowa, USA).
+
+2. **Computing Infrastructure & Training Time**  
+   - ML models require substantial computation, often involving multiple GPUs for extended periods.  
+   - Hardware efficiency matters: newer GPUs and TPUs are more energy-efficient.  
+   - Using pre-trained models and fine-tuning can reduce emissions compared to training from scratch.
+
+### **ML Emissions Calculator**
+
+- Developed to estimate CO₂ emissions based on:
+  - Location of training server  
+  - Type of hardware used  
+  - Training duration  
+- Uses publicly available data to ensure transparency and allow improvements over time.
+
+### **Recommendations for Reducing Carbon Footprint**
+
+1. **Choosing Cloud Providers Wisely**  
+   - Google Cloud, Microsoft Azure, and AWS vary in sustainability efforts.  
+   - Selecting carbon-neutral cloud providers or low-emission data centers can significantly reduce impact.
+
+2. **Selecting Data Center Locations**  
+   - Training in regions with renewable energy can lower emissions up to 40 times compared to fossil-fuel-powered locations.
+
+3. **Reducing Wasted Resources**  
+   - Random search for hyperparameter tuning is more efficient than grid search.  
+   - Avoid unnecessary training experiments through better planning and debugging.
+
+4. **Using Energy-Efficient Hardware**  
+   - TPUs and newer GPUs (e.g., TPU3) have significantly better FLOPS/Watt efficiency compared to CPUs.
+
+### **Discussion & Challenges**
+
+- **Global Load Balancing:** A shift towards low-carbon data centers may still require fossil-fuel-powered backup servers.
+- **Transparency Issues:** Lack of precise data on energy consumption from cloud providers limits accuracy.
+- **Inference Emissions:** While the focus is on training, deploying models also contributes to emissions.
+- **Trade-offs:** Balancing efficiency and scientific progress, especially in AI applications for climate solutions.
+
+### **Conclusion**
+
+The paper highlights the growing energy demands of ML and provides a practical framework to quantify and mitigate its environmental impact. The authors advocate for transparency, efficiency in model training, and sustainable computing choices.
+
+## Was können wir tun?
+
+TBD

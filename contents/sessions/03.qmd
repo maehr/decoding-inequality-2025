@@ -12,13 +12,14 @@ author:
 date: 2025-02-27
 date-modified: last-modified
 ---
+
 # TLDR
 
--   Recap Session 2
+-   Recap [Session 2](/contents/sessions/02.qmd)
 -   Leseauftrag gemeinsam anschauen
 -   Datenbegriff klären
 
-## Recap Session 2
+## Recap [Session 2](/contents/sessions/02.qmd)
 
 mündlich
 
@@ -26,127 +27,134 @@ mündlich
 
 ### **"All Data Are Local" – A Critical Review**
 
-#### **Introduction: Why Data Are Never Neutral**  
+#### **Introduction: Why Data Are Never Neutral**
 
 In *All Data Are Local*, Yanni Alexander Loukissas challenges the common belief that data are **neutral, universal, and objective**. He argues that data are **deeply embedded in local, historical, and institutional conditions**, making it impossible to separate them from their context. Instead of treating **data sets** as isolated and self-contained, he urges readers to examine **data settings**—the environments in which data are produced, organized, and used.
 
----
+------------------------------------------------------------------------
 
 #### **📌 Key Themes & Arguments**
 
 ##### **1. The Locality of Data: Four Case Studies**
+
 Loukissas introduces four examples to illustrate how data are shaped by their origins:
 
-- **Harvard’s Arnold Arboretum:** A data record for a cherry tree mistakenly attributes its collection to a botanist who had died years earlier, highlighting inconsistencies in institutional data.
-- **Digital Public Library of America (DPLA):** Different institutions contribute metadata in varying formats, causing classification inconsistencies.
-- **NewsScape (TV News Archive):** Data are inseparable from the **algorithms that process them**, shaping what information is surfaced or obscured.
-- **Zillow (Real Estate Data):** Zillow provides transparency in the housing market, yet **masks structural inequalities**.
+-   **Harvard’s Arnold Arboretum:** A data record for a cherry tree mistakenly attributes its collection to a botanist who had died years earlier, highlighting inconsistencies in institutional data.
+-   **Digital Public Library of America (DPLA):** Different institutions contribute metadata in varying formats, causing classification inconsistencies.
+-   **NewsScape (TV News Archive):** Data are inseparable from the **algorithms that process them**, shaping what information is surfaced or obscured.
+-   **Zillow (Real Estate Data):** Zillow provides transparency in the housing market, yet **masks structural inequalities**.
 
 ##### **2. The Problem with Data as "Sets"**
-- The term *data set* implies that data are **complete, standardized, and universally applicable**, which is misleading.  
-- Instead, **data settings** acknowledge the **social, institutional, and technological environments** that shape data collection and interpretation.  
-- Understanding the **context of data creation** is essential to prevent misinterpretation.
+
+-   The term *data set* implies that data are **complete, standardized, and universally applicable**, which is misleading.\
+-   Instead, **data settings** acknowledge the **social, institutional, and technological environments** that shape data collection and interpretation.\
+-   Understanding the **context of data creation** is essential to prevent misinterpretation.
 
 ##### **3. The Rise of Data Skepticism**
-- In the early 2010s, skepticism toward **data neutrality** increased, with concerns about:
-  - **Algorithmic bias** (e.g., Google’s search algorithms reinforcing stereotypes).
-  - **Misinformation & manipulation** (e.g., the role of fake news in the 2016 U.S. election).
-  - **P-Hacking in academic research**, where scientists manipulate statistical analyses for misleadingly significant results.
+
+-   In the early 2010s, skepticism toward **data neutrality** increased, with concerns about:
+    -   **Algorithmic bias** (e.g., Google’s search algorithms reinforcing stereotypes).
+    -   **Misinformation & manipulation** (e.g., the role of fake news in the 2016 U.S. election).
+    -   **P-Hacking in academic research**, where scientists manipulate statistical analyses for misleadingly significant results.
 
 ##### **4. From Data Collection to Critical Data Practices**
-- Identifying bias isn’t enough—we must **change how we engage with data**.
-- Recognizing **locality in data** allows for **mitigation of biases, context-aware findings, and ethical use**.
-- Loukissas advocates for a **reflexive, comparative, and critical approach** to data work.
+
+-   Identifying bias isn’t enough—we must **change how we engage with data**.
+-   Recognizing **locality in data** allows for **mitigation of biases, context-aware findings, and ethical use**.
+-   Loukissas advocates for a **reflexive, comparative, and critical approach** to data work.
 
 ##### **5. Case Studies as a Framework for Critical Thinking**
-Each chapter explores **six core principles** through real-world examples:
-- Data are **attached to places** (**Arnold Arboretum**).
-- Data come from **heterogeneous sources** (**DPLA**).
-- Data and **algorithms are intertwined** (**NewsScape**).
-- **Interfaces shape data perception** (**Zillow**).
-- Later chapters offer **practical guidelines for ethical data use**.
+
+Each chapter explores **six core principles** through real-world examples: - Data are **attached to places** (**Arnold Arboretum**). - Data come from **heterogeneous sources** (**DPLA**). - Data and **algorithms are intertwined** (**NewsScape**). - **Interfaces shape data perception** (**Zillow**). - Later chapters offer **practical guidelines for ethical data use**.
 
 ##### **6. Resisting Digital Universalism**
-- The **myth of digital universalism** assumes that technology transcends place and context.
-- This belief, rooted in **Silicon Valley ideology**, ignores **the cultural, economic, and political power structures** embedded in data systems.
-- Loukissas calls for **resisting universalism** by **acknowledging the locality of data**, ensuring it remains **accountable to its origins and impacts**.
 
----
+-   The **myth of digital universalism** assumes that technology transcends place and context.
+-   This belief, rooted in **Silicon Valley ideology**, ignores **the cultural, economic, and political power structures** embedded in data systems.
+-   Loukissas calls for **resisting universalism** by **acknowledging the locality of data**, ensuring it remains **accountable to its origins and impacts**.
+
+------------------------------------------------------------------------
 
 #### **🗂 Summary of Chapter 3: "Collecting Infrastructures"**
+
 ##### **How Data Infrastructures Shape Knowledge**
+
 This chapter explores **data infrastructures**, particularly the **DPLA**, and questions whether data can truly be separated from their **local origins**.
 
 ##### **📌 Key Insights:**
-- **Data Standardization vs. Context Loss:**  
-  - The DPLA standardizes data across institutions, but this often **erases unique local contexts**.
-  - Its **MAP (Metadata Application Profile)** forces diverse data sources into a rigid structure.
 
-- **The Role of Locality in Data:**  
-  - Institutions classify data differently (e.g., the term *Upstate* means different things in different regions).
-  - **Historical bias**: Some institutions categorize race inconsistently or exclude certain demographics.
+-   **Data Standardization vs. Context Loss:**
+    -   The DPLA standardizes data across institutions, but this often **erases unique local contexts**.
+    -   Its **MAP (Metadata Application Profile)** forces diverse data sources into a rigid structure.
+-   **The Role of Locality in Data:**
+    -   Institutions classify data differently (e.g., the term *Upstate* means different things in different regions).
+    -   **Historical bias**: Some institutions categorize race inconsistently or exclude certain demographics.
+-   **Data Visualization as a Critical Tool:**
+    -   The **Library Observatory** uses a tree-map visualization to show **how different institutions contribute to the DPLA**.
+    -   The **Temporalities Project** highlights inconsistencies in **date formatting** across data sources.
+-   **The Influence of Vannevar Bush’s Memex:**
+    -   Bush’s 1945 vision of a **universal digital archive** influences modern data infrastructures.
+    -   Loukissas critiques this ambition, arguing that **knowledge cannot be divorced from its social and institutional context**.
+-   **The Political & Ethical Stakes of Data Infrastructures:**
+    -   Large, well-funded institutions like **Smithsonian or Getty** dominate data collection, reinforcing **power imbalances**.
+    -   Loukissas calls for **counterdata infrastructures** that challenge dominant narratives and promote **inclusive histories**.
 
-- **Data Visualization as a Critical Tool:**  
-  - The **Library Observatory** uses a tree-map visualization to show **how different institutions contribute to the DPLA**.
-  - The **Temporalities Project** highlights inconsistencies in **date formatting** across data sources.
-
-- **The Influence of Vannevar Bush’s Memex:**  
-  - Bush’s 1945 vision of a **universal digital archive** influences modern data infrastructures.
-  - Loukissas critiques this ambition, arguing that **knowledge cannot be divorced from its social and institutional context**.
-
-- **The Political & Ethical Stakes of Data Infrastructures:**  
-  - Large, well-funded institutions like **Smithsonian or Getty** dominate data collection, reinforcing **power imbalances**.
-  - Loukissas calls for **counterdata infrastructures** that challenge dominant narratives and promote **inclusive histories**.
-
----
+------------------------------------------------------------------------
 
 #### **🗂 Summary of Chapter 7: "Beyond Data Sets"**
+
 ##### **Why Open Data Isn’t Enough**
+
 Loukissas argues that **data accessibility does not guarantee understanding**. Instead of simply providing **open data**, we need **contextualized guides** that explain their origins and limitations.
 
 ##### **📌 Rethinking the Goals of Data Work**
+
 Loukissas contrasts **traditional data objectives** with **alternative, locally grounded goals**:
 
 | **Traditional Goals** | **Local Alternatives** | **Explanation** |
-|-----------------|----------------|----------------|
+|-------------------------|------------------------|------------------------|
 | **Orientation** | **Place-Making** | Data should not just help users navigate but also reveal the institutions behind them (e.g., Arnold Arboretum). |
 | **Access** | **Restraint** | Open data can be misleading if context is missing (e.g., misinterpretations of the 2016 U.S. election polls). |
 | **Analysis** | **Reflexivity** | Algorithms are **not neutral**—we must critically engage with them (e.g., Google’s biased autocomplete). |
 | **Optimization** | **Contestation** | Data-driven decisions often ignore competing interests (e.g., Zillow optimizing the housing market while hiding its inequalities). |
 
----
+------------------------------------------------------------------------
 
 ##### **📌 A Five-Step Approach to Critical Data Practices**
+
 Loukissas proposes a **methodology for engaging with data critically**:
 
-1. **Read:** Examine the dataset for inconsistencies or unusual features.  
-2. **Inquire:** Consult **experts, data collectors, or subjects** to understand the dataset’s background.  
-3. **Represent:** Use **visualizations** to highlight patterns and biases.  
-4. **Unfold:** Investigate **how data are collected, processed, and normalized**.  
-5. **Contextualize:** Analyze **who uses the data and what ethical concerns arise**.
+1.  **Read:** Examine the dataset for inconsistencies or unusual features.\
+2.  **Inquire:** Consult **experts, data collectors, or subjects** to understand the dataset’s background.\
+3.  **Represent:** Use **visualizations** to highlight patterns and biases.\
+4.  **Unfold:** Investigate **how data are collected, processed, and normalized**.\
+5.  **Contextualize:** Analyze **who uses the data and what ethical concerns arise**.
 
 This approach treats **data as an ethnographic inquiry**, emphasizing **critical engagement rather than passive consumption**.
 
----
+------------------------------------------------------------------------
 
 #### **🔍 Conclusion: Data as a Social & Ethical Responsibility**
+
 Loukissas closes with a **call to action**: **we must change how we engage with data**. Instead of treating data as **abstract, portable facts**, we should see them as **points of contact between people, institutions, and power structures**.
 
 He warns against **digital universalism**, arguing that data should be **understood within their specific historical, institutional, and social contexts**. Instead of prioritizing **optimization and efficiency**, we should focus on **social justice, accountability, and transparency**.
 
----
+------------------------------------------------------------------------
 
 #### **💡 Final Takeaway**
-> **"Do not mistake the availability of data as permission to remain at a distance."**  
+
+> **"Do not mistake the availability of data as permission to remain at a distance."**
 
 Loukissas urges us to **engage with data deeply, ethically, and contextually**—not just as raw information but as a **socially embedded artifact** requiring care and responsibility.
 
----
+------------------------------------------------------------------------
 
 #### **💬 Discussion Questions**
-- How do **data infrastructures** reinforce **social inequalities**?  
-- What would **ethical open-data policies** look like in practice?  
-- Is it possible to create **truly neutral datasets**, or is all data inherently biased?  
+
+-   How do **data infrastructures** reinforce **social inequalities**?\
+-   What would **ethical open-data policies** look like in practice?\
+-   Is it possible to create **truly neutral datasets**, or is all data inherently biased?
 
 ## Was sind Daten?
 
