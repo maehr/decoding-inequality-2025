@@ -45,7 +45,7 @@ Leseauftrag:
 
 -   Kapitel 3 aus [@loukissas2019]
 
-### Session 4 (14. Mär 2025)
+### [Session 4](/contents/sessions/04.qmd) (14. Mär 2025)
 
 **Training (Moritz Mähr): Environmental impact of training AI**
 
