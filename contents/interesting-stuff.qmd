@@ -23,6 +23,12 @@ listing:
         author: "[Moritz Mähr](https://github.com/maehr)"
         date: 2024-11-21
         categories: [podcast]
+    -   title: "Winterkongress 2025"
+        path: https://media.ccc.de/c/dgwk2025
+        description: "Der Winterkongress ist die wichtigste Veranstaltung für digitale Freiheitsrechte in der Schweiz. Sie ist nicht-kommerziell und wird von und für die Community veranstaltet. Zu dieser zählen sich auch Mitglieder von Behörden, der Wissenschaft, der Politik und Medienschaffende, die sich am Winterkongress mit der interessierten Öffentlichkeit austauschen. Die Veranstaltung soll zum Engagement veranlassen."
+        author: "[Moritz Mähr](https://github.com/maehr)"
+        date: 2025-03-20
+        categories: [recording]
   sort: "date desc"
   sort-ui: [title, author, date, categories]
   filter-ui: [description]
