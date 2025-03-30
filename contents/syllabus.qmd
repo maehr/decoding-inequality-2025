@@ -99,6 +99,7 @@ Leseauftrag:
 Weiterführende Literatur:
 
 -   [@chiang2023]
+-   [@andrejkarpathy2025]
 
 ### Session 9 (2. Mai 2025)
 
