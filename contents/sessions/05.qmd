@@ -1,0 +1,82 @@
+---
+title: Session 5
+subtitle: KI und Recruiting
+authors: 
+  - name: Rachel Huber
+    orcid: 0000-0002-6022-5354
+    email: rachel.huber@faculty.unibe.ch
+    affiliations:
+      - University of Bern
+      - Koordinationsstelle Teilhabe (Kanton Zürich)
+date: 2025-03-21
+date-modified: last-modified
+---
+
+**Lernziele:**
+
+1.     Entwicklung und Herausforderungen von Rekrutierungsalgorithmen​
+
+2.     Die Studierenden sollen verstehen, wie Rekrutierungsalgorithmen entwickelt werden,
+
+3.     Die Studierenden sollen verstehen, wie sie zu ihren Ergebnissen gelangen, warum sie diskriminieren können und weshalb algorithmische Diskriminierung problematischer sein kann als menschliche Diskriminierung.​
+
+**Gliederung der Unterrichtseinheit:**
+
+**Teil 1: Entwicklung und Funktionsweise von Rekrutierungsalgorithmen (45 Minuten)**
+
+1.     **Einführung in Rekrutierungsalgorithmen (15 Minuten)**
+
+1.1.   Definition und Überblick über den Einsatz von KI im Personalwesen.​
+
+1.2.   Vorteile der Automatisierung im Rekrutierungsprozess, wie Effizienzsteigerung und Bearbeitung großer Bewerberzahlen.​
+
+2.     **Technische Grundlagen (20 Minuten)**
+
+2.1.   Datenquellen und Trainingsdaten: Wie Algorithmen mit historischen Bewerberdaten trainiert werden.​
+
+2.2.   Merkmalsauswahl und -gewichtung: Welche Kriterien der Algorithmus zur Bewertung von Kandidaten heranzieht.​
+
+2.3.   Entscheidungsfindung: Wie der Algorithmus Bewerber einstuft und Empfehlungen ausspricht.​
+
+3.     **Fallbeispiel 1: Amazon's Rekrutierungsalgorithmus (10 Minuten)**
+
+3.1.   Beschreibung des Falls: Amazon entwickelte einen KI-basierten Rekrutierungsalgorithmus, der männliche Bewerber bevorzugte.​[SpringerLink+1Reuters+1](https://link.springer.com/article/10.1007/s13347-022-00543-1?utm_source=chatgpt.com)
+
+3.2.   Analyse der Ursachen: Der Algorithmus wurde mit historischen Daten trainiert, die eine männliche Dominanz widerspiegelten, was zur Diskriminierung weiblicher Bewerber führte.​
+
+3.3.   Diskussion der Konsequenzen und der Entscheidung, das Projekt einzustellen.​
+
+**Teil 2: Diskriminierungspotenzial von Rekrutierungsalgorithmen und Vergleich zur menschlichen Diskriminierung (45 Minuten)**
+
+1.     **Ursachen algorithmischer Diskriminierung (15 Minuten)**
+
+1.1.   Verzerrte Trainingsdaten: Wie historische Vorurteile in Daten zu diskriminierenden Ergebnissen führen können.​
+
+1.2.   Fehlerhafte Merkmalsauswahl: Wenn der Algorithmus irrelevante oder proxybasierte Merkmale verwendet, die zu indirekter Diskriminierung führen.​
+
+2.     **Vergleich: Algorithmische vs. menschliche Diskriminierung (15 Minuten)**
+
+2.1.   Skalierbarkeit: Algorithmen können Diskriminierung systematisch und in großem Umfang reproduzieren.​
+
+2.2.   Transparenz: Entscheidungen von Algorithmen sind oft weniger nachvollziehbar als menschliche Entscheidungen.​
+
+2.3.   Verantwortlichkeit: Schwierigkeiten bei der Zuweisung von Verantwortung für diskriminierende algorithmische Entscheidungen.​
+
+3.     **Fallbeispiel 2: Facebooks Jobanzeige-Algorithmus (10 Minuten)**
+
+3.1.   Beschreibung des Falls: Ein Audit zeigte, dass Facebooks Algorithmus Jobanzeigen basierend auf Geschlecht unterschiedlich ausspielte, was zu geschlechtsspezifischer Diskriminierung führte.​
+
+3.2.   Analyse der Ursachen: Der Algorithmus optimierte Anzeigenplatzierungen basierend auf Nutzerinteraktionen, was bestehende Geschlechterstereotypen verstärkte.​
+
+3.3.   Diskussion der ethischen Implikationen und möglicher Gegenmaßnahmen.​
+
+4.     **Diskussionsfragen für Gruppendiskussion (5 Minuten)**
+
+4.1.   Inwiefern können Versuche, Geschlecht und Ethnie aus Rekrutierungsalgorithmen zu entfernen, zu neuen Formen der Diskriminierung führen?​
+
+4.2.   Wie können Organisationen sicherstellen, dass der Einsatz von KI im Rekrutierungsprozess nicht bestehende Ungleichheiten verstärkt, sondern zu mehr Fairness beiträgt?​
+
+**Vorbereitende Lektüre:**
+
+-   [@chen2023]
+-   [@drage2022]
