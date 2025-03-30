@@ -53,7 +53,7 @@ Leseauftrag:
 
 -   [@lacoste2019]
 
-### Session 5 (21. Mär 2025)
+### [Session 5](/contents/sessions/05.qmd) (21. Mär 2025)
 
 **Application (Recruiting) (Rachel Huber)**
 
@@ -62,7 +62,7 @@ Leseauftrag:
 -   [@chen2023]
 -   [@drage2022]
 
-### Session 6 (28. Mär 2025)
+### [Session 6](/contents/sessions/06.qmd) (28. Mär 2025)
 
 **Application (CCTV/Facial Recognition) (Rachel Huber)**
 
@@ -99,6 +99,7 @@ Leseauftrag:
 Weiterführende Literatur:
 
 -   [@chiang2023]
+-   [@andrejkarpathy2025]
 
 ### Session 9 (2. Mai 2025)
 
