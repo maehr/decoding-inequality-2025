@@ -1,6 +1,6 @@
 ---
-title: Session 4
-subtitle: Environmental impact
+title: Session 8
+subtitle: Application (ChatGPT)
 author: 
   - name: Moritz Mähr
     orcid: 0000-0002-1367-1618
@@ -9,7 +9,7 @@ author:
       - University of Bern
       - University of Basel
     role: author
-date: 2025-03-07
+date: 2025-04-11
 date-modified: last-modified
 ---
 
