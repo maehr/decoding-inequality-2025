@@ -29,11 +29,20 @@ listing:
         author: "[Moritz Mähr](https://github.com/maehr)"
         date: 2025-03-20
         categories: [recording]
+    -   title: "FineWeb: Decanting the Web for the Finest Text Data at Scale"
+        path: https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1
+        description: "The performance of a large language model (LLM) depends heavily on the quality and size of its pretraining dataset. This blog post explores the challenges of creating pretraining datasets for state-of-the-art open LLMs like Llama 3 and Mixtral, whose datasets are not publicly available."
+        author: "[Moritz Mähr](https://github.com/maehr)"
+        date: 2025-04-01
+        categories: [paper]
   sort: "date desc"
   sort-ui: [title, author, date, categories]
   filter-ui: [description]
   type: grid
   page-size: 36
+format:
+  html:
+    link-external-icon: false
 ---
 
 # Interessante Links
