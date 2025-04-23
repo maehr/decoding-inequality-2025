@@ -78,7 +78,7 @@ Weiterführende Literatur:
 
 -   [@2017c]
 
-### Session 7 (4. Apr 2025)
+### [Session 7](/contents/sessions/07.qmd) (4. Apr 2025)
 
 **Application (Predictive Policing/Migrationsalgo CH …) (Rachel Huber)**
 
@@ -105,7 +105,7 @@ Weiterführende Literatur:
 -   [@chiang2023]
 -   [@andrejkarpathy2025]
 
-### Session 9 (2. Mai 2025)
+### [Session 9](/contents/sessions/09.qmd) (2. Mai 2025)
 
 **Evaluation and Monitoring (Moritz Mähr)**
 

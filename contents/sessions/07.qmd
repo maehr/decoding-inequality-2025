@@ -1,0 +1,81 @@
+---
+title: Session 6
+subtitle: KI im Justiz-, Polizei-, und Migrationswesen
+authors: 
+  - name: Rachel Huber
+    orcid: 0000-0002-6022-5354
+    email: rachel.huber@faculty.unibe.ch
+    affiliations:
+      - University of Bern
+      - Koordinationsstelle Teilhabe (Kanton Zürich)
+date: 2025-04-23
+date-modified: last-modified
+---
+
+**Einführung: «Machine Bias. There’s software used across the country to predict future criminals. And it’s biased against blacks.» (15 Min.)**
+
+1.  Vorstellung des Falls: ProPublica-Untersuchung zu COMPAS, einem Algorithmus zur Risikobewertung von Straftätern.
+2.  Problem: Schwarze Personen wurden fälschlicherweise häufiger als Hochrisiko eingestuft als weiße Personen.
+3.  Diskussion: Erste Reaktionen der Studierenden auf den Fall.
+
+**Teil 1: Diskriminierungsrisiken in prädiktiven Algorithmen (30 Min.)**
+
+**A. Gruppenarbeit (15 Min.)**
+
+1.     Studierende analysieren in Kleingruppen: Warum generiert COMPAS rassistische Ergebnisse?
+
+1.1.   **Datenprobleme:** Verzerrte Trainingsdaten aus einem diskriminierenden Justizsystem.
+
+1.2.   **Intransparenz:** Proprietäre Algorithmen verhindern Nachvollziehbarkeit.
+
+1.3.   **Fehlende Kontextualisierung:** Sozialstrukturelle Faktoren werden ignoriert.
+
+**B. Plenumsdiskussion (15 Min.)**
+
+1.     Ergebnisse der Gruppen werden vorgestellt und diskutiert.
+
+2.     Bezug zu Predictive Policing: Ähnliche Probleme in der polizeilichen Risikoanalyse?
+
+3.     Regulierungsansätze: Wie könnte man algorithmische Voreingenommenheit verhindern?
+
+**Teil 2: KI im Migrationswesen – Der Schweizer Algorithmus (45 Min.)**
+
+**A. Nutzen und positive Aspekte (20 Min.)**
+
+1.     Fallstudie: Algorithmus zur Arbeitsmarktintegration von Flüchtenden (ETH Zürich, Bansak et al. 2018).
+
+2.     Wie funktioniert der Algorithmus? Datenbasierte Zuweisung von Geflüchteten zu Kantonen mit hohen Integrationschancen.
+
+3.     Vorteile:
+
+3.1.   **Effizienzsteigerung:** Schnellere Integration in den Arbeitsmarkt.
+
+3.2.   **Datenbasierte Politik:** Optimierung der Ressourcenallokation.
+
+3.3.   **Positive empirische Ergebnisse:** Studie zeigt signifikante Verbesserungen.
+
+**B. Kritische Reflexion und Herausforderungen (25 Min.)**
+
+1.     Gruppenarbeit (10 Min.): Studierende erarbeiten potenzielle Risiken:
+
+1.1.   **Diskriminierungspotenzial:** Welche Daten werden genutzt, und sind sie neutral?
+
+1.2.   **Fehlende Wahlfreiheit:** Algorithmische Zuweisung vs. individuelle Präferenzen.
+
+1.3.   **Transparenz & Kontrolle:** Wer entscheidet über die Kriterien?
+
+2.     Gemeinsame Diskussion (15 Min.): Welche ethischen und rechtlichen Rahmenbedingungen braucht es?
+
+**Abschlussdiskussion & Fazit (10 Min.)**
+
+1.     Vergleich: Justiz- vs. Migrationsalgorithmen – unterschiedliche Kontexte, ähnliche Risiken?
+
+2.     Welche Maßnahmen könnten faire KI-Systeme fördern?
+
+3.     Offene Fragen für zukünftige Forschung und Politik.
+
+**Vorbereitete Literatur:**
+
+-   Lauren Kirchner Mattu Jeff Larson, «Machine Bias» (ProPublica), zugegriffen 25. November 2024, <https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing>.
+-   «Jobs für Flüchtlinge - Algorithmus verteilt neu Asylbewerber auf Kantone» (Schweizer Radio und Fernsehen (SRF), 10. Mai 2018), <https://www.srf.ch/news/schweiz/jobs-fuer-fluechtlinge-algorithmus-verteilt-neu-asylbewerber-auf-kantone>.
+-   «Algorithmus verbessert Erwerbschancen von Flüchtlingen» (ETH Zürich, 18. Januar 2018), <https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2018/01/algorithmus-verbessert-erwerbschancen-von-fluechtlingen.html>.
