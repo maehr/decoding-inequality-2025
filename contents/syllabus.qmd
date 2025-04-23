@@ -78,7 +78,7 @@ Weiterführende Literatur:
 
 -   [@2017c]
 
-### Session 7 (4. Apr 2025)
+### [Session 7](/contents/sessions/07.qmd) (4. Apr 2025)
 
 **Application (Predictive Policing/Migrationsalgo CH …) (Rachel Huber)**
 
@@ -157,21 +157,21 @@ Ein **Blogbeitrag** ist ein (wahlweise) online veröffentlichter, schriftlicher 
 
 Ein **Poster** ist ein wissenschaftliches Plakat, auf dem ein Thema visuell ansprechend und in prägnanter Kürze dargestellt wird ([Wissenschaftliches Poster: Tipps + Beispiel](https://www.scribbr.de/category/wissenschaftliches-poster/)). Auf dem Poster fassen Sie die wichtigsten Erkenntnisse oder Kernideen Ihres gewählten Themas so zusammen, dass sie auf einen Blick erfassbar sind. Ein gutes Poster enthält insbesondere die folgenden Elemente (in gekürzter Form):
 
--   **Titel und Einführung:** Ein prägnanter Titel sowie eine kurze Einführung ins Thema (Fragestellung und Kontext).
--   **Methode und Ergebnisse:** Die Darstellung des Vorgehens bzw. der Methode und die zentralen Ergebnisse (unterstützt durch Grafiken oder Abbildungen).
--   **Fazit und Quellen:** Ein Schlussfazit (ggf. mit Ausblick) sowie die Angabe der wichtigsten Quellen.
+- **Titel und Einführung:** Ein prägnanter Titel sowie eine kurze Einführung ins Thema (Fragestellung und Kontext).
+- **Methode und Ergebnisse:** Die Darstellung des Vorgehens bzw. der Methode und die zentralen Ergebnisse (unterstützt durch Grafiken oder Abbildungen).
+- **Fazit und Quellen:** Ein Schlussfazit (ggf. mit Ausblick) sowie die Angabe der wichtigsten Quellen.
 
 Diese Inhalte sollten klar strukturiert und optisch übersichtlich präsentiert werden. Das Poster wird idealerweise im Grossformat (z. B. A0) erstellt, damit Text und Abbildungen auch aus einiger Entfernung gut lesbar sind. In der Regel präsentieren Sie Ihr Poster auch mündlich im Kurs, daher lohnt es sich, das Poster übersichtlich zu gestalten und sich auf mögliche Nachfragen vorzubereiten.
 
 ### Vortrag
 
-Ein **Vortrag** ist eine mündliche Präsentation eines Kursthemas vor Publikum im Kurs, typischerweise von 10 bis 15 Minuten Dauer, in der Sie das gewählte Thema in eigenen Worten erklären und die Zuhörenden mit einem klar strukturierten Aufbau – Einleitung, Hauptteil, Schluss – durch die wichtigsten Punkte führen ([Präsentation im Studium halten - So klappt's! \| Studieren.at](https://www.studieren.at/pruefungsvorbereitung/praesentation-halten/). Ein guter Vortrag folgt einem roten Faden und bereitet die Inhalte verständlich für das Publikum auf. Achten Sie dabei auf eine deutliche, nicht zu schnelle Aussprache und halten Sie Blickkontakt mit den Zuhörenden. Visuelle Hilfsmittel (z. B. Folien) sollten übersichtlich gestaltet sein und nur zur Unterstützung dienen – lesen Sie also nicht einfach Ihren Text ab. Rechnen Sie ausserdem mit Fragen im Anschluss und seien Sie bereit, diese kompetent zu beantworten.
+Ein **Vortrag** ist eine mündliche Präsentation eines Kursthemas vor Publikum im Kurs, typischerweise von 10 bis 15 Minuten Dauer, in der Sie das gewählte Thema in eigenen Worten erklären und die Zuhörenden mit einem klar strukturierten Aufbau – Einleitung, Hauptteil, Schluss – durch die wichtigsten Punkte führen ([Präsentation im Studium halten - So klappt's! | Studieren.at](https://www.studieren.at/pruefungsvorbereitung/praesentation-halten/). Ein guter Vortrag folgt einem roten Faden und bereitet die Inhalte verständlich für das Publikum auf. Achten Sie dabei auf eine deutliche, nicht zu schnelle Aussprache und halten Sie Blickkontakt mit den Zuhörenden. Visuelle Hilfsmittel (z. B. Folien) sollten übersichtlich gestaltet sein und nur zur Unterstützung dienen – lesen Sie also nicht einfach Ihren Text ab. Rechnen Sie ausserdem mit Fragen im Anschluss und seien Sie bereit, diese kompetent zu beantworten.
 
 ### Hilfreiche Ressourcen
 
--   *Wie schreibe ich einen Blogeintrag?* ([Wie schreibe ich einen Blogeintrag? – Korpora zur Analyse von Sprache und Kontext](https://kosko.hypotheses.org/wie-schreibe-ich-einen-blogeintrag)) – Praktische Anleitung zum wissenschaftlichen Bloggen (Uni Basel).
--   *Mein erster wissenschaftlicher Blogartikel – was schreibe ich bloß?* ([Mein erster wissenschaftlicher Blogartikel – was schreibe ich bloß? – Redaktionsblog](https://redaktionsblog.hypotheses.org/1214)) – Erfahrungsbericht und Tipps für den ersten Blogpost (Sabine Scherz, Redaktionsblog).
--   *Essay Einleitung: Grundlagen, Tipps & Expertenhilfe* ([Essay Einleitung: Grundlagen, Tipps & Expertenhilfe von StudiBucht.](https://studibucht.de/blog/essay-einleitung)) – Hinweise zum Aufbau einer guten Einführung (Struktur, fesselnder Einstieg), übertragbar auch auf andere Formate.
+- *Wie schreibe ich einen Blogeintrag?* ([Wie schreibe ich einen Blogeintrag? – Korpora zur Analyse von Sprache und Kontext](https://kosko.hypotheses.org/wie-schreibe-ich-einen-blogeintrag)) – Praktische Anleitung zum wissenschaftlichen Bloggen (Uni Basel).
+- *Mein erster wissenschaftlicher Blogartikel – was schreibe ich bloß?* ([Mein erster wissenschaftlicher Blogartikel – was schreibe ich bloß? – Redaktionsblog](https://redaktionsblog.hypotheses.org/1214)) – Erfahrungsbericht und Tipps für den ersten Blogpost (Sabine Scherz, Redaktionsblog).
+- *Essay Einleitung: Grundlagen, Tipps & Expertenhilfe* ([Essay Einleitung: Grundlagen, Tipps & Expertenhilfe von StudiBucht.](https://studibucht.de/blog/essay-einleitung)) – Hinweise zum Aufbau einer guten Einführung (Struktur, fesselnder Einstieg), übertragbar auch auf andere Formate.
 
 ## Literatur
 
