@@ -23,8 +23,6 @@ date-modified: last-modified
 
 mündlich
 
-Here is a revised and consistently formatted version of your text, aligning structure, tone, and formatting across both summaries:
-
 ## **Summary of "Stable Bias: Evaluating Societal Representations in Diffusion Models"**
 
 This study proposes a novel framework for evaluating social biases—particularly gender and ethnicity—in Text-to-Image (TTI) systems, including DALL·E 2 and Stable Diffusion (v1.4 and v2). A central challenge is that synthetic images lack inherent social identity, making conventional bias assessment difficult. The authors address this through a structured, two-part evaluation approach:
