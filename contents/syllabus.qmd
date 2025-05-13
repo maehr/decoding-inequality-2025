@@ -116,7 +116,7 @@ Leseauftrag:
 -   [@luccioni2023]
 -   [@mehrabi2021]
 
-### Session 10 (9. Mai 2025)
+### [Session 10](/contents/sessions/10.qmd) (9. Mai 2025)
 
 **Governance and Regulation (Rachel Huber)**
 
