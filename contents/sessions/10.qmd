@@ -1,0 +1,99 @@
+---
+title: Session 10
+subtitle: KI-Regulierung und Governance
+authors: 
+  - name: Rachel Huber
+    orcid: 0000-0002-6022-5354
+    email: rachel.huber@faculty.unibe.ch
+    affiliations:
+      - University of Bern
+      - Koordinationsstelle Teilhabe (Kanton Zürich)
+date: 2025-05-09
+date-modified: last-modified
+---
+
+**Lernziele:**
+
+1.  Grundverständnis der KI-Governance entwickeln
+2.  Die Notwendigkeit und Herausforderungen einer umfassenden KI-Regulierung erklären können
+3.  Die zentralen Risiken unregulierter KI-Systeme reflektieren.
+4.  Den EU AI Act kritisch analysieren können
+5.  Die vier Risikokategorien des EU AI Acts verstehen und anwenden können.
+6.  Anhand konkreter Fallbeispiele Stärken und Schwächen des Gesetzes bewerten.
+7.  Den EU-Ansatz mit den Regulierungsmodellen der Niederlande und des UK vergleichen.
+8.  Die Schweizer Position zur KI-Regulierung einordnen
+9.  Die aktuelle Haltung des Bundesrats zur KI-Regulierung kennen.
+10. Die bestehenden rechtlichen Rahmenbedingungen (z. B. Datenschutzgesetz) erläutern.
+11. Den Unterschied zwischen der Schweizer und der EU-Regulierung kritisch hinterfragen.
+12. Theoretische und normative Perspektiven auf KI-Governance reflektieren
+
+**Einführung: Warum braucht es eine umfassende KI-Governance? (45 Minuten)**
+
+1.     Definition von KI-Governance: Regeln, Normen und Institutionen zur Regulierung von KI-Systemen.
+
+2.     Herausforderungen: Bias, Transparenz, Verantwortung, gesellschaftliche Auswirkungen.
+
+3.     Diskussion mit Studierenden: Welche Risiken seht ihr bei unregulierter KI?
+
+**Teil 1: Der EU AI Act – Chancen und Grenzen**
+
+**A. Überblick über den EU AI Act (25 Minuten)**
+
+1.     Ziel: Risikobasierte Regulierung von KI.
+
+2.     Vier Risikokategorien: Unzulässig, Hochrisiko, Begrenztes Risiko, Minimales Risiko.
+
+3.     Diskussion der aktuellen Entwicklungen (basierend auf artificialintelligenceact.eu).
+
+**B. Fallbeispiele zu jeder Risikokategorie (5 Minuten)**
+
+1.     **Unzulässige KI:** Biometrische Massenüberwachung – Warum ist sie verboten?
+
+2.     **Hochrisiko-KI:** Automatisierte Kreditwürdigkeitsprüfungen – Chancen & Gefahren.
+
+3.     **Begrenztes Risiko:** KI-gestützte Chatbots – Anforderungen an Transparenz.
+
+4.     **Minimales Risiko:** Empfehlungssysteme in sozialen Medien – freiwillige Standards.
+
+**C. Vergleichende Betrachtung: Niederlande und UK (15 Minuten)**
+
+1.     **Niederlande:** Fokus auf menschenzentrierte KI, Algorithmenregister.
+
+2.     **UK:** Leichtgewichtiges, auf Prinzipien basierendes Framework.
+
+3.     Diskussion: Unterschiede und mögliche Lehren für die EU.
+
+**Teil 2: KI-Governance in der Schweiz (Stand: März 2025) (45 Minuten)**
+
+**A. Politische Position des Bundesrats (15 Minuten)**
+
+1.     Aktuelle Haltung zur KI-Regulierung.
+
+2.     Unterschiede zur EU-Politik: Warum setzt die Schweiz auf einen anderen Ansatz?
+
+3.     Quelle und Diskussion: AlgorithmWatch-Analyse zur Schweizer KI-Politik.
+
+**B. Bestehende Rahmenbedingungen (15)**
+
+1.     Datenschutzgesetz (DSG) und seine Relevanz für KI.
+
+2.     Selbstregulierungsinitiativen und freiwillige Standards.
+
+3.     Abdeckung durch bestehende Gesetze vs. Bedarf für neue Regulierung.
+
+**Abschlussdiskussion & Fazit (15 Minuten)**
+
+1.     Vergleich EU – Schweiz – UK/Niederlande: Welche Ansätze sind vielversprechend?
+
+2.     Welche offenen Fragen bestehen in der KI-Governance?
+
+3.     Studierendenperspektiven: Wie sollte KI in der Schweiz reguliert werden?
+
+Leseauftrag:
+
+-   [@zotero-22193]
+-   [@zotero-22194]
+
+Weiterführende Literatur:
+
+-   [@mueller2025]
