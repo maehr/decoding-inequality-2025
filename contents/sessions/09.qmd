@@ -1,0 +1,113 @@
+---
+title: Session 9
+subtitle: Evaluation and Monitoring
+author: 
+  - name: Moritz Mähr
+    orcid: 0000-0002-1367-1618
+    email: moritz.maehr@faculty.unibe.ch
+    affiliations:
+      - University of Bern
+      - University of Basel
+    role: author
+date: 2025-04-23
+date-modified: last-modified
+---
+
+# TLDR
+
+- Recap
+- Leseauftrag gemeinsam anschauen
+- Evaluation and Monitoring diskutieren
+
+## Recap
+
+mündlich
+
+## **Summary of "Stable Bias: Evaluating Societal Representations in Diffusion Models"**
+
+This study proposes a novel framework for evaluating social biases—particularly gender and ethnicity—in Text-to-Image (TTI) systems, including DALL·E 2 and Stable Diffusion (v1.4 and v2). A central challenge is that synthetic images lack inherent social identity, making conventional bias assessment difficult. The authors address this through a structured, two-part evaluation approach:
+
+### **1. Methodology**
+
+- **Prompt Design**: Generated images using structured prompts incorporating gender and ethnicity markers (e.g., “photo portrait of a Black woman at work”) across 146 professions, based on U.S. labor statistics.
+- **Bias Analysis**:
+  - **Text-Based**: Employed image captioning and Visual Question Answering (VQA) models to extract demographic indicators.
+  - **Visual-Based**: Clustered image embeddings to detect representational patterns associated with social identity markers.
+
+### **2. Key Findings**
+
+- All three diffusion models reflect societal labor demographics but consistently underrepresent marginalized groups—particularly women and Black individuals.
+- DALL·E 2 showed the least diversity and most significant under-representation; Stable Diffusion v1.4 was more balanced.
+- Gender-neutral and non-binary representations were nearly absent.
+- Clustering of visual outputs revealed that depictions were disproportionately aligned with stereotypes of White men.
+
+### **3. Contributions**
+
+- Developed interactive tools (Diffusion Bias Explorer, Average Face Comparison, k-NN Explorer) for qualitative and quantitative bias analysis.
+- Released public datasets and low-code toolkits to support reproducibility and further research.
+
+### **4. Limitations**
+
+- Relied on captioning and VQA models that may themselves be biased.
+- Limited access to proprietary models (e.g., DALL·E 2) restricted deeper audits.
+- Focused primarily on U.S.-centric conceptions of race and gender.
+
+### **5. Significance**
+
+The paper offers a scalable framework for auditing societal biases in generative image systems and advocates for multidimensional, culturally-aware model evaluations in future research and deployment.
+
+## **Summary of "A Survey on Bias and Fairness in Machine Learning" by Mehrabi et al. (2021)**
+
+This survey provides a comprehensive synthesis of research on bias and fairness in machine learning (ML), addressing how bias emerges, how fairness is conceptualized, and how both can be mitigated. It frames these issues through a data-algorithm-user feedback loop, categorizing bias accordingly.
+
+### **1. Sources of Bias**
+
+- **Data Bias**: Includes measurement bias, sampling bias, aggregation bias (e.g., Simpson’s Paradox), omitted variable bias, and representation bias.
+- **Algorithmic Bias**: Introduced during model design or optimization, independent of training data quality.
+- **User Bias**: Emerges from user interactions, feedback loops, popularity effects, and interface design.
+
+### **2. Types of Discrimination**
+
+- **Direct Discrimination**: Decisions explicitly use protected attributes (e.g., race, gender).
+- **Indirect Discrimination**: Use of correlated variables (e.g., zip code) that serve as proxies.
+- **Systemic and Statistical Discrimination**: Result from institutional or heuristic biases.
+
+### **3. Fairness Definitions**
+
+- **Group Fairness**: Equalized odds, equal opportunity, demographic parity.
+- **Individual Fairness**: Similar individuals receive similar treatment.
+- **Subgroup Fairness**: Ensures parity across intersectional subgroups.
+- **Counterfactual Fairness**: Outcomes remain invariant under changes to sensitive attributes.
+
+### **4. Mitigation Strategies**
+
+- **Pre-processing**: Modify datasets to remove or minimize bias.
+- **In-processing**: Integrate fairness constraints directly into model training.
+- **Post-processing**: Adjust predictions after model training for fairness.
+
+### **5. Applications and Domains**
+
+- **NLP**: Debiasing word embeddings and language models.
+- **Computer Vision**: Fair face recognition and demographic representation.
+- **Healthcare**: Risks due to underrepresentation in clinical and genomic datasets.
+- **Social Networks**: Addressing bias in community detection and graph algorithms.
+- **Causal Inference**: Use of causal graphs to detect and mitigate discrimination.
+
+### **6. Fair Representation Learning**
+
+- Techniques include adversarial learning, variational autoencoders, and disentangled representation learning aimed at isolating or suppressing sensitive attributes.
+
+### **7. Tools and Resources**
+
+- Toolkits like **AIF360** and **Aequitas** provide standardized metrics and visualizations for fairness assessment.
+- Critiques of mainstream datasets (e.g., ImageNet, OpenImages) highlight representation imbalances.
+
+### **8. Challenges and Future Directions**
+
+- Trade-offs between fairness, accuracy, and interpretability are often unavoidable.
+- Fairness is inherently contextual and cannot be universally defined or enforced.
+- The survey advocates for temporal, cultural, and application-specific frameworks and emphasizes the importance of continual monitoring.
+
+### **Conclusion**
+
+The paper presents a thorough and nuanced exploration of algorithmic bias and fairness. It underscores the systemic and recursive nature of these challenges and calls for interdisciplinary methods, transparent standards, and ongoing auditing in ML system design and evaluation.
