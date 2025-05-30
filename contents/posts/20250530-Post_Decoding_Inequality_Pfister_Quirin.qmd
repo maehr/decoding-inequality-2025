@@ -7,6 +7,12 @@ subtitle: Attempting a self-experiment.
 tags: [AI, Data Annotation, Labor Rights, Crowdsourcing, Self-Experiment]
 ---
 
+::: {.callout-caution collapse="true"}
+## Note: Not peer-reviewed
+
+This article is a student preprint that has not undergone a scientific peer review process. The content represents an independent scientific discussion, but does not claim to be conclusively valid or completely free of errors. Particular caution should therefore be exercised when using it for scientific purposes or citing it.
+:::
+
 ::: callout-warning
 **Disclaimer**: AI was used during the creation of this post in multiple ways and forms. I am aware of the use of AI can inflict explosive labor practices and a high carbon footprint. For further information on the ecological consequences of high data usage please see Rafaels post in the same blog. For more information on the possible labor exploitation in AI please continue reading.
 

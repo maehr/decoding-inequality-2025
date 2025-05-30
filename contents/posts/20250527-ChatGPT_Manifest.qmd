@@ -7,6 +7,12 @@ subtitle: Ein Manifest
 tags: [ChatGPT, Künstliche Intelligenz, Bildung, Schule, Manifest]
 ---
 
+::: {.callout-caution collapse="true"}
+## Hinweis: Nicht peer-reviewed
+
+Bei diesem Beitrag handelt es sich um einen studentischen Preprint, der nicht einem wissenschaftlichen Peer-Review-Verfahren unterzogen wurde. Die Inhalte stellen eine eigenständige wissenschaftliche Auseinandersetzung dar, erheben jedoch keinen Anspruch auf abschliessende Validität oder vollständige Fehlerfreiheit. Für wissenschaftliche Weiterverwendung oder Zitation ist daher besondere Vorsicht geboten.
+:::
+
 ### Leitprinzipien
 
 1.  Verbote von technologischem Fortschritt haben noch nie zu einer Verbesserung im Bildungssystem geführt.
