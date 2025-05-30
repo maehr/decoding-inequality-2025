@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2019-08-14">
+<meta name="dcterms.date" content="2025-03-28">
 
-<title>blog-post-1 – Decoding Inequality 2025</title>
+<title>Session 6 – Decoding Inequality 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -31,8 +51,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../contents/about.html" rel="next">
-<link href="../../contents/blog.html" rel="prev">
+<link href="../../contents/sessions/07.html" rel="next">
+<link href="../../contents/sessions/05.html" rel="prev">
 <link href="../../android-chrome-512x512.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -40,7 +60,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-25d1f59e4cdacbef9b6532b1d1d47a9d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -74,12 +94,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Decoding Inequality 2025">
-<meta property="og:description" content="">
+<meta property="og:title" content="Session 6 – Decoding Inequality 2025">
+<meta property="og:description" content="Gesichtserkennung im öffentlichen Raum">
+<meta property="og:image" content="https://maehr.github.io/decoding-inequality-2025/contents/sessions/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
 <meta property="og:site_name" content="Decoding Inequality 2025">
-<meta name="twitter:title" content="Decoding Inequality 2025">
-<meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Session 6 – Decoding Inequality 2025">
+<meta name="twitter:description" content="Gesichtserkennung im öffentlichen Raum">
+<meta name="twitter:image" content="https://maehr.github.io/decoding-inequality-2025/contents/sessions/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -112,11 +134,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contents/interesting-stuff.html"> 
-<span class="menu-text">Interesannte Links</span></a>
+<span class="menu-text">Interessannte Links</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contents/blog.html"> 
-<span class="menu-text">Blog</span></a>
+<span class="menu-text">Studentische Beiträge</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contents/about.html"> 
@@ -134,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/blog.html">Blog</a></li><li class="breadcrumb-item"><a href="../../contents/posts/blog-post-1.html">Blog Post number 1</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/syllabus.html">Syllabus</a></li><li class="breadcrumb-item"><a href="../../contents/sessions/06.html">Session 6</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -156,11 +178,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../contents/syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../contents/sessions/01.html" class="sidebar-item-text sidebar-link">
@@ -193,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../contents/sessions/06.html" class="sidebar-item-text sidebar-link">
+  <a href="../../contents/sessions/06.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Session 6</span></a>
   </div>
 </li>
@@ -232,16 +254,28 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../contents/blog.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Blog</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+ <span class="menu-text">Studentische Beiträge</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../contents/posts/blog-post-1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Blog Post number 1</span></a>
+  <a href="../../contents/posts/20250521-Umwelt_Gerechtigkeit_Rafael_Klöpper.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Saubere und gerechte KI?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../contents/posts/20250527-ChatGPT_Manifest.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ChatGPT im Klassenzimmer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../contents/posts/20250530-Post_Decoding_Inequality_Pfister_Quirin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Humans in the Loop: Labor Exploitation and AI Training</span></a>
   </div>
 </li>
       </ul>
@@ -257,34 +291,52 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#blog-post-number-1" id="toc-blog-post-number-1" class="nav-link active" data-scroll-target="#blog-post-number-1">Blog Post number 1</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/posts/blog-post-1.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/blog.html">Blog</a></li><li class="breadcrumb-item"><a href="../../contents/posts/blog-post-1.html">Blog Post number 1</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/syllabus.html">Syllabus</a></li><li class="breadcrumb-item"><a href="../../contents/sessions/06.html">Session 6</a></li></ol></nav>
 <div class="quarto-title">
+<h1 class="title">Session 6</h1>
+<p class="subtitle lead">Gesichtserkennung im öffentlichen Raum</p>
 </div>
 
 
+<div class="quarto-title-meta-author column-page-right">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Rachel Huber <a href="mailto:rachel.huber@faculty.unibe.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-6022-5354" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            University of Bern
+          </p>
+        <p class="affiliation">
+            Koordinationsstelle Teilhabe (Kanton Zürich)
+          </p>
+      </div>
+  </div>
 
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta column-page-right">
 
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 14, 2019</p>
+      <p class="date">March 28, 2025</p>
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">May 29, 2025</p>
+    </div>
+  </div>
     
   </div>
   
@@ -293,14 +345,90 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="blog-post-number-1" class="level1">
-<h1>Blog Post number 1</h1>
-<p>This is a sample blog post. You can edit this post in <code>content/posts</code>.</p>
+<p><strong>Lernziele:</strong></p>
+<ol type="1">
+<li>Die Vorteile Fernerkennungssysteme zur Erhöhung der Sicherheit vulnerabler Personen verstehen.</li>
+<li>Die Risiken von biometrischen Erkennungssystemen wie Gesichtserkennung in Bezug auf Datenschutz, Grundrechte und Diskriminierung reflektieren.</li>
+<li>Die rechtliche und politische Lage der Gesichtserkennung in der Schweiz analysieren.</li>
+<li>Unterscheidung zwischen biometrischen Erkennungssystemen wie Gesichtserkennung und dem Fernerkennen von Personenströmen im öffentlichen Raum.</li>
+<li>Risiken und Vorteile im Kontext von Verfassungsrecht, Datenschutz und Menschenrechte diskutieren</li>
+</ol>
+<p><strong>Gliederung der Unterrichtseinheit:</strong></p>
+<p><strong>1. Einführung (10 Min.)</strong></p>
+<ol type="1">
+<li>Überblick über die Sitzung.</li>
+<li>Einführung in biometrische Systeme: Definition und Anwendungsbereiche.</li>
+<li>Darstellung der zentralen Fragestellung:</li>
+</ol>
+<ul>
+<li>„Können Fernerkennungssysteme überhaupt Sicherheit bieten, ohne Grundrechte zu gefährden und Diskriminierung zu reproduzieren?“</li>
+</ul>
+<p><strong>2. Technologische und ethische Grundlagen (35 Min.)</strong></p>
+<ol type="1">
+<li><strong>Präsentation der Forschung von Buolamwini &amp; Gebru:</strong></li>
+</ol>
+<p>1.1. Bias in Gesichtserkennungsalgorithmen.</p>
+<p>1.2. Diskriminierung gegenüber Frauen und nicht-weißen Personen.</p>
+<p>1.3. Auswirkungen auf gesellschaftliche Gruppen.</p>
+<p>1.4. Lösungen der Autorinnen für fairere Gesichtserkennungssysteme herausarbeiten.</p>
+<p>1.5. Impact der Forschung der beiden Autorinnen auf die Entwicklung dieser KI (wie haben Microsoft und Google darauf reagiert?)</p>
+<ol start="2" type="1">
+<li><strong>Überleitung zur aktuellen Forschung:</strong></li>
+</ol>
+<p>2.1. Fortschritte in der KI zur Reduktion von Bias in Gesichtserkennung.</p>
+<p>2.2. Kritik an der Transparenz und Nachvollziehbarkeit solcher Systeme.</p>
+<p>2.3. Fallbeispiele aus anderen Ländern (z. B. London, China).</p>
+<p>2.4. Fallbeispiele aus der Schweiz?</p>
+<p><strong>3. Rechtliche und politische Situation in der Schweiz (20 Min.)</strong></p>
+<ol type="1">
+<li><strong>Gesetzliche Rahmenbedingungen:</strong></li>
+</ol>
+<p>1.1. Datenschutzgesetz (DSG) und EU-Einfluss (DSGVO).</p>
+<p>1.2. Öffentliche Überwachung und Gesichtserkennung: aktuelle Regelungen.</p>
+<p>1.3. Diskussion über Haltung des Bundesrates und geplante Gesetzesänderungen.</p>
+<ol start="2" type="1">
+<li><strong>Politische Debatte:</strong></li>
+</ol>
+<p>2.1. Argumente von Datenschutzorganisationen vs.&nbsp;Sicherheitsbehörden.</p>
+<p>2.2. Öffentliche Wahrnehmung und gesellschaftlicher Diskurs in der Schweiz.</p>
+<p>2.3. Kantonale Entwicklungen und Anwendungen (beispielsweise bei kantonalen Polizeibehörden wie im Aargau)</p>
+<p><strong>4. Interaktive Gruppenarbeit (15 Min.)</strong></p>
+<ol type="1">
+<li><strong>Fallstudienanalyse:</strong> Studierende diskutieren in Gruppen:</li>
+</ol>
+<p>1.1. <em>Fall 1:</em> Erfassen der Kundenströmen an Bahnhöfen zur Erhöhung der Sicherheit von Frauen.</p>
+<p>1.2. <em>Fall 2:</em> Massenüberwachung durch biometrische Systeme in Innenstädten.</p>
+<ol start="2" type="1">
+<li>Reflexion: Wo verläuft die Grenze zwischen Sicherheit und Überwachung? Wie werden Grundrechte beschnitten? Gibt es Alternativen zu biometrischen Fernerkennungssystemen, die ebenfalls zur Sicherheit von gefährdeten Personen wie Frauen beitragen, ohne geltendes Recht und persönliche Rechte zu beschneiden?</li>
+</ol>
+<p><strong>5. Abschlussdiskussion und Fazit (10 Min.)</strong></p>
+<ol type="1">
+<li><p>Offene Fragen und ethische Dilemmata.</p></li>
+<li><p>Abschlussfrage: „Wie sollten Staaten mit Gesichtserkennung umgehen?“</p></li>
+</ol>
+<p><strong>Vorbereitete Lektüre:</strong></p>
+<ol type="1">
+<li><p><span class="citation" data-cites="buolamwini2018">(<a href="#ref-buolamwini2018" role="doc-biblioref">Buolamwini and Gebru 2018</a>)</span></p></li>
+<li><p>Gesichtserkennung in der Schweiz: <a href="https://algorithmwatch.ch/de/tag/gesichtserkennung/" class="uri">https://algorithmwatch.ch/de/tag/gesichtserkennung/</a></p></li>
+</ol>
+<p><strong>Weiterführende Medien:</strong></p>
+<ol start="3" type="1">
+<li><p>Film Coded Bias von Shalini Kantayya, 2020 7th Empire Media</p></li>
+<li><p><span class="citation" data-cites="2017c">(<a href="#ref-2017c" role="doc-biblioref">Zuboff 2017</a>)</span></p></li>
+<li><p>&nbsp;<a href="https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/?lens=publicaffairs" class="uri">https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/?lens=publicaffairs</a>.</p></li>
+</ol>
 
 
-</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-buolamwini2018" class="csl-entry" role="listitem">
+Buolamwini, Joy, and Timnit Gebru. 2018. <span>“Gender <span>Shades</span>: <span>Intersectional Accuracy Disparities</span> in <span>Commercial Gender Classification</span>.”</span> In <em>Proceedings of the 1st <span>Conference</span> on <span>Fairness</span>, <span>Accountability</span> and <span>Transparency</span></em>, 77–91. PMLR. <a href="https://proceedings.mlr.press/v81/buolamwini18a.html">https://proceedings.mlr.press/v81/buolamwini18a.html</a>.
+</div>
+<div id="ref-2017c" class="csl-entry" role="listitem">
+Zuboff, Shoshana. 2017. <em>The <span>Age</span> of <span>Surveillance Capitalism</span>: <span>The Fight</span> for a <span>Human Future</span> at the <span>New Frontier</span> of <span>Power</span></em>. First trade paperback edition. New York, NY: PublicAffairs. <a href="https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/?lens=publicaffairs">https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/?lens=publicaffairs</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -373,7 +501,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/dhbern\.github\.io\/decoding-inequality-2025\/");
+        var filterRegex = new RegExp("https:\/\/maehr\.github\.io\/decoding-inequality-2025\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -707,15 +835,15 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation column-body">
+<nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
-      <a href="../../contents/blog.html" class="pagination-link" aria-label="Blog">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Blog</span>
+      <a href="../../contents/sessions/05.html" class="pagination-link" aria-label="Session 5">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Session 5</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../contents/about.html" class="pagination-link" aria-label="Über uns">
-        <span class="nav-page-text">Über uns</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../contents/sessions/07.html" class="pagination-link" aria-label="Session 6">
+        <span class="nav-page-text">Session 6</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -724,4 +852,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/posts/blog-post-1.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/sessions/06.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

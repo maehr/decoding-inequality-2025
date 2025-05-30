@@ -2,13 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2019-08-14">
+<meta name="author" content="Moritz Mähr">
+<meta name="dcterms.date" content="2025-04-11">
 
-<title>blog-post-1 – Decoding Inequality 2025</title>
+<title>Session 8 – Decoding Inequality 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../contents/about.html" rel="next">
-<link href="../../contents/blog.html" rel="prev">
+<link href="../../contents/sessions/09.html" rel="next">
+<link href="../../contents/sessions/07.html" rel="prev">
 <link href="../../android-chrome-512x512.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -40,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-25d1f59e4cdacbef9b6532b1d1d47a9d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -74,12 +75,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Decoding Inequality 2025">
-<meta property="og:description" content="">
+<meta property="og:title" content="Session 8 – Decoding Inequality 2025">
+<meta property="og:description" content="Application (ChatGPT)">
+<meta property="og:image" content="https://maehr.github.io/decoding-inequality-2025/contents/sessions/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
 <meta property="og:site_name" content="Decoding Inequality 2025">
-<meta name="twitter:title" content="Decoding Inequality 2025">
-<meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Session 8 – Decoding Inequality 2025">
+<meta name="twitter:description" content="Application (ChatGPT)">
+<meta name="twitter:image" content="https://maehr.github.io/decoding-inequality-2025/contents/sessions/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -112,11 +115,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contents/interesting-stuff.html"> 
-<span class="menu-text">Interesannte Links</span></a>
+<span class="menu-text">Interessannte Links</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contents/blog.html"> 
-<span class="menu-text">Blog</span></a>
+<span class="menu-text">Studentische Beiträge</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contents/about.html"> 
@@ -134,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/blog.html">Blog</a></li><li class="breadcrumb-item"><a href="../../contents/posts/blog-post-1.html">Blog Post number 1</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/syllabus.html">Syllabus</a></li><li class="breadcrumb-item"><a href="../../contents/sessions/08.html">Session 8</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -156,11 +159,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../contents/syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../contents/sessions/01.html" class="sidebar-item-text sidebar-link">
@@ -205,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../contents/sessions/08.html" class="sidebar-item-text sidebar-link">
+  <a href="../../contents/sessions/08.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Session 8</span></a>
   </div>
 </li>
@@ -232,16 +235,28 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../contents/blog.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Blog</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+ <span class="menu-text">Studentische Beiträge</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../contents/posts/blog-post-1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Blog Post number 1</span></a>
+  <a href="../../contents/posts/20250521-Umwelt_Gerechtigkeit_Rafael_Klöpper.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Saubere und gerechte KI?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../contents/posts/20250527-ChatGPT_Manifest.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ChatGPT im Klassenzimmer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../contents/posts/20250530-Post_Decoding_Inequality_Pfister_Quirin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Humans in the Loop: Labor Exploitation and AI Training</span></a>
   </div>
 </li>
       </ul>
@@ -262,29 +277,67 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#blog-post-number-1" id="toc-blog-post-number-1" class="nav-link active" data-scroll-target="#blog-post-number-1">Blog Post number 1</a></li>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TLDR</a>
+  <ul class="collapse">
+  <li><a href="#recap" id="toc-recap" class="nav-link" data-scroll-target="#recap">Recap</a></li>
+  <li><a href="#leseauftrag-on-the-dangers-of-stochastic-parrots-can-language-models-be-too-big" id="toc-leseauftrag-on-the-dangers-of-stochastic-parrots-can-language-models-be-too-big" class="nav-link" data-scroll-target="#leseauftrag-on-the-dangers-of-stochastic-parrots-can-language-models-be-too-big">Leseauftrag “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?”</a>
+  <ul class="collapse">
+  <li><a href="#what-are-language-models-doing" id="toc-what-are-language-models-doing" class="nav-link" data-scroll-target="#what-are-language-models-doing">1. <strong>What Are Language Models Doing?</strong></a></li>
+  <li><a href="#environmental-and-financial-costs" id="toc-environmental-and-financial-costs" class="nav-link" data-scroll-target="#environmental-and-financial-costs">2. <strong>Environmental and Financial Costs</strong></a></li>
+  <li><a href="#bias-and-harm-in-training-data" id="toc-bias-and-harm-in-training-data" class="nav-link" data-scroll-target="#bias-and-harm-in-training-data">3. <strong>Bias and Harm in Training Data</strong></a></li>
+  <li><a href="#illusions-of-understanding" id="toc-illusions-of-understanding" class="nav-link" data-scroll-target="#illusions-of-understanding">4. <strong>Illusions of Understanding</strong></a></li>
+  <li><a href="#accountability-and-documentation" id="toc-accountability-and-documentation" class="nav-link" data-scroll-target="#accountability-and-documentation">5. <strong>Accountability and Documentation</strong></a></li>
+  <li><a href="#displacement-of-research-goals" id="toc-displacement-of-research-goals" class="nav-link" data-scroll-target="#displacement-of-research-goals">6. <strong>Displacement of Research Goals</strong></a></li>
+  <li><a href="#recommendations-for-responsible-development" id="toc-recommendations-for-responsible-development" class="nav-link" data-scroll-target="#recommendations-for-responsible-development">7. <strong>Recommendations for Responsible Development</strong></a></li>
+  </ul></li>
+  <li><a href="#applikationen-diskutieren" id="toc-applikationen-diskutieren" class="nav-link" data-scroll-target="#applikationen-diskutieren">Applikationen diskutieren</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/posts/blog-post-1.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/sessions/08.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/blog.html">Blog</a></li><li class="breadcrumb-item"><a href="../../contents/posts/blog-post-1.html">Blog Post number 1</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/syllabus.html">Syllabus</a></li><li class="breadcrumb-item"><a href="../../contents/sessions/08.html">Session 8</a></li></ol></nav>
 <div class="quarto-title">
+<h1 class="title">Session 8</h1>
+<p class="subtitle lead">Application (ChatGPT)</p>
 </div>
 
 
+<div class="quarto-title-meta-author column-body">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Moritz Mähr <a href="mailto:moritz.maehr@faculty.unibe.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-1367-1618" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            University of Bern
+          </p>
+        <p class="affiliation">
+            University of Basel
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta column-body">
 
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 14, 2019</p>
+      <p class="date">April 11, 2025</p>
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">May 14, 2025</p>
+    </div>
+  </div>
     
   </div>
   
@@ -293,11 +346,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="blog-post-number-1" class="level1">
-<h1>Blog Post number 1</h1>
-<p>This is a sample blog post. You can edit this post in <code>content/posts</code>.</p>
+<section id="tldr" class="level1">
+<h1>TLDR</h1>
+<ul>
+<li>Recap</li>
+<li>Leseauftrag gemeinsam anschauen</li>
+<li>Applikationen diskutieren</li>
+</ul>
+<section id="recap" class="level2">
+<h2 class="anchored" data-anchor-id="recap">Recap</h2>
+<p>mündlich</p>
+</section>
+<section id="leseauftrag-on-the-dangers-of-stochastic-parrots-can-language-models-be-too-big" class="level2">
+<h2 class="anchored" data-anchor-id="leseauftrag-on-the-dangers-of-stochastic-parrots-can-language-models-be-too-big">Leseauftrag “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?”</h2>
+<p>This influential 2021 paper by Emily Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell critically examines the rapid development of increasingly large language models (LMs) such as GPT-3 and Google’s Switch-C. It questions the assumption that “bigger is always better” in natural language processing (NLP) and highlights key risks that should concern technologists and humanists alike.</p>
+<section id="what-are-language-models-doing" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-language-models-doing">1. <strong>What Are Language Models Doing?</strong></h3>
+<p>Large LMs are trained to predict and generate text based on statistical patterns in massive datasets. While they can produce impressively fluent text, the authors argue that this does <strong>not</strong> mean they understand language. Instead, they are “stochastic parrots”: systems that generate plausible-sounding output without actual comprehension or intent.</p>
+</section>
+<section id="environmental-and-financial-costs" class="level3">
+<h3 class="anchored" data-anchor-id="environmental-and-financial-costs">2. <strong>Environmental and Financial Costs</strong></h3>
+<p>Training large LMs consumes enormous amounts of energy, contributing significantly to CO₂ emissions. This is a justice issue: the environmental impact disproportionately affects marginalized communities, while the benefits of these technologies accrue mostly to wealthy, English-speaking users and corporations.</p>
+</section>
+<section id="bias-and-harm-in-training-data" class="level3">
+<h3 class="anchored" data-anchor-id="bias-and-harm-in-training-data">3. <strong>Bias and Harm in Training Data</strong></h3>
+<p>Most LMs are trained on huge, uncurated datasets scraped from the internet. These datasets overrepresent hegemonic, often discriminatory viewpoints and exclude marginalized voices. The models inherit and reproduce these biases, including racism, sexism, ableism, and more—creating risks of psychological harm and systemic discrimination.</p>
+</section>
+<section id="illusions-of-understanding" class="level3">
+<h3 class="anchored" data-anchor-id="illusions-of-understanding">4. <strong>Illusions of Understanding</strong></h3>
+<p>Because these systems can produce text that appears coherent, people may falsely assume the content is meaningful, factual, or generated by a human. This creates dangers of <strong>automation bias</strong>, misinformation, and manipulation (e.g.&nbsp;through fake news, extremist content, or abusive language).</p>
+</section>
+<section id="accountability-and-documentation" class="level3">
+<h3 class="anchored" data-anchor-id="accountability-and-documentation">5. <strong>Accountability and Documentation</strong></h3>
+<p>A core critique is that datasets are often undocumented or under-documented, making it impossible to understand or audit how LMs behave. The authors argue for a “documentation budget” and recommend curating smaller, well-understood datasets over massive opaque ones.</p>
+</section>
+<section id="displacement-of-research-goals" class="level3">
+<h3 class="anchored" data-anchor-id="displacement-of-research-goals">6. <strong>Displacement of Research Goals</strong></h3>
+<p>Focusing on ever-larger LMs draws attention and resources away from alternative, potentially more equitable paths in language technology, such as: - Smaller, task-specific models - Multilingual or low-resource language research - Approaches centered on human linguistic meaning, not just surface-level form</p>
+</section>
+<section id="recommendations-for-responsible-development" class="level3">
+<h3 class="anchored" data-anchor-id="recommendations-for-responsible-development">7. <strong>Recommendations for Responsible Development</strong></h3>
+<p>The authors propose shifting toward: - <strong>Pre-mortem analysis</strong>: anticipate harms before development begins - <strong>Value-sensitive design</strong>: include affected stakeholders in the design process - <strong>Environmental benchmarking</strong>: consider carbon and energy efficiency as research metrics - <strong>Research redirection</strong>: focus less on leaderboard metrics and more on social impact and inclusivity</p>
+<p><strong>Why It Matters for Digital Humanities:</strong> This paper bridges critical perspectives from linguistics, ethics, and STS (science and technology studies). For DH scholars, it encourages skepticism toward “black-box” AI systems and stresses the importance of: - Interrogating data sources - Understanding power and representation in digital systems - Advocating for inclusive, sustainable, and human-centered computational research</p>
+</section>
+</section>
+<section id="applikationen-diskutieren" class="level2">
+<h2 class="anchored" data-anchor-id="applikationen-diskutieren">Applikationen diskutieren</h2>
+<p>mündlich</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -373,7 +471,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/dhbern\.github\.io\/decoding-inequality-2025\/");
+        var filterRegex = new RegExp("https:\/\/maehr\.github\.io\/decoding-inequality-2025\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -709,13 +807,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="../../contents/blog.html" class="pagination-link" aria-label="Blog">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Blog</span>
+      <a href="../../contents/sessions/07.html" class="pagination-link" aria-label="Session 6">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Session 6</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../contents/about.html" class="pagination-link" aria-label="Über uns">
-        <span class="nav-page-text">Über uns</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../contents/sessions/09.html" class="pagination-link" aria-label="Session 9">
+        <span class="nav-page-text">Session 9</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -724,4 +822,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/posts/blog-post-1.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/sessions/08.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

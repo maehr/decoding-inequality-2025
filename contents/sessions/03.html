@@ -2,13 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2019-08-14">
+<meta name="author" content="Moritz Mähr">
+<meta name="dcterms.date" content="2025-02-27">
 
-<title>blog-post-1 – Decoding Inequality 2025</title>
+<title>Session 3 – Decoding Inequality 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../contents/about.html" rel="next">
-<link href="../../contents/blog.html" rel="prev">
+<link href="../../contents/sessions/04.html" rel="next">
+<link href="../../contents/sessions/02.html" rel="prev">
 <link href="../../android-chrome-512x512.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -40,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-25d1f59e4cdacbef9b6532b1d1d47a9d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -74,12 +75,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Decoding Inequality 2025">
-<meta property="og:description" content="">
+<meta property="og:title" content="Session 3 – Decoding Inequality 2025">
+<meta property="og:description" content="Data Collection">
+<meta property="og:image" content="https://maehr.github.io/decoding-inequality-2025/contents/sessions/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
 <meta property="og:site_name" content="Decoding Inequality 2025">
-<meta name="twitter:title" content="Decoding Inequality 2025">
-<meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Session 3 – Decoding Inequality 2025">
+<meta name="twitter:description" content="Data Collection">
+<meta name="twitter:image" content="https://maehr.github.io/decoding-inequality-2025/contents/sessions/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -112,11 +115,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contents/interesting-stuff.html"> 
-<span class="menu-text">Interesannte Links</span></a>
+<span class="menu-text">Interessannte Links</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contents/blog.html"> 
-<span class="menu-text">Blog</span></a>
+<span class="menu-text">Studentische Beiträge</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contents/about.html"> 
@@ -134,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/blog.html">Blog</a></li><li class="breadcrumb-item"><a href="../../contents/posts/blog-post-1.html">Blog Post number 1</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/syllabus.html">Syllabus</a></li><li class="breadcrumb-item"><a href="../../contents/sessions/03.html">Session 3</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -156,11 +159,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../contents/syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../contents/sessions/01.html" class="sidebar-item-text sidebar-link">
@@ -175,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../contents/sessions/03.html" class="sidebar-item-text sidebar-link">
+  <a href="../../contents/sessions/03.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Session 3</span></a>
   </div>
 </li>
@@ -232,16 +235,28 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../contents/blog.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Blog</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+ <span class="menu-text">Studentische Beiträge</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../contents/posts/blog-post-1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Blog Post number 1</span></a>
+  <a href="../../contents/posts/20250521-Umwelt_Gerechtigkeit_Rafael_Klöpper.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Saubere und gerechte KI?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../contents/posts/20250527-ChatGPT_Manifest.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ChatGPT im Klassenzimmer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../contents/posts/20250530-Post_Decoding_Inequality_Pfister_Quirin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Humans in the Loop: Labor Exploitation and AI Training</span></a>
   </div>
 </li>
       </ul>
@@ -262,29 +277,61 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#blog-post-number-1" id="toc-blog-post-number-1" class="nav-link active" data-scroll-target="#blog-post-number-1">Blog Post number 1</a></li>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TLDR</a>
+  <ul class="collapse">
+  <li><a href="#recap-session-2" id="toc-recap-session-2" class="nav-link" data-scroll-target="#recap-session-2">Recap Session 2</a></li>
+  <li><a href="#leseauftrag-all-data-are-local" id="toc-leseauftrag-all-data-are-local" class="nav-link" data-scroll-target="#leseauftrag-all-data-are-local">Leseauftrag “All Data Are Local”</a>
+  <ul class="collapse">
+  <li><a href="#all-data-are-local-a-critical-review" id="toc-all-data-are-local-a-critical-review" class="nav-link" data-scroll-target="#all-data-are-local-a-critical-review"><strong>“All Data Are Local” – A Critical Review</strong></a></li>
+  </ul></li>
+  <li><a href="#was-sind-daten" id="toc-was-sind-daten" class="nav-link" data-scroll-target="#was-sind-daten">Was sind Daten?</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/posts/blog-post-1.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/sessions/03.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/blog.html">Blog</a></li><li class="breadcrumb-item"><a href="../../contents/posts/blog-post-1.html">Blog Post number 1</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../contents/syllabus.html">Syllabus</a></li><li class="breadcrumb-item"><a href="../../contents/sessions/03.html">Session 3</a></li></ol></nav>
 <div class="quarto-title">
+<h1 class="title">Session 3</h1>
+<p class="subtitle lead">Data Collection</p>
 </div>
 
 
+<div class="quarto-title-meta-author column-body">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Moritz Mähr <a href="mailto:moritz.maehr@faculty.unibe.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-1367-1618" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            University of Bern
+          </p>
+        <p class="affiliation">
+            University of Basel
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta column-body">
 
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 14, 2019</p>
+      <p class="date">February 27, 2025</p>
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">May 14, 2025</p>
+    </div>
+  </div>
     
   </div>
   
@@ -293,11 +340,216 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="blog-post-number-1" class="level1">
-<h1>Blog Post number 1</h1>
-<p>This is a sample blog post. You can edit this post in <code>content/posts</code>.</p>
+<section id="tldr" class="level1">
+<h1>TLDR</h1>
+<ul>
+<li>Recap <a href="../../contents/sessions/02.html">Session 2</a></li>
+<li>Leseauftrag gemeinsam anschauen</li>
+<li>Datenbegriff klären</li>
+</ul>
+<section id="recap-session-2" class="level2">
+<h2 class="anchored" data-anchor-id="recap-session-2">Recap <a href="../../contents/sessions/02.html">Session 2</a></h2>
+<p>mündlich</p>
+</section>
+<section id="leseauftrag-all-data-are-local" class="level2">
+<h2 class="anchored" data-anchor-id="leseauftrag-all-data-are-local">Leseauftrag “All Data Are Local”</h2>
+<section id="all-data-are-local-a-critical-review" class="level3">
+<h3 class="anchored" data-anchor-id="all-data-are-local-a-critical-review"><strong>“All Data Are Local” – A Critical Review</strong></h3>
+<section id="introduction-why-data-are-never-neutral" class="level4">
+<h4 class="anchored" data-anchor-id="introduction-why-data-are-never-neutral"><strong>Introduction: Why Data Are Never Neutral</strong></h4>
+<p>In <em>All Data Are Local</em>, Yanni Alexander Loukissas challenges the common belief that data are <strong>neutral, universal, and objective</strong>. He argues that data are <strong>deeply embedded in local, historical, and institutional conditions</strong>, making it impossible to separate them from their context. Instead of treating <strong>data sets</strong> as isolated and self-contained, he urges readers to examine <strong>data settings</strong>—the environments in which data are produced, organized, and used.</p>
+<hr>
+</section>
+<section id="key-themes-arguments" class="level4">
+<h4 class="anchored" data-anchor-id="key-themes-arguments"><strong>📌 Key Themes &amp; Arguments</strong></h4>
+<section id="the-locality-of-data-four-case-studies" class="level5">
+<h5 class="anchored" data-anchor-id="the-locality-of-data-four-case-studies"><strong>1. The Locality of Data: Four Case Studies</strong></h5>
+<p>Loukissas introduces four examples to illustrate how data are shaped by their origins:</p>
+<ul>
+<li><strong>Harvard’s Arnold Arboretum:</strong> A data record for a cherry tree mistakenly attributes its collection to a botanist who had died years earlier, highlighting inconsistencies in institutional data.</li>
+<li><strong>Digital Public Library of America (DPLA):</strong> Different institutions contribute metadata in varying formats, causing classification inconsistencies.</li>
+<li><strong>NewsScape (TV News Archive):</strong> Data are inseparable from the <strong>algorithms that process them</strong>, shaping what information is surfaced or obscured.</li>
+<li><strong>Zillow (Real Estate Data):</strong> Zillow provides transparency in the housing market, yet <strong>masks structural inequalities</strong>.</li>
+</ul>
+</section>
+<section id="the-problem-with-data-as-sets" class="level5">
+<h5 class="anchored" data-anchor-id="the-problem-with-data-as-sets"><strong>2. The Problem with Data as “Sets”</strong></h5>
+<ul>
+<li>The term <em>data set</em> implies that data are <strong>complete, standardized, and universally applicable</strong>, which is misleading.<br>
+</li>
+<li>Instead, <strong>data settings</strong> acknowledge the <strong>social, institutional, and technological environments</strong> that shape data collection and interpretation.<br>
+</li>
+<li>Understanding the <strong>context of data creation</strong> is essential to prevent misinterpretation.</li>
+</ul>
+</section>
+<section id="the-rise-of-data-skepticism" class="level5">
+<h5 class="anchored" data-anchor-id="the-rise-of-data-skepticism"><strong>3. The Rise of Data Skepticism</strong></h5>
+<ul>
+<li>In the early 2010s, skepticism toward <strong>data neutrality</strong> increased, with concerns about:
+<ul>
+<li><strong>Algorithmic bias</strong> (e.g., Google’s search algorithms reinforcing stereotypes).</li>
+<li><strong>Misinformation &amp; manipulation</strong> (e.g., the role of fake news in the 2016 U.S. election).</li>
+<li><strong>P-Hacking in academic research</strong>, where scientists manipulate statistical analyses for misleadingly significant results.</li>
+</ul></li>
+</ul>
+</section>
+<section id="from-data-collection-to-critical-data-practices" class="level5">
+<h5 class="anchored" data-anchor-id="from-data-collection-to-critical-data-practices"><strong>4. From Data Collection to Critical Data Practices</strong></h5>
+<ul>
+<li>Identifying bias isn’t enough—we must <strong>change how we engage with data</strong>.</li>
+<li>Recognizing <strong>locality in data</strong> allows for <strong>mitigation of biases, context-aware findings, and ethical use</strong>.</li>
+<li>Loukissas advocates for a <strong>reflexive, comparative, and critical approach</strong> to data work.</li>
+</ul>
+</section>
+<section id="case-studies-as-a-framework-for-critical-thinking" class="level5">
+<h5 class="anchored" data-anchor-id="case-studies-as-a-framework-for-critical-thinking"><strong>5. Case Studies as a Framework for Critical Thinking</strong></h5>
+<p>Each chapter explores <strong>six core principles</strong> through real-world examples: - Data are <strong>attached to places</strong> (<strong>Arnold Arboretum</strong>). - Data come from <strong>heterogeneous sources</strong> (<strong>DPLA</strong>). - Data and <strong>algorithms are intertwined</strong> (<strong>NewsScape</strong>). - <strong>Interfaces shape data perception</strong> (<strong>Zillow</strong>). - Later chapters offer <strong>practical guidelines for ethical data use</strong>.</p>
+</section>
+<section id="resisting-digital-universalism" class="level5">
+<h5 class="anchored" data-anchor-id="resisting-digital-universalism"><strong>6. Resisting Digital Universalism</strong></h5>
+<ul>
+<li>The <strong>myth of digital universalism</strong> assumes that technology transcends place and context.</li>
+<li>This belief, rooted in <strong>Silicon Valley ideology</strong>, ignores <strong>the cultural, economic, and political power structures</strong> embedded in data systems.</li>
+<li>Loukissas calls for <strong>resisting universalism</strong> by <strong>acknowledging the locality of data</strong>, ensuring it remains <strong>accountable to its origins and impacts</strong>.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="summary-of-chapter-3-collecting-infrastructures" class="level4">
+<h4 class="anchored" data-anchor-id="summary-of-chapter-3-collecting-infrastructures"><strong>🗂 Summary of Chapter 3: “Collecting Infrastructures”</strong></h4>
+<section id="how-data-infrastructures-shape-knowledge" class="level5">
+<h5 class="anchored" data-anchor-id="how-data-infrastructures-shape-knowledge"><strong>How Data Infrastructures Shape Knowledge</strong></h5>
+<p>This chapter explores <strong>data infrastructures</strong>, particularly the <strong>DPLA</strong>, and questions whether data can truly be separated from their <strong>local origins</strong>.</p>
+</section>
+<section id="key-insights" class="level5">
+<h5 class="anchored" data-anchor-id="key-insights"><strong>📌 Key Insights:</strong></h5>
+<ul>
+<li><strong>Data Standardization vs.&nbsp;Context Loss:</strong>
+<ul>
+<li>The DPLA standardizes data across institutions, but this often <strong>erases unique local contexts</strong>.</li>
+<li>Its <strong>MAP (Metadata Application Profile)</strong> forces diverse data sources into a rigid structure.</li>
+</ul></li>
+<li><strong>The Role of Locality in Data:</strong>
+<ul>
+<li>Institutions classify data differently (e.g., the term <em>Upstate</em> means different things in different regions).</li>
+<li><strong>Historical bias</strong>: Some institutions categorize race inconsistently or exclude certain demographics.</li>
+</ul></li>
+<li><strong>Data Visualization as a Critical Tool:</strong>
+<ul>
+<li>The <strong>Library Observatory</strong> uses a tree-map visualization to show <strong>how different institutions contribute to the DPLA</strong>.</li>
+<li>The <strong>Temporalities Project</strong> highlights inconsistencies in <strong>date formatting</strong> across data sources.</li>
+</ul></li>
+<li><strong>The Influence of Vannevar Bush’s Memex:</strong>
+<ul>
+<li>Bush’s 1945 vision of a <strong>universal digital archive</strong> influences modern data infrastructures.</li>
+<li>Loukissas critiques this ambition, arguing that <strong>knowledge cannot be divorced from its social and institutional context</strong>.</li>
+</ul></li>
+<li><strong>The Political &amp; Ethical Stakes of Data Infrastructures:</strong>
+<ul>
+<li>Large, well-funded institutions like <strong>Smithsonian or Getty</strong> dominate data collection, reinforcing <strong>power imbalances</strong>.</li>
+<li>Loukissas calls for <strong>counterdata infrastructures</strong> that challenge dominant narratives and promote <strong>inclusive histories</strong>.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="summary-of-chapter-7-beyond-data-sets" class="level4">
+<h4 class="anchored" data-anchor-id="summary-of-chapter-7-beyond-data-sets"><strong>🗂 Summary of Chapter 7: “Beyond Data Sets”</strong></h4>
+<section id="why-open-data-isnt-enough" class="level5">
+<h5 class="anchored" data-anchor-id="why-open-data-isnt-enough"><strong>Why Open Data Isn’t Enough</strong></h5>
+<p>Loukissas argues that <strong>data accessibility does not guarantee understanding</strong>. Instead of simply providing <strong>open data</strong>, we need <strong>contextualized guides</strong> that explain their origins and limitations.</p>
+</section>
+<section id="rethinking-the-goals-of-data-work" class="level5">
+<h5 class="anchored" data-anchor-id="rethinking-the-goals-of-data-work"><strong>📌 Rethinking the Goals of Data Work</strong></h5>
+<p>Loukissas contrasts <strong>traditional data objectives</strong> with <strong>alternative, locally grounded goals</strong>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 32%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Traditional Goals</strong></th>
+<th><strong>Local Alternatives</strong></th>
+<th><strong>Explanation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Orientation</strong></td>
+<td><strong>Place-Making</strong></td>
+<td>Data should not just help users navigate but also reveal the institutions behind them (e.g., Arnold Arboretum).</td>
+</tr>
+<tr class="even">
+<td><strong>Access</strong></td>
+<td><strong>Restraint</strong></td>
+<td>Open data can be misleading if context is missing (e.g., misinterpretations of the 2016 U.S. election polls).</td>
+</tr>
+<tr class="odd">
+<td><strong>Analysis</strong></td>
+<td><strong>Reflexivity</strong></td>
+<td>Algorithms are <strong>not neutral</strong>—we must critically engage with them (e.g., Google’s biased autocomplete).</td>
+</tr>
+<tr class="even">
+<td><strong>Optimization</strong></td>
+<td><strong>Contestation</strong></td>
+<td>Data-driven decisions often ignore competing interests (e.g., Zillow optimizing the housing market while hiding its inequalities).</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="a-five-step-approach-to-critical-data-practices" class="level5">
+<h5 class="anchored" data-anchor-id="a-five-step-approach-to-critical-data-practices"><strong>📌 A Five-Step Approach to Critical Data Practices</strong></h5>
+<p>Loukissas proposes a <strong>methodology for engaging with data critically</strong>:</p>
+<ol type="1">
+<li><strong>Read:</strong> Examine the dataset for inconsistencies or unusual features.<br>
+</li>
+<li><strong>Inquire:</strong> Consult <strong>experts, data collectors, or subjects</strong> to understand the dataset’s background.<br>
+</li>
+<li><strong>Represent:</strong> Use <strong>visualizations</strong> to highlight patterns and biases.<br>
+</li>
+<li><strong>Unfold:</strong> Investigate <strong>how data are collected, processed, and normalized</strong>.<br>
+</li>
+<li><strong>Contextualize:</strong> Analyze <strong>who uses the data and what ethical concerns arise</strong>.</li>
+</ol>
+<p>This approach treats <strong>data as an ethnographic inquiry</strong>, emphasizing <strong>critical engagement rather than passive consumption</strong>.</p>
+<hr>
+</section>
+</section>
+<section id="conclusion-data-as-a-social-ethical-responsibility" class="level4">
+<h4 class="anchored" data-anchor-id="conclusion-data-as-a-social-ethical-responsibility"><strong>🔍 Conclusion: Data as a Social &amp; Ethical Responsibility</strong></h4>
+<p>Loukissas closes with a <strong>call to action</strong>: <strong>we must change how we engage with data</strong>. Instead of treating data as <strong>abstract, portable facts</strong>, we should see them as <strong>points of contact between people, institutions, and power structures</strong>.</p>
+<p>He warns against <strong>digital universalism</strong>, arguing that data should be <strong>understood within their specific historical, institutional, and social contexts</strong>. Instead of prioritizing <strong>optimization and efficiency</strong>, we should focus on <strong>social justice, accountability, and transparency</strong>.</p>
+<hr>
+</section>
+<section id="final-takeaway" class="level4">
+<h4 class="anchored" data-anchor-id="final-takeaway"><strong>💡 Final Takeaway</strong></h4>
+<blockquote class="blockquote">
+<p><strong>“Do not mistake the availability of data as permission to remain at a distance.”</strong></p>
+</blockquote>
+<p>Loukissas urges us to <strong>engage with data deeply, ethically, and contextually</strong>—not just as raw information but as a <strong>socially embedded artifact</strong> requiring care and responsibility.</p>
+<hr>
+</section>
+<section id="discussion-questions" class="level4">
+<h4 class="anchored" data-anchor-id="discussion-questions"><strong>💬 Discussion Questions</strong></h4>
+<ul>
+<li>How do <strong>data infrastructures</strong> reinforce <strong>social inequalities</strong>?<br>
+</li>
+<li>What would <strong>ethical open-data policies</strong> look like in practice?<br>
+</li>
+<li>Is it possible to create <strong>truly neutral datasets</strong>, or is all data inherently biased?</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="was-sind-daten" class="level2">
+<h2 class="anchored" data-anchor-id="was-sind-daten">Was sind Daten?</h2>
+<p>TBD</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -373,7 +625,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/dhbern\.github\.io\/decoding-inequality-2025\/");
+        var filterRegex = new RegExp("https:\/\/maehr\.github\.io\/decoding-inequality-2025\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -709,13 +961,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="../../contents/blog.html" class="pagination-link" aria-label="Blog">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Blog</span>
+      <a href="../../contents/sessions/02.html" class="pagination-link" aria-label="Session 2">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Session 2</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../contents/about.html" class="pagination-link" aria-label="Über uns">
-        <span class="nav-page-text">Über uns</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../contents/sessions/04.html" class="pagination-link" aria-label="Session 4">
+        <span class="nav-page-text">Session 4</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -724,4 +976,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/posts/blog-post-1.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DHBern/decoding-inequality-2025/edit/main/contents/sessions/03.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/decoding-inequality-2025/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
