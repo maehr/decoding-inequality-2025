@@ -1,0 +1,92 @@
+---
+author: Anke Breihan
+lang: de
+date: 27 May 2025
+title: ChatGPT im Klassenzimmer
+subtitle: Ein Manifest
+tags: [ChatGPT, Künstliche Intelligenz, Bildung, Schule, Manifest]
+---
+
+### Leitprinzipien
+
+1.  Verbote von technologischem Fortschritt haben noch nie zu einer Verbesserung im Bildungssystem geführt.
+
+2.  Transparenz und Aufklärung sind nachhaltiger als Verbote.
+
+3.  ChatGPT wird nur so lange verwendet, wie die begründete Überzeugung besteht, dass durch ChatGPT generierte Antworten besser bewertet werden als eigens konzipierte.
+
+4.  Solange die obengenannten Überzeugungen bestehen, schafft das Bildungssystem Anreize für eigenes und kritisches Denken ab.
+
+5.  Es braucht eine Reform des Bildungssystems.
+
+Ein Gespenst geht um in Klassenzimmern des Globalen Nordens -- ein Gespenst namens ChatGPT. Seit seiner Lancierung im November 2022 macht das Large Language Model (LLM) Lehrpersonen der privilegierten Welt zu schaffen. Dies ist ein Aufruf an Lehrpersonen und Lehrbildner:innen für einen neuen Umgang mit der sogenannten Künstlichen Intelligenz. Ein Aufruf, diese sich in allermunde befindende Technologie als Chance zu sehen anstatt als Gefahr.
+
+#### 1. Verbote von technologischem Fortschritt haben noch nie zu einer Verbesserung im Bildungssystem geführt
+
+Vor ChatGPT waren es die Handys und vor den Handys waren es Computer. Eine neuartige Technologie kommt auf, wird vor allem von Schüler:innen weitgehend genutzt und sofort auf alles weitere während der Unterrichtszeiten verboten. Irgendwann wächst das Bewusstsein dafür, dass es sich um eine Technologie handelt, die nicht mehr verschwinden wird und langsam werden Lehrpersonen dazu ausgebildet, Schüler:innen für den Gebrauch dieser Neuartigkeit auszubilden. Es folgt eine Übergangsphase in der das durch Schüler:innen-Neugier angeeignete Wissen jenes der wenig motivierten Lehrpersonen überragt, bis neues Fachpersonal dazustösst, welches sich in der Ausbildung bereits mit der (nun nicht mehr so) neuen Thematik befasste. An diesem Punkt übernimmt eine bestenfalls enthusiastische aber mindestens gut ausgebildete Lehrperson das Feld und fördert die Schüler:innen in einem kontrollierten Umfeld (mehr dazu in Siyam, Hussain & Alqaryouti 2021).
+
+Die Digitalisierung, welche als Vorreiterin von KI betrachtet wird, kann von dieser Entwicklung ein Liedchen singen. Es dauerte Jahrzehnte bis das Prinzip *Bring Your Own Device* (BYOD)[^1] und damit der Schritt in eine digitale Zukunft von den Schulen in der Schweiz vollzogen wurde. Davor galten jegliche digitalen Geräte als grosses No-Go und Computer durften lediglich im Informatikunterricht benutzt werden, welcher vor allem als Einführung in das Microsoft Office Paket fungierte. Die von kritischen Lehrpersonen verbreitete Angst einer Anarchie im Klassenzimmer blieb aus. Stattdessen folgten motiviertere Schüler:innen, die sich zumindest für die digitalen Anforderungen im künftigen Berufsleben gewappnet(er) fühlten (Al-Said 2023; He & Zhao 2020).
+
+[^1]: Bspw. für den Kanton Freiburg: <https://www.fr.ch/de/bildung-und-schulen/mittelschulen/byod-bring-your-own-device>.
+
+Das Beispiel illustriert, dass die Bildung lediglich darunter leidet, wenn die Schule den Kopf vor technologischen Neuerungen durch Verbote in den Sand steckt. Es wird einen Punkt geben, an dem LLMs in unserem Leben eine so grosse Rolle einnehmen werden, dass das sowieso nicht mehr möglich sein wird. Dem muss sich die Schule als primäre Bildungsinstanz bewusst sein und eine Vorreiterrolle in der Ausbildung in Bezug auf LLMs einnehmen (siehe dazu Belghith et al. 2024; Macar et al. 2023; Kilhoffer et al. 2023). Mit weiteren Verboten wird lediglich dafür gesorgt, dass heutige Schüler:innen weiterhin unaufgeklärt und unkritisch LLMs benutzen, ohne einen geübten Umgang mit ihnen zu erlernen (Olari, Tenório & Romeike 2022). Denn eins ist sicher: Verbote hielten Schüler:innen noch nie von irgendetwas ab!
+
+#### 2. Transparenz und Aufklärung sind nachhaltiger als Verbote
+
+Innerhalb dieser wenigen Zeilen wird keinesfalls behauptet, LLMs seien unproblematisch. Weiterhin soll nicht zu einer revolutionären Massennutzung von LLMs aufgerufen werden. Stattdessen plädiere ich für einen transparenten und aufgeklärten Ansatz, welcher sich immer als nachhaltiger herausstellt als Verbote.
+
+Zahlreiche Massnahmen (wie bspw. Verbote), welche noch so gerne von Schulen lanciert werden, widersprechen dem stetig proklamierten Ziel des Bildungssystems, Schüler:innen zu kritischen Denker:innen auszubilden. Kritisch denken lernt mensch nicht dadurch, dass ihm stetig gesagt wird, dass es das ist, was er hier lernt, sondern dadurch, sich seine eigenen Gedanken auf einer aufgeklärten Wissensbasis machen zu können. Das Gleiche gilt für LLMs und dementsprechend für ChatGPT.
+
+Denn ja, LLMs müssen kritisch beurteilt werden; sie reproduzieren Bias und Diskriminierung (Mehrami et al. 2021; Bender et al. 2021), schaden der Umwelt (Lacoste et al. 2019; [Klöpper 2025](./20250521-Umwelt_Gerechtigkeit_Rafael_Klöpper.qmd)) und beuten Menschen im Globalen Süden strukturell aus ([Pfister 2025](./20250530-Post_Decoding_Inequality_Pfister_Quirin.qmd)). All das, nur damit eine kleine privilegierte Menschenmasse, die Zugriff zum Internet hat und eine Sprache spricht, welche in den Trainingsdaten der LLM vorhanden war, keine eigenen Geburtstagskarten, Zusammenfassungen oder Bewerbungen mehr schreiben muss. Dennoch ermöglichen LLMs gleichzeitig mehr Chancengleichheit bspw. für jene Personen, die aufgrund von Dyslexie Diskriminierung erfahren (mehr dazu bei Mitre & Zeneli 2024).
+
+Viele Schüler:innen sind sich den Gefahren der Klimakrise oder den wiederaufkommenden faschistischen Ideologien bewusst und engagieren sich für mehr Gerechtigkeit auf unterschiedlichen Ebenen. Es ist an der Schule, Bildung zu betreiben, die sie in Bezug auf die Auswirkungen ihrer Nutzung von LLMs aufklärt, damit sie eigens entscheiden können, ob sie diese Auswirkungen in Kauf nehmen wollen.[^2] Mit dieser Aufklärung und der darauffolgenden autonomen Entscheidung wird ein erster Grundstein für die Ausbildung kritischer Jugendlicher gelegt (siehe dazu unter anderem Yunus et al. 2024).
+
+[^2]: Mit der konkreten Frage, wie ein solcher Unterricht aussehen könnte, beschäftigt sich das Forschungsprojekt „Imagine AI" der University of Colorado (Forsyth et al. 2021; <https://www.colorado.edu/project/imagine-ai/research>).
+
+####  3. ChatGPT wird nur so lange verwendet, wie die begründete Überzeugung besteht, dass durch ChatGPT generierte Antworten besser bewertet werden als eigens konzipierte
+
+Alle Aufklärung der Welt bringt nichts, wenn Schüler:innen, denen von Beginn ihrer Schulkarriere an indirekt beigebracht wird, dass ihre Noten ein Spiegelbild ihrer Kompetenz darstellen, das Gefühl vermittelt wird, dass der Gebrauch von ChatGPT mit besseren Noten einhergeht. An dieser Stelle wird nicht behauptet, dass Lehrpersonen so etwas jemals explizit im Klassenzimmer behaupten würden. Jedoch wird vor allem im Sprachenunterricht ein beträchtlicher Fokus darauf gelegt, dass Schüler:innen lernen „richtig" zu schreiben. Richtig meint hier gemäss den durch eine Rechtschreibeinstanz (arbiträr) festgelegten Rechtschreibenormen. Ich werde zugunsten meines roten Fadens an dieser Stelle auf eine umfassende Kritik des präskriptiven Umgangs mit Sprache in der Schule verzichten. Dennoch möchte ich folgendes Gedankenexperiment in den Raum stellen: Angenommen, Sie, liebe:r Leser:in, müssten möglichst schnell eine Kletterwand erklimmen und würden einzig für die Schnelligkeit, in der sie das schafften, beurteilt. Und angenommen, Sie trainierten dafür bereits seit mehreren Jahren, würden es aber dennoch nicht so schnell schaffen, wie gewünscht und dementsprechend nie die beste Bewertung erhalten. Nun würde Ihnen die Möglichkeit geboten, durch eine neue Innovation lediglich an der Kletterwand hochgezogen zu werden. Dies würde natürlich keinerlei oder nur noch wenig Arbeit und Mühe von Ihnen abverlangen, aber Sie würden es nun schneller bis an die Spitze der Kletterwand schaffen und so eine bessere Bewertung erhalten. Würden Sie nicht auch von der Hilfestellung Gebrauch machen?
+
+#### 4. Solange die obengenannten Überzeugungen bestehen, schafft das Bildungssystem Anreize für eigenes und kritisches Denken ab
+
+Das zuvor genannte Gedankenexperiment bildet die aktuelle Lage in der Schule ab. Lehrpersonen können noch so oft den Schüler:innen davon abraten, ChatGPT zu benutzen, da sie so ja nichts lernen würden und sie doch in die Schule gingen, um etwas zu lernen. Schlussendlich zählt für Schüler:innen lediglich das, was auf dem Abschlusszeugnis steht und wenn gute (oder ausreichende) Noten zeitsparend durch den Gebrauch von ChatGPT erzielt werden können, dann ist der Preis, im Nachhinein nichts mehr von den Lerninhalten zu wissen, nicht schwer zu zahlen. Dass dies den Prinzipien der Schulbildung komplett widerspricht, ist offensichtlich. Dennoch basiert dieses Problem auf dem aktuellen System. Wenn Aspekte wie Rechtschreibung höher gewichtet werden als eigene Reflexion, verwundert es nicht, dass Ersteres auf Kosten Zweiteres durch den Gebrauch von ChatGPT privilegiert wird. Dadurch wird Schüler:innen von Beginn an beigebracht, dass ihre Gedanken weniger wertvoll sind als die standardisierte Form, in die sie hineingepresst werden müssen. Dies läuft dem proklamierten Ziel, Schüler:innen zu kritischen Denker:innen auszubilden zuwider. Nur durch Wertschätzung der eigenen Reflexion und das Fördern kritischen Denkens durch entsprechende Notenvergabe kann dieses Ziel erreicht werden. Schlussendlich sind Noten der Schüler:innen Lohn.
+
+Des Weiteren vertrete ich die Meinung, dass das Ziel Schüler:innen zu kritischen Denker:innen auszubilden vielleicht ein bisschen zu abstrakt und weitreichend ist. Es würde sich anbieten, sich vertieft mit der Frage auseinanderzusetzen, was es denn nun ist, dass Schüler:innen aus den 9 bis 13 Jahren Schulbildung mitnehmen sollen. Was sollen sie können? Wie sollen sie sich verändert haben? Mit welchen Kompetenzen sollen sie an die Uni oder die Arbeitswelt weitergereicht werden? Sobald diese Zielsetzungen stehen, geht es dann darum, sich Evaluationsmöglichkeiten zu überlegen, die mit ihren Bewertungsmassstäben genau diese Ziele fördern.
+
+#### 5. Es braucht eine Reform des Bildungssystems
+
+Aus den vorherigen Zeilen sollte klar geworden sein, dass es eine Reform des Bildungssystems braucht. Und das nicht erst seit ChatGPT. Seit der Gründung des Schulbildungssystems trägt dieses zu einem ausgeprägten klassistischen Denken bei. Ungebildetheit und ihre vermeintlichen Symptome (bspw. schlechte Rechtschreibung) werden als wertlos angesehen. Dieses System war mitverantwortlich für den Kolonialismus und erhält unsere kognitive Dissonanz gegenüber der Ausbeutung von Menschen im Globalen Süden für den Wohlstand im Globalen Norden auch heutzutage. Dieses System wird nun jedoch durch LLMs herausgefordert, die mit ihrer vermeintlichen Künstlichen Intelligenz in genau jenen Aspekten brillieren (bspw. einem «rationalen, professionellen» schriftlichen Ausdruck), die in unserer westlichen Gesellschaft als wertvoll erachtet werden.
+
+Ein Verbot von ChatGPT wird dieses System nicht verändern. Dies kann nur durch eine komplette Reform des Bildungssystems[^3] geschehen. Wenn Schüler:innen durch gute Noten motiviert werden, ihre eigenen Gedanken auszudrücken und kritische Reflexionen anzubringen, wenn sie herausgefordert werden, sich ihrer eigenen Voreingenommenheit in Bezug auf unterschiedlichste Themen bewusst zu werden, erst dann trägt das Bildungssystem zu der Ausbildung kritischer Denker:innen bei. Wenn Schüler:innen über die fragwürdigen Aspekte, die mit ChatGPT einhergehen, aufgeklärt sind und autonom entscheiden können, ob und wofür sie das Tool weiterhin verwenden möchten, dann ist ein erster wichtiger Schritt gemacht. Wenn Schüler:innen über die klassistischen Wurzeln des Bildungssystems und den daraus resultierenden Diskriminierungen aufgeklärt werden, dann ist ein erster Stein für eine gerechtere Gesellschaft gelegt.[^4]
+
+[^3]: An dieser Stelle möchte ich betonen, dass ich das Bildungssystem als differenzierte Institution verstehe, die aus Lehrbildner:innen, Lehrpersonen, Lehrplan und Lehrmaterialien besteht. Ich verwende den umfassenden Begriff «Bildungssystem», da im Einzelfall unterschiedliche Instanzen von meiner Kritik betroffen sind. Keineswegs möchte ich Kritik an jenen Lehrpersonen üben, die bereits einen offenen und transparenten Umgang mit KI in ihrem Unterricht verfolgen oder aber jenen, die durch ihre Lehrbildner:innen zu einem restriktiven Umgang mit der Digitalisierung geschult worden sind und nie etwas anderes gelernt haben. Mir ist bewusst, dass meine Kritik als universell und verallgemeinernd daherkommt und als Angriff auf Individuen verstanden werden kann. Dies ist jedoch nicht mein Ziel. Es braucht ein Umdenken auf allen Ebenen, damit ein produktiver Wandel geschehen kann. Dafür braucht es jedoch Individuen, die sich für genau so einen Wandel einsetzen.
+
+[^4]: Dass ein solcher Ansatz in der Berufsbildung erfolgreich angewendet kann, zeigt Philippe Wampfler, der sich als Dozent für Fachdidaktik Deutsch an der IFE der Universität Zürich genau dafür einsetzt. Eine Liste seiner Publikationen ist einsehbar unter: <https://philippe-wampfler.ch/publikationen-und-projekte/>.
+
+### Quellenverzeichnis
+
+Al-Said, K. (2023). Effect of 'Bring Your Own Device' (BYOD) on Student Behavior, Well-Being, and Learning Economic Disciplines. *International Journal of Information and Education Technology*, *13*(4), 658--663. DOI: <https://doi.org/10.18178/ijiet.2023.13.4.1850>.
+
+Belghith, Y., Goloujeh, A. M., Magerko, B., Long, D., Mcklin, T., & Roberts, J. (2024). Testing, Socializing, Exploring: Characterizing Middle Schoolers' Approaches to and Conceptions of ChatGPT. *Association for Computing Machinery*, 1--17. <https://doi.org/10.1145/3613904.3642332>.
+
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, 610--623. <https://doi.org/10.1145/3442188.3445922>.
+
+Forsyth, S., Dalton, B., Foster, E. H., Walsh, B., Smilack, J., & Yeh, T. (2021). Imagine a More Ethical AI: Using Stories to Develop Teens' Awareness and Understanding of Artificial Intelligence and its Societal Impacts. In *Conference on Research in Equitable and Sustained Participation in Engineering, Computing, and Technology* (pp. 1--2). <https://doi.org/10.1109/respect51740.2021.9620549>.
+
+He, W., & Zhao, L. (2020). Exploring undergraduates' learning engagement via BYOD in the blended learning classroom (EULEBYODBLC). *International Journal of Information and Education Technology, 10*(2), 159--164. DOI: <https://doi.org/10.18178/ijiet.2020.10.2.1356>.
+
+Lacoste, A., Luccioni, A., Schmidt, V., & Dandres, T. (2019). *Quantifying the Carbon Emissions of Machine Learning*. <https://doi.org/10.48550/arxiv.1910.09700>.
+
+Kilhoffer, Z., Zhou, Z., Wang, F., Tamton, F., Huang, Y., Kim, P., Yeh, T., & Wang, Y. (2023). "How technical do you get? I'm an English teacher": Teaching and Learning Cybersecurity and AI Ethics in High School. *2022 IEEE Symposium on Security and Privacy (SP)*, 2032--2047. <https://doi.org/10.1109/sp46215.2023.10179333>.
+
+Macar, U., Castleman, B., Mauchly, N., Jiang, M., Aouissi, A., Aouissi, S., Maayah, X., Erdem, K., Ravindranath, R., Clark-Sevilla, A.O., & Salleb-Aouissi, A. (2023). Teenagers and Artificial Intelligence: Bootcamp Experience and Lessons Learned. *ArXiv,* DOI: <https://doi.org/10.48550/arXiv.2312.10067>.
+
+Mehrabi, N., Morstatter, F., Saxena, N., Lerman, K., & Galstyan, A. (2022). A Survey on Bias and Fairness in Machine Learning. *ACM Computing Surveys*, *54*(6), 1--35. <https://doi.org/10.1145/3457607>.
+
+Mitre, X., & Zeneli, M. (2024). Using AI to Improve Accessibility and Inclusivity in Higher Education for Students with Disabilities. *2024 21st International Conference on Information Technology Based Higher Education and Training (ITHET)*, 1--8. DOI: <https://doi.org/10.1109/ITHET61869.2024.10837607>.
+
+Olari, V., Tenório, K. & Romeike, R. (2023). Introducing Artificial Intelligence Literacy in Schools: A Review of Competence Areas, Pedagogical Approaches, Contexts and Formats. In *Towards a Collaborative Society Through Creative Learning* (Vol. 685, pp. 221--232). Springer. <https://doi.org/10.1007/978-3-031-43393-1_21> .
+
+Siyam, N., Hussain, M. & Alqaryouti, O. (2022). Factors impacting teachers' acceptance and use of Bring Your Own Device (BYOD) in the classroom. *SN Soc Sci,* *2*(8). 1--30. <https://doi.org/10.1007/s43545-021-00307-2>.
+
+Yunus, A., Mushtaq, S. K., Bajwa, R. S., & Tahir, M. (2024). Ethical Governance of Artificial Intelligence: Guiding Youth towards Responsible Digital Citizenship. *Journal of Policy Research*, *10*(2), 726--733. <https://doi.org/10.61506/02.00291>.

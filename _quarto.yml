@@ -30,9 +30,9 @@ website:
       - href: contents/syllabus.qmd
         text: Syllabus
       - href: contents/interesting-stuff.qmd
-        text: Interesannte Links
+        text: Interessannte Links
       - href: contents/blog.qmd
-        text: Blog
+        text: Studentische Beiträge
       - href: contents/about.qmd
         text: Über uns
 
@@ -44,7 +44,7 @@ website:
       - href: contents/syllabus.qmd
         contents: contents/sessions/*
       - href: contents/interesting-stuff.qmd
-      - section: Blog
+      - section: Studentische Beiträge
         href: contents/blog.qmd
         contents: contents/posts/*
       - href: contents/about.qmd
