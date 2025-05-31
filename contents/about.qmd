@@ -11,9 +11,11 @@ links:
 
 # Über uns
 
-## Dr. Rachel Huber, [Assoziierte Forschende](https://www.dh.unibe.ch/ueber_uns/personen/dr_huber_rachel/index_ger.html)
+## Dr. Rachel Huber
 
-![](/assets/images/huber.jpg){width="200px"}
+Assoziierte Forschende, [Digital Humanities Universität Bern](https://www.dh.unibe.ch/ueber_uns/personen/dr_huber_rachel/index_ger.html)
+
+![Rachel Huber](/assets/images/huber.jpg){width="200px"}
 
 [Rachel Huber](https://rachelhuber.ch/) studierte Kulturmanagement in Zürich, Kulturwissenschaften in Luzern und Globalgeschichte an der Excellenzuni Hamburg. Sie arbeitete als wissenschaftliche Mitarbeiterin und promovierte mit Schwerpunkt Digital History, Erinnerungskulturen und Diskriminierungsgeschichte in den USA von 2016-2021 an der Universität Luzern am Lehrstuhl von Prof. Dr. Aram Mattioli. Von 2022-2023 arbeitete sie, ebenfalls am Historischen Seminar der Universität Luzern, als Posdoc und Projektleiterin. Beim OA  Journal «Public History Weekly» war sie von 2018-2020 als Redaktionsmitglied tätig und von 2022 bis 2023 leitete sie das Drittmittelprojekt «Auslegeordnung Erinnerungskultur Zürich». Die Auftragsforschung wurde vom Präsidialdepartement Zürich vergeben.
 
@@ -35,9 +37,11 @@ This browser does not support PDFs. Please download the PDF <a href="/assets/fil
 -   Minderheitengeschichte
 -   Schweizer und US-Geschichte
 
-## Dr. sc. Moritz Mähr, [Assoziierter Forschender](https://www.dh.unibe.ch/ueber_uns/personen/dr_sc_maehr_moritz/index_ger.html)
+## Dr. sc. Moritz Mähr
 
-![](/assets/images/maehr.webp){width="200px"}
+Assoziierter Forschender, [Digital Humanities Universität Bern](https://www.dh.unibe.ch/ueber_uns/personen/dr_sc_maehr_moritz/index_ger.html)
+
+![Moritz Mähr](/assets/images/maehr.webp){width="200px"}
 
 [Moritz Mähr](https://moritzmaehr.ch/) ist assoziierter Forscher in Digital Humanities an der Universität Bern und digitaler Projektleiter von [Stadt.Geschichte.Basel](https://www.stadtgeschichtebasel.ch/) an der Universität Basel. Er studierte Geschichte und Philosophie des Wissens, Informatik sowie Bank- und Finanzwesen in Zürich und Berlin. Von 2018 bis 2022 war er wissenschaftlicher Mitarbeiter an der Professur für Technikgeschichte der ETH Zürich. Er schrieb eine Dissertation über die [Digitalisierung der Migrationsbehörden in der Schweiz in den 1960er Jahren](https://doi.org/10.30965/9783657796823). Die Studie war Teil des vom SNF geförderten Projekts [Trading Zones](https://data.snf.ch/grants/grant/188795). Seine Forschungsinteressen liegen im Bereich der Science and Technology Studies, der Digital Humanities und der Computergeschichte. Er ist ein Verfechter von Open Science, Open Access und Open Source.
 
