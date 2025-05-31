@@ -31,7 +31,7 @@ Artificial Intelligence (AI), such as the widely known and popular ChatGPT, a la
 
 *If you ask ChatGPT directly about the labor condition during the training data annotation process for itself*[^1]
 
-[^1]: Request made on 2025 May 22, free version of GPT 4.1 Mini Model without Loging. Exact prompt that was used "Can you be sure that there was no labor explotation regarding the annotation of your training data?"
+[^1]: Request made on 22 May 2025, using the free version of GPT-4.1 mini model without login. Exact prompt: "Can you be sure that there was no labor exploitation regarding the annotation of your training data?"
 
 Surprisingly enough, quite a big part of it is handmade. Just as a large portion of our clothing is produced in sweatshops, a significant part of data is annotated in tall, windowless concrete buildings, by people who must work 12h shifts and early literarily pennies for it.[^2] Not all data is annotated under such circumstances. Data annotation projects can also be a remote and flexible option, as all the companies promise, for a side income conducted by highly qualified personnel.
 
