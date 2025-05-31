@@ -14,25 +14,25 @@ date-modified: last-modified
 
 **Lernziele:**
 
-1. Die Vorteile Fernerkennungssysteme zur Erhöhung der Sicherheit vulnerabler Personen verstehen.
-2. Die Risiken von biometrischen Erkennungssystemen wie Gesichtserkennung in Bezug auf Datenschutz, Grundrechte und Diskriminierung reflektieren.
-3. Die rechtliche und politische Lage der Gesichtserkennung in der Schweiz analysieren.
-4. Unterscheidung zwischen biometrischen Erkennungssystemen wie Gesichtserkennung und dem Fernerkennen von Personenströmen im öffentlichen Raum.
-5. Risiken und Vorteile im Kontext von Verfassungsrecht, Datenschutz und Menschenrechte diskutieren
+1.  Die Vorteile Fernerkennungssysteme zur Erhöhung der Sicherheit vulnerabler Personen verstehen.
+2.  Die Risiken von biometrischen Erkennungssystemen wie Gesichtserkennung in Bezug auf Datenschutz, Grundrechte und Diskriminierung reflektieren.
+3.  Die rechtliche und politische Lage der Gesichtserkennung in der Schweiz analysieren.
+4.  Unterscheidung zwischen biometrischen Erkennungssystemen wie Gesichtserkennung und dem Fernerkennen von Personenströmen im öffentlichen Raum.
+5.  Risiken und Vorteile im Kontext von Verfassungsrecht, Datenschutz und Menschenrechte diskutieren
 
 **Gliederung der Unterrichtseinheit:**
 
 **1. Einführung (10 Min.)**
 
-1. Überblick über die Sitzung.
-2. Einführung in biometrische Systeme: Definition und Anwendungsbereiche.
-3. Darstellung der zentralen Fragestellung:
+1.  Überblick über die Sitzung.
+2.  Einführung in biometrische Systeme: Definition und Anwendungsbereiche.
+3.  Darstellung der zentralen Fragestellung:
 
-- „Können Fernerkennungssysteme überhaupt Sicherheit bieten, ohne Grundrechte zu gefährden und Diskriminierung zu reproduzieren?“
+-   „Können Fernerkennungssysteme überhaupt Sicherheit bieten, ohne Grundrechte zu gefährden und Diskriminierung zu reproduzieren?“
 
 **2. Technologische und ethische Grundlagen (35 Min.)**
 
-1. **Präsentation der Forschung von Buolamwini & Gebru:**
+1.  **Präsentation der Forschung von Buolamwini & Gebru:**
 
 1.1. Bias in Gesichtserkennungsalgorithmen.
 
@@ -44,7 +44,7 @@ date-modified: last-modified
 
 1.5. Impact der Forschung der beiden Autorinnen auf die Entwicklung dieser KI (wie haben Microsoft und Google darauf reagiert?)
 
-2. **Überleitung zur aktuellen Forschung:**
+2.  **Überleitung zur aktuellen Forschung:**
 
 2.1. Fortschritte in der KI zur Reduktion von Bias in Gesichtserkennung.
 
@@ -56,7 +56,7 @@ date-modified: last-modified
 
 **3. Rechtliche und politische Situation in der Schweiz (20 Min.)**
 
-1. **Gesetzliche Rahmenbedingungen:**
+1.  **Gesetzliche Rahmenbedingungen:**
 
 1.1. Datenschutzgesetz (DSG) und EU-Einfluss (DSGVO).
 
@@ -64,7 +64,7 @@ date-modified: last-modified
 
 1.3. Diskussion über Haltung des Bundesrates und geplante Gesetzesänderungen.
 
-2. **Politische Debatte:**
+2.  **Politische Debatte:**
 
 2.1. Argumente von Datenschutzorganisationen vs. Sicherheitsbehörden.
 
@@ -74,30 +74,38 @@ date-modified: last-modified
 
 **4. Interaktive Gruppenarbeit (15 Min.)**
 
-1. **Fallstudienanalyse:** Studierende diskutieren in Gruppen:
+1.  **Fallstudienanalyse:** Studierende diskutieren in Gruppen:
 
 1.1. *Fall 1:* Erfassen der Kundenströmen an Bahnhöfen zur Erhöhung der Sicherheit von Frauen.
 
 1.2. *Fall 2:* Massenüberwachung durch biometrische Systeme in Innenstädten.
 
-2. Reflexion: Wo verläuft die Grenze zwischen Sicherheit und Überwachung? Wie werden Grundrechte beschnitten? Gibt es Alternativen zu biometrischen Fernerkennungssystemen, die ebenfalls zur Sicherheit von gefährdeten Personen wie Frauen beitragen, ohne geltendes Recht und persönliche Rechte zu beschneiden?
+2.  Reflexion: Wo verläuft die Grenze zwischen Sicherheit und Überwachung? Wie werden Grundrechte beschnitten? Gibt es Alternativen zu biometrischen Fernerkennungssystemen, die ebenfalls zur Sicherheit von gefährdeten Personen wie Frauen beitragen, ohne geltendes Recht und persönliche Rechte zu beschneiden?
 
 **5. Abschlussdiskussion und Fazit (10 Min.)**
 
-1. Offene Fragen und ethische Dilemmata.
+1.  Offene Fragen und ethische Dilemmata.
 
-2. Abschlussfrage: „Wie sollten Staaten mit Gesichtserkennung umgehen?“
+2.  Abschlussfrage: „Wie sollten Staaten mit Gesichtserkennung umgehen?“
 
 **Vorbereitete Lektüre:**
 
-1. [@buolamwini2018]
+1.  [@buolamwini2018]
 
-2. Gesichtserkennung in der Schweiz: <https://algorithmwatch.ch/de/tag/gesichtserkennung/>
+2.  Gesichtserkennung in der Schweiz: <https://algorithmwatch.ch/de/tag/gesichtserkennung/>
 
 **Weiterführende Medien:**
 
-3. Film Coded Bias von Shalini Kantayya, 2020 7th Empire Media
+3.  Film Coded Bias von Shalini Kantayya, 2020 7th Empire Media
 
-4. [@2017c]
+4.  [@2017c]
 
-5.  <https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/?lens=publicaffairs>.
+5.   <https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/?lens=publicaffairs>.
+
+::: {.callout-tip title="Slides" collapse="true"}
+<iframe src="/assets/files/PPP_Forschungskolloquium_Decoding_Inequality_Uni_Bern.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Slides Decoding Inequality">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/PPP_Forschungskolloquium_Decoding_Inequality_Uni_Bern.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::

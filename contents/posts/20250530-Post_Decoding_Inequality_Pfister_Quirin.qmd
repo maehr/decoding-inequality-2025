@@ -16,7 +16,7 @@ This article is a student preprint that has not undergone a scientific peer revi
 ::: callout-warning
 **Disclaimer**: AI was used during the creation of this post in multiple ways and forms. I am aware of the use of AI can inflict explosive labor practices and a high carbon footprint. For further information on the ecological consequences of high data usage please see Rafaels post in the same blog. For more information on the possible labor exploitation in AI please continue reading.
 
-![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image1.png){width="3.9034044181977254in" height="0.7598567366579178in"}
+![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image1.png){.lightbox width="3.9034044181977254in" height="0.7598567366579178in"}
 :::
 
 ::: callout-note
@@ -27,7 +27,7 @@ This article is a student preprint that has not undergone a scientific peer revi
 
 Artificial Intelligence (AI), such as the widely known and popular ChatGPT, a large language model, needs data - a lot of it. Especially during their training phase. The better structured or annotated the training data is, the better the AI results. So how is this data annotated? Or rather by whom?
 
-![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image2.png){width="6.299212598425197in" height="1.374015748031496in"}
+![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image2.png){.lightbox width="6.299212598425197in" height="1.374015748031496in"}
 
 *If you ask ChatGPT directly about the labor condition during the training data annotation process for itself*[^1]
 
@@ -55,7 +55,7 @@ Considering those differences, what benefit does the experiment offer? Even thou
 
 *When you opened the website of one of the remote work platforms the first thing that you see are sentences like: "Join a global community of over \[several hundred thousand\] Taskers", "Do tasks, get paid. It's that simple. Start earning today." or "Work from anywhere, anytime.". Intrigued by those promises, I tried to sign up for the platform.*
 
-![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image3.png){width="5.459027777777778in" height="2.422222222222222in"}
+![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image3.png){.lightbox width="5.459027777777778in" height="2.422222222222222in"}
 
 *However, ...*
 
@@ -77,7 +77,7 @@ Considering those differences, what benefit does the experiment offer? Even thou
 
 *Since the first platform did not work, I decided to try a second platform, this time Amazons Mechanical Turks (AMT), one of the first large crowd sourcing platforms. The system is pretty simple employers advertise tasks, and workers complete tasks to earn some money. Employes can define filter, for example skills or based region.*
 
-![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image4.png){width="5.830536964129484in" height="1.4377110673665792in"}
+![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image4.png){.lightbox width="5.830536964129484in" height="1.4377110673665792in"}
 
 *Example tasks. Rewards are granted by task and as you can see the amount can greatly differ. On this day the max amount was 8\$ for an allotted time of 30min. Screenshot taken on the 29.05.2025.*
 
@@ -103,7 +103,7 @@ Nevertheless, the power dynamics, as well as the scope of action of its players 
 
 *The reason why I am naming Amazon's Mechanical Turk (AMT) platform instead of anonymizing it like the others is that I never even had the chance to start with a task nor even training for one. Since the day after registering, I received the follwing email from Amazon regarding my application (for my Swiss based account)*
 
-![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image5.png){width="5.838509405074365in" height="1.2054155730533684in"}
+![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image5.png){.lightbox width="5.838509405074365in" height="1.2054155730533684in"}
 
 *I was "not permitted to work on Mechanical Turk at this time," and for the moment, that decision could not be changed. I could not gather insight into the reasons why I was not permitted. When logging into my AMT worker account the pop up appeared telling me soly that they where unable to extend an invitation to every newly signed worker and that they will notify me "should conditions change in the future". A bit later, I received the same email also for my US-based account.*
 
@@ -113,7 +113,7 @@ Nevertheless, the power dynamics, as well as the scope of action of its players 
 
 *Alas, I had a different idea. I tried to sign up for the first platform again, but this time relocated (at least virtually) to the Philippines. I choose the Philippines because of the already mentioned article by Amnesty International about the labor conditions in the tagging factories there. And look at it - it worked! I was able to sign in and create an account.*
 
-![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image6.png){width="5.816541994750656in" height="2.9884153543307086in"}
+![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image6.png){.lightbox width="5.816541994750656in" height="2.9884153543307086in"}
 
 *. Image of the starting page after logging in.*
 
@@ -175,11 +175,11 @@ Gray and Suri suggest platform designers should consider implying collaboration 
 
 *Some of the course material used for training was also from other platforms, like the one that I was redirected to when trying to sign-up.*
 
-![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image7.png){width="5.152631233595801in" height="1.572143482064742in"}
+![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image7.png){.lightbox width="5.152631233595801in" height="1.572143482064742in"}
 
 *The transcription tasks were pretty much as expected. You had to complete sentences with the most fitting elements.*
 
-![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image8.png){width="5.7003991688538935in" height="1.7210531496062993in"}
+![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image8.png){.lightbox width="5.7003991688538935in" height="1.7210531496062993in"}
 
 *Some of the tests were less clear to me, and some I could not initially do, because they were restricted.*
 
@@ -191,21 +191,21 @@ Gray and Suri suggest platform designers should consider implying collaboration 
 
 *Nevertheless, the following task was one of my favorites:*
 
-![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image9.png){width="4.840764435695538in" height="2.6082075678040244in"}
+![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image9.png){.lightbox width="4.840764435695538in" height="2.6082075678040244in"}
 
 *It involved the annotation of data for car cameras. Do you know what truncation means? And how it differs from occlusion? I didn't- until an AI explained it to me.*
 
-![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image10.png){width="4.943450349956255in" height="2.57961832895888in"}
+![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image10.png){.lightbox width="4.943450349956255in" height="2.57961832895888in"}
 
 *The fact that I can't drive probably didn't help either.*
 
-![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image11.png){width="4.921088145231846in" height="2.789809711286089in"}
+![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image11.png){.lightbox width="4.921088145231846in" height="2.789809711286089in"}
 
 *And I think some answers you just had to know by heart. Or at least I didn't know how to figure that one out. So maybe it was no surprise that I didn't pass it.*
 
 *The training process was sometimes pretty time consuming, but at least, I did learn some things. For example, how LLM's use meta plans and APIs to answer user requests.*
 
-![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image12.png){width="3.2611472003499564in" height="2.2370056867891512in"}
+![](Post%20Decoding%20Inequality%20Pfister%20Quirin_media/media/image12.png){.lightbox width="3.2611472003499564in" height="2.2370056867891512in"}
 
 *However, it's crucial to me to remember the my personal conditions conducting this experiment: I am acting out of a privileged position were spending some more time on unpaid training for the sake of experiencing, was somewhat more acceptable.*
 

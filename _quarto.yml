@@ -30,7 +30,7 @@ website:
       - href: contents/syllabus.qmd
         text: Syllabus
       - href: contents/interesting-stuff.qmd
-        text: Interessannte Links
+        text: Interessante Links
       - href: contents/blog.qmd
         text: Studentische Beiträge
       - href: contents/about.qmd
