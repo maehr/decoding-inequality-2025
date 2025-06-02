@@ -5,4 +5,4 @@ date-modified: last-modified
 lang: de-CH
 ---
 
-# Blog
+# Studentische Beiträge
