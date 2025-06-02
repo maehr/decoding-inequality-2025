@@ -1,0 +1,16 @@
+---
+title: AI and Masculinities
+author: Nico Sidler
+date: 2025-06-02
+tags: [Masculinities, AI, ChatGPT, GPT4, Bias]
+---
+
+This presentation critically examines the intersection of artificial intelligence and masculinities, focusing on how large language models (LLMs) such as ChatGPT and GPT-4 conceptualize and reproduce gender norms. Drawing on the recent study by Walther, Logoz, and Eggenberger (2024), it highlights how AI-generated responses reflect and reinforce traditional, biologically anchored, and culturally coded understandings of masculinity, often omitting marginalized masculinities such as Black or queer identities. Further case studies demonstrate gendered biases in AI-driven financial and mental health advice, revealing systemic tendencies to frame male users in risk-promoting, less empathetic terms. Methodologically, the presentation discusses various bias detection and mitigation strategies—including red teaming, counterfactual augmentation, and alignment datasets—offering a foundation for critical engagement with gender bias in AI systems.
+
+::: {.callout-note title="Slides"}
+<iframe src="/assets/files/20250602-AI_and_Masculinities-Nico_Sidler.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="AI and Masculinities Presentation Slides" aria-label="AI and Masculinities presentation slides">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250602-AI_and_Masculinities-Nico_Sidler.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::

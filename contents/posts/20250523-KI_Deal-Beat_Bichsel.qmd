@@ -151,7 +151,7 @@ Vor diesem Hintergrund wird ein Pakt, der mit einer KI abgeschlossen wird, in se
 
 Zu oft führen im neurowissenschaftlichen Diskurs die anderen, die faustischen Ambitionen und Kräfte Regie: Ein ganz und gar menschliches Szenario spielt sich ab, eines, das von einer nur bedingt schicksalshaften Dramaturgie einer griechischen Tragödie gesteuert wird; ein heroisches Szenario, das in seiner Naivität indes äusserst tragisch anmutet: Angestrebt wird das anscheinend Gute, geschaffen aber das Böse -- oder zumindest das Monströse. Wir sollten uns deshalb tunlichst davor hüten, mit 'Zauberlehrlingen' und ihren Produkten Deals abschliessen zu wollen. Das sollten wir weder im Labor tun, der Welt des wirklich Kleinen, der feuernden Neuronen, noch im Showroom des in tragischer Hinsicht Grossen, der Welt der oft genug mit dem Feuer spielenden Repräsentanten von Politik und Big Business.
 
-::: {.callout-tip title="Slides" collapse="true"}
+::: {.callout-note title="Slides" collapse="true"}
 <iframe src="/assets/files/KI-Deal_PPT.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="KI-Deal Presentation Slides" aria-label="KI-Deal presentation slides">
 
 This browser does not support PDFs. Please download the PDF <a href="/assets/files/KI-Deal_PPT.pdf">download the PDF</a> to view it.
