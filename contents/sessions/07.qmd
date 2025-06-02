@@ -80,7 +80,7 @@ date-modified: last-modified
 -   «Jobs für Flüchtlinge - Algorithmus verteilt neu Asylbewerber auf Kantone» (Schweizer Radio und Fernsehen (SRF), 10. Mai 2018), <https://www.srf.ch/news/schweiz/jobs-fuer-fluechtlinge-algorithmus-verteilt-neu-asylbewerber-auf-kantone>.
 -   «Algorithmus verbessert Erwerbschancen von Flüchtlingen» (ETH Zürich, 18. Januar 2018), <https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2018/01/algorithmus-verbessert-erwerbschancen-von-fluechtlingen.html>.
 
-::: {.callout-tip title="Slides" collapse="true"}
+::: {.callout-note title="Slides" collapse="true"}
 <iframe src="/assets/files/PPP_Forschungskolloquium_Decoding_Inequality_Uni_Bern.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Slides Decoding Inequality">
 
 This browser does not support PDFs. Please download the PDF <a href="/assets/files/PPP_Forschungskolloquium_Decoding_Inequality_Uni_Bern.pdf">download the PDF</a> to view it.

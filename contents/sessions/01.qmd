@@ -141,7 +141,7 @@ date-modified: last-modified
 **Fazit**\
 Der Workshop vermittelt in zwei kompakten Einheiten die grundlegenden Konzepte von Diskriminierung, struktureller Diskriminierung und unbewusster Diskriminierung. Anhand konkreter Beispiele wird deutlich, wie sich Bias in Datensätzen und algorithmischen Modellen manifestiert und welche Folgen dies für gesellschaftliche Ungleichheit hat. Durch Diskussionen und Gruppenarbeiten werden die Teilnehmenden für die Komplexität und Relevanz dieser Themen sensibilisiert und lernen erste Lösungsansätze kennen.
 
-::: {.callout-tip title="Slides" collapse="true"}
+::: {.callout-note title="Slides" collapse="true"}
 <iframe src="/assets/files/PPP_Forschungskolloquium_Decoding_Inequality_Uni_Bern.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Slides Decoding Inequality">
 
 This browser does not support PDFs. Please download the PDF <a href="/assets/files/PPP_Forschungskolloquium_Decoding_Inequality_Uni_Bern.pdf">download the PDF</a> to view it.
