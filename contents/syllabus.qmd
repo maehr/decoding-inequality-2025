@@ -139,7 +139,7 @@ Leseauftrag:
 
 ### Session 12 (23. Mai 2025)
 
-**Poster/Blog/Presentations oder Glüehfisch mit Wichtel\*in**
+**Poster/Blog/Presentations**
 
 Leseauftrag:
 
@@ -172,6 +172,7 @@ Ein **Vortrag** ist eine mündliche Präsentation eines Kursthemas vor Publikum 
 -   *Wie schreibe ich einen Blogeintrag?* ([Wie schreibe ich einen Blogeintrag? – Korpora zur Analyse von Sprache und Kontext](https://kosko.hypotheses.org/wie-schreibe-ich-einen-blogeintrag)) – Praktische Anleitung zum wissenschaftlichen Bloggen (Uni Basel).
 -   *Mein erster wissenschaftlicher Blogartikel – was schreibe ich bloß?* ([Mein erster wissenschaftlicher Blogartikel – was schreibe ich bloß? – Redaktionsblog](https://redaktionsblog.hypotheses.org/1214)) – Erfahrungsbericht und Tipps für den ersten Blogpost (Sabine Scherz, Redaktionsblog).
 -   *Essay Einleitung: Grundlagen, Tipps & Expertenhilfe* ([Essay Einleitung: Grundlagen, Tipps & Expertenhilfe von StudiBucht.](https://studibucht.de/blog/essay-einleitung)) – Hinweise zum Aufbau einer guten Einführung (Struktur, fesselnder Einstieg), übertragbar auch auf andere Formate.
+-   <https://blog.front-matter.io/posts/rogue-scholar-authorship-guidelines/> <https://doi.org/10.53731/fnv8b-qfy78>
 
 ## Literatur
 
