@@ -37,7 +37,7 @@ listing:
         categories: [paper]
     -   title: "Implementing Generative AI in the Historical Studies (Working Paper, Oberbichler & Petz 2025)"
         path: https://doi.org/10.5281/zenodo.14924736
-        description: "Dieses Working Paper von Sarah Oberbichler und Cindarella Petz (DH Lab, Leibniz-Institut für Europäische Geschichte) bietet einen systematischen Überblick über Implementierungsstrategien, kritische Bewertung und Best Practices beim Einsatz generativer KI in den historischen Wissenschaften. Die Autorinnen differenzieren zwischen KI als Tool und als Methode und legen einen Schwerpunkt auf wissenschaftliche Integrität, Minimal Computing, rechtliche/ethische Risiken, Nachhaltigkeit sowie Open-Science-Prinzipien. Enthalten sind anwendungsnahe Empfehlungen und Frameworks zur kritischen Reflexion und Dokumentation."
+        description: "This working paper by Sarah Oberbichler and Cindarella Petz (DH Lab, Leibniz Institute of European History) provides a systematic overview of implementation strategies, critical evaluation, and best practices for using generative AI in historical studies. The authors differentiate between AI as a tool and as a method, emphasizing scientific integrity, minimal computing, legal/ethical risks, sustainability, and open science principles. It includes practical recommendations and frameworks for critical reflection and documentation."
         author: "Sarah Oberbichler, Cindarella Petz"
         date: 2025-02-01
         categories: [paper]
