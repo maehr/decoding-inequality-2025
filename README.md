@@ -7,7 +7,7 @@ This repository contains the materials for the course "Decoding Inequality: Krit
 [![GitHub stars](https://img.shields.io/github/stars/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/stargazers)
 [![Code license](https://img.shields.io/github/license/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/blob/main/LICENSE-AGPL.md)
 [![Data license](https://img.shields.io/github/license/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/blob/main/LICENSE-CCBYSA.md)
-[![DOI](https://zenodo.org/badge/876239345.svg)](https://zenodo.org/badge/latestdoi/16785208)
+[![DOI](https://zenodo.org/badge/876239345.svg)](https://zenodo.org/badge/latestdoi/16785347)
 
 ## Repository Structure
 
@@ -46,20 +46,20 @@ All materials are created and curated by the instructors unless otherwise noted.
 
 These data are openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in [CITATION.cff](CITATION.cff). The following citation formats are also available through _Zenodo_:
 
-- [BibTeX](https://zenodo.org/record/16785208/export/hx)
-- [CSL](https://zenodo.org/record/16785208/export/csl)
-- [DataCite](https://zenodo.org/record/16785208/export/dcite4)
-- [Dublin Core](https://zenodo.org/record/16785208/export/xd)
-- [DCAT](https://zenodo.org/record/16785208/export/dcat)
-- [JSON](https://zenodo.org/record/16785208/export/json)
-- [JSON-LD](https://zenodo.org/record/16785208/export/schemaorg_jsonld)
-- [GeoJSON](https://zenodo.org/record/16785208/export/geojson)
-- [MARCXML](https://zenodo.org/record/16785208/export/xm)
+- [BibTeX](https://zenodo.org/record/16785347/export/hx)
+- [CSL](https://zenodo.org/record/16785347/export/csl)
+- [DataCite](https://zenodo.org/record/16785347/export/dcite4)
+- [Dublin Core](https://zenodo.org/record/16785347/export/xd)
+- [DCAT](https://zenodo.org/record/16785347/export/dcat)
+- [JSON](https://zenodo.org/record/16785347/export/json)
+- [JSON-LD](https://zenodo.org/record/16785347/export/schemaorg_jsonld)
+- [GeoJSON](https://zenodo.org/record/16785347/export/geojson)
+- [MARCXML](https://zenodo.org/record/16785347/export/xm)
 
 _Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to access the data. For example, the following command will return the metadata for the most recent version of the data
 
 ```bash
-curl -i https://zenodo.org/api/records/16785208
+curl -i https://zenodo.org/api/records/16785347
 ```
 
 ## Installation
