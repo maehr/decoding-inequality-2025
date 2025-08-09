@@ -7,47 +7,60 @@ This repository contains the materials for the course "Decoding Inequality: Krit
 [![GitHub stars](https://img.shields.io/github/stars/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/stargazers)
 [![Code license](https://img.shields.io/github/license/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/blob/main/LICENSE-AGPL.md)
 [![Data license](https://img.shields.io/github/license/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/blob/main/LICENSE-CCBYSA.md)
-[![DOI](https://zenodo.org/badge/ZENODO_RECORD.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD)
+[![DOI](https://zenodo.org/badge/876239345.svg)](https://zenodo.org/badge/latestdoi/16785208)
 
-<!-- ## Repository Structure
+## Repository Structure
 
-The structure of this repository follows the [Advanced Structure for Data Analysis](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) of _The Turing Way_ and is organized as follows:
+The structure of this repository is organized as follows:
 
-- `analysis/`: scripts and notebooks used to analyze the data
-- `assets/`: images, logos, etc. used in the README and other documentation
-- `build/`: scripts and notebooks used to build the data
-- `data/`: data files
-- `docs/`: documentation for the data and the repository
-- `project-management/`: project management documents (e.g., meeting notes, project plans, etc.)
-- `src/`: source code for the data (e.g., scripts used to collect or process the data)
-- `test/`: tests for the data and source code
-- `syllabus.qmd`: a report describing the analysis of the data
+- `contents/`: Contains all the source material for the course website.
+  - `sessions/`: Holds the Quarto markdown files for each of the 10 course sessions. Each file includes the session plan, learning objectives, and summaries of reading materials.
+  - `posts/`: A directory for student-contributed blog posts.
+  - `about.qmd`: The "About Us" page with information about the instructors.
+  - `blog.qmd`: The page that lists and renders the student blog posts.
+  - `home.qmd`: The main landing page for the course website.
+  - `interesting-stuff.qmd`: A curated list of interesting links and resources.
+  - `syllabus.qmd`: The complete course syllabus, including session dates and reading assignments.
+  - `bibliography.bib`: The central bibliography file for all citations used in the project.
+- `assets/`: Contains static assets like images, PDF files for readings, and CSS files.
+- `.github/`: Houses GitHub-specific files, including Actions workflows for automation.
+- `_site/`: The output directory for the rendered Quarto website. This directory is generated automatically.
+- `_quarto.yml`: The main configuration file for the Quarto project, defining the website's structure and rendering options.
+- `package.json`, `pnpm-lock.yaml`: Files defining project dependencies and scripts for Node.js.
+- `README.md`: This file, providing an overview of the project.
+- `CHANGELOG.md`: A log of all notable changes to the project.
+- `LICENSE-*`: Files containing the licenses for the code and content.
 
 ## Data Description
 
-- TODO Describe the data in this repository, including what it represents, how it was collected or obtained, any preprocessing or cleaning that was done, and any limitations or potential biases.
-- TODO Data models, including field names, descriptions, and controlled values, should be clearly documented in a static document that is maintained with the data and is part of the products.
-- TODO All rights and intellectual property issues should be clearly documented. Where possible, data and products should be released under open licenses (Creative Commons, GNU, BSD, MPL).
+The data in this repository consists of the course materials for "Decoding Inequality." This includes:
+
+- Syllabus and session outlines in Quarto Markdown (`.qmd`).
+- Reading materials and slides in PDF format, located in `assets/files/`.
+- Bibliographic information in `contents/bibliography.bib`.
+- Images and other web assets.
+
+All materials are created and curated by the instructors unless otherwise noted. The content aims to provide a critical perspective on machine learning and its societal impact.
 
 ## Use
 
 These data are openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in [CITATION.cff](CITATION.cff). The following citation formats are also available through _Zenodo_:
 
-- [BibTeX](https://zenodo.org/record/ZENODO_RECORD/export/hx)
-- [CSL](https://zenodo.org/record/ZENODO_RECORD/export/csl)
-- [DataCite](https://zenodo.org/record/ZENODO_RECORD/export/dcite4)
-- [Dublin Core](https://zenodo.org/record/ZENODO_RECORD/export/xd)
-- [DCAT](https://zenodo.org/record/ZENODO_RECORD/export/dcat)
-- [JSON](https://zenodo.org/record/ZENODO_RECORD/export/json)
-- [JSON-LD](https://zenodo.org/record/ZENODO_RECORD/export/schemaorg_jsonld)
-- [GeoJSON](https://zenodo.org/record/ZENODO_RECORD/export/geojson)
-- [MARCXML](https://zenodo.org/record/ZENODO_RECORD/export/xm)
+- [BibTeX](https://zenodo.org/record/16785208/export/hx)
+- [CSL](https://zenodo.org/record/16785208/export/csl)
+- [DataCite](https://zenodo.org/record/16785208/export/dcite4)
+- [Dublin Core](https://zenodo.org/record/16785208/export/xd)
+- [DCAT](https://zenodo.org/record/16785208/export/dcat)
+- [JSON](https://zenodo.org/record/16785208/export/json)
+- [JSON-LD](https://zenodo.org/record/16785208/export/schemaorg_jsonld)
+- [GeoJSON](https://zenodo.org/record/16785208/export/geojson)
+- [MARCXML](https://zenodo.org/record/16785208/export/xm)
 
 _Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to access the data. For example, the following command will return the metadata for the most recent version of the data
 
 ```bash
-curl -i https://zenodo.org/api/records/ZENODO_RECORD
-``` -->
+curl -i https://zenodo.org/api/records/16785208
+```
 
 ## Installation
 
@@ -106,9 +119,9 @@ This project is maintained by [@DHBern](https://github.com/DHBern). Please under
 ## Roadmap
 
 - [x] Syllabus with reading list
-- [ ] Slides for lectures
-- [ ] Additional resources (e.g., links to papers, blog posts, etc.)
-- [ ] Blog posts, posters, or other materials produced by students
+- [x] Slides for lectures
+- [x] Additional resources (e.g., links to papers, blog posts, etc.)
+- [x] Blog posts, posters, or other materials produced by students
 
 ## Contributing
 
