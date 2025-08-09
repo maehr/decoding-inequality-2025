@@ -7,7 +7,7 @@ This repository contains the materials for the course "Decoding Inequality: Krit
 [![GitHub stars](https://img.shields.io/github/stars/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/stargazers)
 [![Code license](https://img.shields.io/github/license/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/blob/main/LICENSE-AGPL.md)
 [![Data license](https://img.shields.io/github/license/DHBern/decoding-inequality-2025.svg)](https://github.com/DHBern/decoding-inequality-2025/blob/main/LICENSE-CCBYSA.md)
-[![DOI](https://zenodo.org/badge/876239345.svg)](https://zenodo.org/badge/latestdoi/16785347)
+[![DOI](https://zenodo.org/badge/876239345.svg)](https://doi.org/10.5281/zenodo.16785207)
 
 ## Repository Structure
 
