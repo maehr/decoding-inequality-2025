@@ -1,5 +1,6 @@
 {
 	"name": "decoding-inequality-2025",
+	"version": "1.0.0",
 	"description": "Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit",
 	"author": {
 		"name": "Moritz Mähr",
@@ -26,7 +27,7 @@
 		"commitizen": "^4.3.1",
 		"cz": "^1.8.2",
 		"cz-conventional-changelog": "^3.3.0",
-		"git-cliff": "^2.9.1",
+		"git-cliff": "^2.10.0",
 		"husky": "^9.1.7",
 		"prettier": "^3.6.2"
 	},

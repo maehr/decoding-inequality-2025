@@ -20,6 +20,9 @@ authors:
     email: moritz.maehr@faculty.unibe.ch
     orcid: 'https://orcid.org/0000-0002-1367-1618'
     affiliation: University of Bern
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.16785207
 repository-code: 'https://github.com/DHBern/decoding-inequality-2025/'
 url: 'https://dhbern.github.io/decoding-inequality-2025'
 abstract: >-
@@ -118,3 +121,5 @@ keywords:
   - Machine Learning
   - Digital Humanities
 license: CC-BY-SA-4.0
+version: 1.0.0
+date-released: '2025-08-09'
