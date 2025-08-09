@@ -11,4 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
--   Initial release of the course materials for "Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit". This includes all session materials, syllabus, readings, and the course website.
+- Initial release of the course materials for "Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit". This includes all session materials, syllabus, readings, and the course website.
